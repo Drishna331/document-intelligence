@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Profit & Loss/Consolidated Profit & Loss 2019.pdf",
+  "document_type": "profit_and_loss",
+  "sha256": "4fa1c99fef0c07c2e754839e1ff8c6d58c5c5db773c17ba148120f7f075c1b76",
+  "file_validation": {
+    "file_name": "Consolidated Profit & Loss 2019.pdf",
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "= in ‘000\nYear ended  Year ended\nSchedule  31-Mar-19  31-Mar-18\n|  INCOME\nInterest earned  183  1,051,607,400  852,878,437\nOther income  14  189,470,509  160,566,041\nTotal  1,013,444,478\nIl  EXPENDITURE\nInterest expended  15  537,126,876  423,814,803\nOperating expenses  16  276,947,604  239,272,220\nProvisions and contingencies  202,547,300  164,749,045\nTotal  827,836,068\nIll PROFIT\nNet profit for the year  224,456,129  185,608,410\nLess: Minority interest  1,131,820  513,389\nAdd: Share in profits of associates  -  5,221\nConsolidated profit for the year  223,324,309  185,100,242\nBalance in the Profit and Loss Account brought forward  430,989,822  345,323,284\nTotal  | 654,314,131 |  580,423,526\nIV APPROPRIATIONS\nTransfer to Statutory Reserve  54,997,602  45,620,310\nTax (including cess) on dividend  433,081  507,653\nDividend (including  tax / cess thereon)  pertaining to  previous year paid\nduring ‘he year, teh of dividend tax oes  vee  wE®  GO EEES)  SOSH\nTransfer to General Reserve  21,078,165  17,486,728\nTransfer to Capital Reserve  1,053,354.  2,355,227\nTransfer to / (from) Investment Reserve Account  -  (442,018)\nTransfer to / (from) Investment Fluctuation Reserve  7,730,000  -\nBalance carried over to Balance Sheet  430,989,822\nTotal  530,423,526\nV_  EARNINGS PER EQUITY SHARE (Face value ¢ 2 per share)  z  z\nBasic  83.33  71.73\nDiluted  82.51  70.76\nSignificant accounting policies and notes to the\nConsolidated financial statements  17&18\nThe schedules referred to above form an integral part of the Consolidated\nProfit and Loss Account.\nAs per our report of even date.  For and on behalf of the Board\nFor S. R. BATLIBOI & CO. LLP  Shyamala Gopinath  Aditya Puri  Keki Mistry\nCinensenee! ACESS  Chairperson  Managing Director  Malay Patel\nFirm Registration No. 301003E/E300005\nUmesh Sarangi\nper Sudhir Soni  Kaizad Bharucha  Sanjiv Sachar\nPartner  eeecuivelbirector  Sandeep Parekh\nMembership No.: 41870  M D Ranganath\nSantosh Haldankar  Sashidhar Jagdishan  Directors\n.  .  Vice President (Legal)  Chief Financial Officer\nMumbai, April 20, 2019\n& Company Secretary\n‘7  GF HDFC BANK  |’)",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 89.33
+    }
+  ],
+  "elapsed_seconds": 1.208
+}

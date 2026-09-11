@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Profit & Loss/Consolidated Profit & Loss 2018.pdf",
+  "document_type": "profit_and_loss",
+  "sha256": "823d5b1fb7772ff7704e475dab946a3f5dc6437d5f587c4a6f6c73b39eeab9c0",
+  "file_validation": {
+    "file_name": "Consolidated Profit & Loss 2018.pdf",
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Consolidated Statement of Profit and Loss\nFor the year ended March 31, 2018\n= in ‘000\nYear ended  Year ended\nSchedule  31-Mar-18  31-Mar-17\nI  INCOME\nInterest earned  13  852,878,437  732,713,529\nOther income  14  160,566,041  128,776,329\nTotal  861,489,858\ni]  EXPENDITURE\nInterest expended  15  423,814,803  380,415,844\nOperating expenses  16  239,272,220  207,510,707\nProvisions and contingencies  164,749,045  120,689,285\nTotal  708,615,836\niil  PROFIT\nNet profit for the year  185,608,410  152,874,022\nLess: Minority interest  513,389  367,165\nAdd: Share in profits of associates  5,221  23,393\nConsolidated profit for the year attributable to the Group  185,100,242  152,530,250\nImpact on amalgamation [Refer Schedule 18(1)]  -  274,507\nBalance in Profit and Loss account brought forward  345,323,284  248,255,886\nTotal  [530,423,526 |  401,060,643\nIV.  APPROPRIATIONS\nTransfer to Statutory Reserve  45,620,310  37,771,634\nProposed dividend [Refer Schedule 18(2)]  -  -\nTax (including cess) on interim / proposed dividend  507,653  255,959\nDividend (including tax / cess thereon) pertaining to previous year  33,905,804  (16,909)\npaid during the year, net of dividend tax credits\nTransfer to General Reserve  17,486,728  14,549,641\nTransfer to Capital Reserve  2,355,227  3,134,100\nTransfer to / (from) Investment Reserve Account  (442,018)  42,934\nBalance carried over to Balance Sheet  345,323,284\nTotal  | 530,423,526 |  401,060,643\nV___  EARNINGS PER EQUITY SHARE (Face value Z 2 per share)  zg  z\nBasic  71.73  59.95\nDiluted  70.76  59.16\nSignificant accounting policies and notes to the\nConsolidated financial statements  17 & 18\nThe schedules referred to above form an integral part of the\nConsolidated Statement of Profit and Loss\nAs per our report of even date.  For and on behalf of the Board\nFor Deloitte Haskins & Sells  Shyamala Gopinath  Aditya Puri  Bobby Parikh\nChartered Accountants  Chairperson  Managing Director  Keki Mistry\nMalay Patel\nP. B. Pardiwalla  Paresh Sukthankar  Kaizad Bharucha  Partho Datta\nPartner  Deputy Managing Director  Executive Director  Umesh Sarangi\nMembership No.: 40005  Directors\nSanjay Dongre  Sashidhar Jagdishan\nExecutive Vice President  Chief Financial Officer\nMumbai, April 21, 2018  (Legal) & Company Secretary\nOf HDFC BANK |\nHDFC Bank Limited Annual Report 2017-18  161  We understand your world",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 93.45
+    }
+  ],
+  "elapsed_seconds": 1.309
+}

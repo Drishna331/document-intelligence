@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Profit & Loss/Consolidated Profit & Loss 2021.pdf",
+  "document_type": "profit_and_loss",
+  "sha256": "26a0f42b0c8b32b2abb22dccd05b15dd71851ccf5e1d264eb84e8ab7078c4d40",
+  "file_validation": {
+    "file_name": "Consolidated Profit & Loss 2021.pdf",
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Consolidated Profit and Loss Account\nFor the year ended March 31, 2021\nZin ‘000\nSchedule  Year ended  Year ended\n31-Mar-21  31-Mar-20\nI. INCOME\nInterest earned  13  1,285,523,933  1,221,892,915\nOther income  14  273,328,803  248,789,748\nTotal  1,558,852,736  1,470,682,663\nll. EXPENDITURE\nInterest expended  15  592,475,799  621,374,216\nOperating expenses  16  350,012,568  330,360,555 _\nProvisions and contingencies [Refer Schedule 18 (15)]  297,796,688  245,985,239\nTotal  1,240,285,055  1,197,720,010\nlll, PROFIT\nNet profit for the year  318,567,681  272,962,653\nLess : Minority interest  235,590  423,147\nConsolidated profit for the year  318,332,091  :  272,539,506\nBalance in the Profit and Loss Account brought forward  618,176,878  528,496,075\nTotal  936,508,969  801,035,581\nIV. APPROPRIATIONS\n‘Transfer to Statutory Reserve  78,796,978  67,717,167\nTax (including cess) on dividend  -  902,672\nDividend (including tax / cess thereon) pertaining to previous year paid  =a  48,933,585 _\nduring the year, net of dividend tax credits\nInterim Dividend (including tax)  -  16,469,504 ©\nTransfer to General Reserve  31,116,525  26,257,315\nTransfer to Capital Reserve  22,916,842  11,238,460\nTransfer to / (from) Investment Reserve Account  616,645  as\nTransfer to / (from) Investment Fluctuation Reserve  17,120,000  _  11,340,000\nBalance carried over to Balance Sheet  785,941,979  618,176,878\nTotal  936,508,969  801,035,581\nV. EARNINGS PER EQUITY SHARE (Face value < 1 per share)  vi  z\nBasic  57.88  49.84\nDiluted  57.61  49.46\nSignificant accounting policies and notes to the Consolidated financial statements  17 &18\nThe schedules referred to above form an integral part of the Consolidated\nProfit and Loss Account.\nAs per our report of even date  For and on behalf of the Board\nFor MSKA & Associates  Umesh Chandra Sarangi  Sashidhar Jagdishan\nChartered Accountants  Independent Director  Managing Director & CEO\nICAI Firm Registration Number: 105047W\nSwapnil Kale  Kaizad Bharucha  Srinivasan Vaidyanathan\nPartner  Executive Director  Chief Financial Officer\nMembership Number: 117812\nMumbai, April 17, 2021  Santosh Haldankar\nCompany Secretary\nHDFC Bank Limited | Integrated Annual Report 2020-21  279",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 92.15
+    }
+  ],
+  "elapsed_seconds": 1.262
+}

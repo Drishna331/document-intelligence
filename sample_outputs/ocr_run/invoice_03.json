@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Invoices/batch2-0499.jpg",
+  "document_type": "invoice",
+  "sha256": "98e032d3d9b7dbf0470e71b9aa3dc4c0d41efc202eb7cf13dec5f4d305ff259c",
+  "file_validation": {
+    "file_name": "batch2-0499.jpg",
+    "file_type": "image/jpeg",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "TAYLOR CERTIFIED PROCESSING INC 101  B\nDevon Rodd Invoice: KiranP@taylor-corp.ca\nBRAMPTON\nTHE ORTHOTIC GROUP INC. 160 Markland Street Invoices apo@ohi.net MARKHAM, Ontario,\nCanada L6C 0C6\n#  Description  Quantity  Price  Total\n0]  3M 80 RUbber&Vinyl Spray Adh. Yellow 24 fl oz. 6  5  $8.00  $16.00\ncans/case\n3M 570 Seam Sealer WHT 120z 12 cartridges/case\n02  10760667-011PW  ‘  pleat  pede\n03  0485 D/C FilmTp. 1/2'x98'-1/64 44 rolls/case  5  $6.00  $30.00\nOA  3M 3762LM-PG Hot Melt TAN 1\"  x 3\"  22  4  $7.00  $28.00\npounds/case\nNitrile 18756 Medical Glove BLK Medium\nee  Powder/Latex Free  |  100/BX  Ss  $3.00  5.00\nSubtotal  $135.00\nSales Tax 8%  $12.48\nShipping and Handling  $10.00\nTotal Due  $157.48\nInvoice Details:\nInvoice#: 6825\nInvoice date: Nov  03, 2022\nDue date: Dec 03, 2022\nTerms and conditions:\nPlease send payment within 30 days of receiving this invoice. There will be a 1.5% interest charge per\nmonth on late invoices.",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 88.35
+    }
+  ],
+  "elapsed_seconds": 0.871
+}

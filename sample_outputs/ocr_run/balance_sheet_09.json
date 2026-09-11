@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Balance Sheet/Consolidated Balance Sheet 2025.pdf",
+  "document_type": "balance_sheet",
+  "sha256": "8829de010d6d26c636422c4f4eb8ba099ba1e06e2ee4bead070f3859c2e15c25",
+  "file_validation": {
+    "file_name": "Consolidated Balance Sheet 2025.pdf",
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "rit\nwv  CONSOLIDATED  BALANCE  SHEET\nAs at March 31, 2025\n2 in crore\nSanacwi  As at  As at\nMarch 31, 2025  March 31, 2024\nCAPITAL AND LIABILITIES\nCapital  1  765.22  759.69\nEmployees stock options outstanding  18 (6)  3,805.19  2,652.72\nReserves and surplus  2  517,218.98  452,982.84\nMinority interest  2A  16,359.04  13,383.40\nDeposits  3  2,710,898.23  2,376,887.28\nBorrowings  4  634,605.57  730,615.46\nOther liabilities and provisions  5  188,163.66  174,832.07\nPolicyholders' funds  320,601.53  278,080.80\nTotal  4,392,417.42  4,030,194.26\nASSETS\nCash and balances with Reserve Bank of India  6  144,390.25  178,718.67\nBalances with banks and money at call and short notice  7  105,557.65  50,115.84\nInvestments  8  1,186,472.89  1,005,681.63\nAdvances  9  2,724,938.16  2,571,916.65\nFixed assets  10  15,257.94  12,603.76\nOther assets  an  215,800.53  211,157.71\nTotal  4,392,417.42  4,030,194.26\nContingent liabilities  12  2,709,921.85  2,344,487.73\nBills for collection  70,679.55  65,332.87\nSignificant accounting policies and notes to the Consolidated Financial Statements  17& 18\nThe schedules referred to above form an integral part of the Consolidated Balance\nSheet.\nAs per our report of even date.  For and on behalf of the Board\nFor Price Waterhouse LLP  For Batliboi & Purohit  Atanu Chakraborty  Sashidhar Jagdishan\nChartered Accountants  Chartered Accountants  Part-time Chairman of the Board  Managing Director & CEO\nICAI Firm Registration No.:  ICAI Firm Registration No.:\n301112E/E300264  101048W  M. D. Ranganath  Sunita Maheshwari\nIndependent Director  Independent Director\nSharad Vasant  Janak Mehta  Lily Vadera  Harsh Kumar Bhanwala\nPartner  Partner  Independent Director  Independent Director\nMembership No.: 101119  Membership No.: 116976\nBhavesh Zaveri  V. S. Rangan\nExecutive Director  Executive Director\nRenu Karnad  Keki Mistry\nNon-Executive Director  Non-Executive Director\nSrinivasan Vaidyanathan  Ajay Agarwal\nMumbai, April 19, 2025  Chief Financial Officer  Company Secretary\n446  DFC Bank Limited",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 93.17
+    }
+  ],
+  "elapsed_seconds": 1.103
+}

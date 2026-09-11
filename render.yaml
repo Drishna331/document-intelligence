@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: document-intelligence
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: DATABASE_BACKEND
+        value: turso
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: LLM_MODEL
+        value: gemini-2.5-flash
+      - key: TURSO_DATABASE_URL
+        sync: false
+      - key: TURSO_AUTH_TOKEN
+        sync: false
+      - key: MAX_CONCURRENT_DOCUMENTS
+        value: "1"
+      - key: OMP_THREAD_LIMIT
+        value: "1"

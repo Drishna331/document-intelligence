@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Profit & Loss/Consolidated Profit & Loss 2022.pdf",
+  "document_type": "profit_and_loss",
+  "sha256": "735d37370b5c45810f44b4ad976729faaf426fdcd6aef1197d0557acf35cb41e",
+  "file_validation": {
+    "file_name": "Consolidated Profit & Loss 2022.pdf",
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Consolidated  Profit and  Loss Account\nFor the year ended March 31, 2022\nin crore\nSchedule  Year ended\nMarch 31, 2022  March 31, 2021\n| INCOME  fF\nInterest earned  ;  13  128,552.40\nOther income  14  27,332.88\nTotal  155,885.28\nI EXPENDITURE  ;  | sid\nInterest expended  :  15  _  __ 58,584.33 |  59,247.59\nOperating expenses  16  40,312.43 |  35,001.26\nProvisions and contingencies [Refer Schedule 18 (12)]  30,647.74  29,779.66\nTotal  129,544.50  124,028.51\nWIPROFIT  ;  ;  ;  ;  ;  7  ;  ;\nConsolidated Net Profit for the year before minorities interest  _  _  _  ____ 38,150.90  _  31 (856.77\nLess : Minorities’ Interest  98.15  23.56\nConsolidated Net Profit for the year attributable to the group  a 38,052.75 |  31,833.21\nAdd: Brought forward consolidated profit attributable to the group  78,594.20  61,817.68\nTotal  93,650.89\nIV APPROPRIATIONS  /  _\nTransfer to Statutory Reserve  9,444.38  7,879.70\nDividend pertaining to previous year paid during the year  :  3,592.40  -\nTransfer to General Reserve  :  3,696.14 |  3,111.65\nTransfer to Capital Reserve  666.47 |  2,291.68\nTransfer to / (from) Investment Reserve Account  233.13  61.66\nTransfer to/ (from) Investment Fluctuation Reserve  ;  ;  ;  ; ;  __3  ;  1,712.00\nTransfer to / (from) Minority Interest (opening adjustment)  (48.34)  -\n|  Balance carried over to consolidated balance sheet  _  _  _  _  _  78,594.20\nTotal  93,650.89\nV EARNINGS PER EQUITY SHARE (FACE VALUE ¢ 1 PER SHARE)  |  z\nBasic  :  _ 68.77  57.88\nDiluted  :  _ 68.31  57.61\nSignificant accounting policies and notes to the Consolidated financial statements  17 &18\nThe schedules referred to above form an integral part of the Consolidated Profit and Loss\nAccount.\nAs per our report of even date  For and on behalf of the Board\nFor MSKA & Associates  For  MM Nissim & Co LLP  Atanu Chakraborty  Umesh Chandra Sarangi\nChartered Accountants  Chartered Accountants  Part Time Chairman of the Board  Independent Director\nICAI Firm Registration Number:  ICAI Firm Registration Number:\n105047W  107122W/W100672  M. D. Ranganath  Malay Patel\nIndependent Director  Independent Director\nSwapnil Kale  Sanjay Khemani  Lily Vadera  Sashidhar Jagdishan\nPartner  Partner  Independent Director  Managing Director & CEO\nMembership Number: 117812  Membership Number: 044577\nKaizad Bharucha  Srinivasan Vaidyanathan\nExecutive Director  Chief Financial Officer\nSantosh Haldankar\nMumbai, April 16, 2022  Company Secretary\nHDFC Bank Limited Integrated Annual Report 2021-22  309",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 83.59
+    }
+  ],
+  "elapsed_seconds": 1.459
+}

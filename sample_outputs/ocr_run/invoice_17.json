@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Invoices/X51008099043.jpg",
+  "document_type": "invoice",
+  "sha256": "0f98566780e72642d76cd247cc607e7f35b563df60358ab7d42f7011249994f1",
+  "file_validation": {
+    "file_name": "X51008099043.jpg",
+    "file_type": "image/jpeg",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "a\nRESTORAN  WAN  SHENG\n002043319-W\nNo.2,  Jalan  Temenggung  19/9,\nSeksyen  9,  Bandar  Mahkota  Cheras,\n43200  Cheras,  Selangor\nGST  REG  NO:  001335787520\nTax  Invoice\nINV  No.:  1207108  Cashier:  Nicole\nDate  +:  23-06-2018  17:31:54\n-  Description  Qty   U.price  Total  TAX\nTeh  (B)\n1  x  2.10  2.10  ZRL\nCham  (B)\n1x  2.10  2.10  ZRL\nTake  Away\n2x  0,20  0.40  ZRL\nTotal  QTY:  4\nTotal  (Excluding  GST):  4.60\nTotal  (Inclusive  of  GST):  4.60\nTOTAL:  4.60\nCASH:  4.60\nGST  Summary  Amount(RM)   Tax(RM)\nZRL  (@  0%)  4.60  0,00\na",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 82.09
+    }
+  ],
+  "elapsed_seconds": 0.617
+}

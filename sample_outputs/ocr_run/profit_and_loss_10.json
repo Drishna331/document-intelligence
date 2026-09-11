@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Profit & Loss/Consolidated Profit & Loss 2026.pdf",
+  "document_type": "profit_and_loss",
+  "sha256": "6f41d5c7d92648714976b8163822706a4c1238ead1960df974d2005e7f238040",
+  "file_validation": {
+    "file_name": "Consolidated Profit & Loss 2026.pdf",
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "CONSOLIDATED  PROFIT AND LOSS ACCOUNT\nFor the year ended March 31, 2026  (in crore)\nSchedule  Year ended  Year ended\nMarch 31, 2026  March 31, 2025\n| INCOME\nInterest earned  13  348,615.15  336,367.43\nOther income  14  146,847.66  134,548.50\nTotal  495,462.81  470,915.93\nIl EXPENDITURE\nInterest expended  15  185,491.23  183,894.20\nOperating expenses  16  181,173.91  176,605.07\nProvisions and contingencies  18 (9)  49,578.21  36,976.49\nTotal  416,243.35  397,475.76\nIll PROFIT\nConsolidated Net Profit for the year before Minority Interest  79,219.46  73,440.17\nLess : Minority Interest  3,193.49  2,647.92\nConsolidated Net Profit for the year attributable to the group  76,025.97  70,792.25\nBrought forward consolidated profit attributable to the group  178,692.55  150,045.57\nTotal  254,718.52  220,837.82\nIV APPROPRIATIONS\nTransfer to Statutory Reserve  19,159.57  17,260.30\nInterim Dividend paid  3,836.57  -\nTransfer to General Reserve  7,467.13  6,734.74\nTransfer to Special Reserve  3,000.00  3,200.00\nTransfer to Capital Reserve  8,320.40  507.00\nDividend pertaining to previous year paid during the year  16,869.41  14,826.19\nTransfer to / (from) Minority Interest  476.12  (382.96)\nTransfer to Other Reserves  1.85  -\nBalance carried over to consolidated balance sheet  195,587.47  178,692.55\nTotal  254,718.52  220,837.82\nV EARNINGS PER EQUITY SHARE (Face value @ 1/ - per share)  18 (18)  z  z\nBasic  49.50  46.41\nDiluted  49.28  46.20\nSignificant accounting policies and notes to the Consolidated Financial Statements  17 &18\nThe schedules referred to above form an integral part of the Consolidated Profit and Loss\nAccount.\nAs per our report of even date.  For and on behalf of the Board\nFor Batliboi & Purohit  ForBSR&Co. LLP  Keki Mistry  Sandeep Parekh\nChartered Accountants  Chartered Accountants  Interim Part-Time Chairman  Independent Director\nICAI Firm Registration No.:  ICAI Firm Registration No.:  (Nonindenonclent) Director\n101048W  101248W/W-100022\nM. D. Ranganath  Sunita Maheshwari\nIndependent Director  Independent Director\nJanak Mehta  Sudhir Soni  Lily Vadera  Renu Karnad\nPartner  Partner  Independent Director  Non-Executive (Non-\nMembership No.: 116976  Membership No.: 041870  Independent Director)\nHarsh Kumar Bhanwala  Santhosh Keshavan\nIndependent Director  Independent Director\nSashidhar Jagdishan  Kaizad Bharucha\nManaging Director & Chief  Deputy Managing Director\nExecutive Officer\nBhavesh Zaveri  V. Srinivasa Rangan\nExecutive Director  Executive Director\nMumbai, April 18, 2026  Srinivasan Vaidyanathan  Ajay Agarwal\nChief Financial Officer  Company Secretary\n477",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 94.09
+    }
+  ],
+  "elapsed_seconds": 1.419
+}

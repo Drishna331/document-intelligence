@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Invoices/X51006334741.jpg",
+  "document_type": "invoice",
+  "sha256": "246d06a0935c645d6cde3c7311a905c8e14716886ceb3aa90e98bde838eee29a",
+  "file_validation": {
+    "file_name": "X51006334741.jpg",
+    "file_type": "image/jpeg",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Fey  Ta\nThank  You.  Please  come  again.\nGoods  Sold. Are  Not  Returnable.\nFor’Feedback  or  complaint,  please  call:\ni  N41-3194  O2e4\n¥RENEEH  VOUCHER  BEFORE  POINTS  EXPIRY !%\nsegi  Cash  &  Carry  Sdn. Bhd\n(317041-W)\nPTA7920,  SEKSYEN  UP,\n40150  SHAH  ALAK,  co\n|  SELANGOR  [ARUL  EHSAN.\nGST  Reg.  No.  +  001951640696\nInvoice  No:  47735\nlate  :  04  Jan  2017  Oisiopn\nCounter  .  :  03\nUNICA  PAIL  46L  600\n1»  17.41  i7.41  §\nHASSTHO  FINE  WHOLENEAL  4206\n1  x  2.44  2264  Z\nNo  of  items:  2\nTotal  Incl.  GST:RH  20.05\nCash:RM  20.00\nChange:RH  29.98\nMissed  Point  Today:  1?\nServed  by  SITI  SUHAIDA  RT  OTHMAN\nARARERRRERALHE  GOT  Summary  RRERKRERRR ARE\nGST  Code  Amount ( RM}  wae\n5  @6.0%  146.42  0.99\n2  @0.0%  2.64  0.00\nKRRRRA AR RAR  A RAR AREY RAR RARE RR  RAR\nRef  No:  0060046746213047735\nThank  You.  Please  come  again.\nGoads  Sold  Are  Not  Returnatle.\nFor  feedtack  or  complaint,  please  call:",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 65.83
+    }
+  ],
+  "elapsed_seconds": 3.502
+}

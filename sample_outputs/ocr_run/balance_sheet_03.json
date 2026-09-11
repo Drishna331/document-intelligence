@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Balance Sheet/Consolidated Balance Sheet 2019.pdf",
+  "document_type": "balance_sheet",
+  "sha256": "c7d8db56210dd6f80fc40fd861b4a4a5de15eae23cb1d9c19efa1a0de4a59cc4",
+  "file_validation": {
+    "file_name": "Consolidated Balance Sheet 2019.pdf",
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "CONSOLIDATED BALANCE SHEET\nAs at March 31, 2019\n= in ‘000\nAs at  As at\nSchedule  31-Mar-19  31-Mar-18\nCAPITAL AND LIABILITIES\nCapital  1  5,446,613  5,190,181\nReserves and surplus  2  1,531,279,982  1,090,801 ,062\nMinority interest  2A  5,017,945  3,563,322\nDeposits  3  9,225,026,779  7,883,751,419\nBorrowings  4  1,577,327,790  1,564,420,848\nOther liabilities and provisions  '5)  583,957,956  484,134,863\nTotal  14,031,861 ,695\nASSETS\nCash and balances with Reserve Bank of India  6  468,045,896  1,046,882,074\nBalances with banks and money at call and short notice  7  350,130,527  183,733,488\nInvestments  8  2,869,176,781  2,384,609,240\nAdvances  9  8,692,226,631  7,000,338,363\nFixed assets  10  42,198,371  38,105,583\nOther assets  1  506,278,859  378,192,947\nTotal  11,031,861,695\nContingent liabilities  12  10,251,253,094  8,757,769,674\nBills for collection  499,528,010  427,538,250\nSignificant accounting policies and notes to the Consolidated financial  WAR\nstatements\nThe schedules referred to above form an integral part of the Consolidated\nBalance Sheet\nAs per our report of even date.  For and on behalf of the Board\nFor S. R. BATLIBOI & CO. LLP  Shyamala Gopinath  Aditya Puri  Keki Mistry\nCremer! Alseauinitins  Chairperson  Managing Director  Malay Patel\nFirm Registration No. 301003E/E300005\nUmesh Sarangi\nper Sudhir Soni  Kaizad Bharucha  Seniiy Seis\nMembership No.: 41870  Bre gutve Director  wore eenath\nSantosh Haldankar  Sashidhar Jagdishan  Directors\nMumbai, April 20, 2019  oe  e, “bey  Chief Financial Officer\nHDFC Bank Limited Annual Report 2018 - 2019  186",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 88.99
+    }
+  ],
+  "elapsed_seconds": 1.118
+}

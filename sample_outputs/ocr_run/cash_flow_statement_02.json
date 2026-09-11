@@ -1,0 +1,30 @@
+{
+  "source": "New Dataset/Cash Flows/Consolidated Cash Flow Statement 2018.pdf",
+  "document_type": "cash_flow_statement",
+  "sha256": "c909985cb1dab42fd5aecb2d498977e4e2102fcacd2a59e879c5e3e568325c43",
+  "file_validation": {
+    "file_name": "Consolidated Cash Flow Statement 2018.pdf",
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 2,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Consolidated Cash Flow Statement\nFor the year ended March 31, 2018\n= in ‘000\nYear ended  Year ended\n31-Mar-18  31-Mar-17\nCash flows from operating activities\nConsolidated profit before income tax  284,131,068  233,311,478\nAdjustments for:\nDepreciation on fixed assets  9,667,819  8,861,876\n(Profit) / loss on revaluation of investments  1,570,448  (87,543)\nAmortisation of premia on held to maturity investments  3,599,102  1,756,569\n(Profit) / loss on sale of fixed assets  11,833  16,229\nProvision / charge for non performing assets  57,553,339  37,024,296\nProvision for dimunition in value of Investments  308,075  (76,417)\nFloating provisions  -  250,000\nProvision for standard assets  6,575,746  4,312,322\nContingency provisions  3,961,191  388,440\nShare in current year's profits of associates  (5,221)  (23,393)\n285,733,857\nAdjustments for:\n(Increase) / decrease in investments (excluding investments in subsidiaries)  (282,310,524)  (173,257,700)\n(Increase) / decrease in advances  (1,203,053,719)  (1,018,904,990)\nIncrease / (decrease) in deposits  1,452,408,940  972,609,590\n(Increase) / decrease in other assets  52,336,433  (44,855,329)\nIncrease / (decrease) in other liabilities and provisions  (114,511,772)  228,337,692\n272,242,758  249,663,120\nDirect taxes paid (net of refunds)  (100,098,994)  (76,847,189)\nNet cash from operating activities  172,815,931\nCash flows used in investing activities\nPurchase of fixed assets  (8,477,746)  (11,577,570)\nProceeds from sale of fixed assets  99,204  100,768\nInvestment in subsidiaries and / or joint ventures  (143,331)  -\nNet cash used in investing activities  (11,476,802)\nIC} HDFC BANK\nHDFC Bank Limited Annual Report 2017-18  162  We understand your world",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 95.14
+    },
+    {
+      "page_number": 2,
+      "text": "Consolidated Cash Flow Statement\nFor the year ended March 31, 2018\n= in ‘000\nYear ended  Year ended\n31-Mar-18  31-Mar-17\nCash flows from financing activities\nIncrease in minority interest  666,553  818,605\nMoney received on exercise of stock options by employees  27,259,098  22,615,161\nIncrease / (decrease) in borrowings (excluding subordinate debt,\n.  .  501,014,409  (33,898,658)\nperpetual debt and upper Tier II instruments)\nProceeds from issue of Additional Tier | and Tier II Capital Bonds  100,000,000  -\nRedemption of subordinated debt  (20,750,000)  (19,084,500)\nDividend paid during the year  (28,312,716)  (24,083,093)\nTax on dividend  (6,100,741)  (5,297,258)\nNet cash (used in) / from financing activities  573,776,603  (58,929,743)\nEffect of exchange fluctuation on translation reserve  105,872  (282,622)\nCash and cash equivalents on amalgamation [Refer Schedule 18(1)]  ft  295,617\nNet increase in cash and cash equivalents  737,504,366  102,422,381\nCash and cash equivalents as at April 1st  493,111,196  390,688,815\nCash and cash equivalents as at March 31st  1,230,615,562  493,111,196\nAs per our report of even date.  For and on behalf of the Board\nFor Deloitte Haskins & Sells  Shyamala Gopinath  Aditya Puri  Bobby Parikh\nChartered Accountants  Chairperson  Managing Director  Keki Mistry\nMalay Patel\nP. B. Pardiwalla  Paresh Sukthankar  Kaizad Bharucha  Partho Datta\nPartner  Deputy Managing Director  Executive Director  Umesh Sarangi\nMembership No.: 40005  Directors\nSanjay Dongre  Sashidhar Jagdishan\nExecutive Vice President  Chief Financial Officer\nMumbai, April 21, 2018  (Legal) & Company Secretary\n HDFC BANK\nHDFC Bank Limited Annual Report 2017-18  163  We understand your world",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 94.46
+    }
+  ],
+  "elapsed_seconds": 2.06
+}

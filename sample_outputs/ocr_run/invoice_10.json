@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Invoices/X51005663293.jpg",
+  "document_type": "invoice",
+  "sha256": "f501529a447f003e2f542b827933c2e72b7e6edca53be15c02d01161a1429221",
+  "file_validation": {
+    "file_name": "X51005663293.jpg",
+    "file_type": "image/jpeg",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "DAP  O20!2\nSWEET  FOREST  CAFE\nNO  21,JLN  BUNGA  KANTAN\nTAMAN  P.RAMLEE  SETAPAK\n53008  KUALA  LUMPUR.\n(GST  Reg.  No  :  800465809468)\nTax  Invoice\nTable  15\nINV  No.:  593161  Pax(s):  2\nDate  :  14-02-2018  13:02:42\nCashier:  SIM  ‘7°!  Way\nDescription  Qty  U.price  Total  TAX\nsmoked  Duck  Spaghetti\n1  x  12.58  12.58  SR\nHot  Green  Tea\n1  x  3.68  3.06  SR\nCof fee(H)\nlex  4.90  4.90  SR\nRendang  Chicken  Rice\n1  x  9.90  9.96  SR\nTotal  QTY:  4\nTotal  (Excluding  GST):  28.58\nGST  payable  (6%):  1.72\nTotal  (Inclusive  of  GST):  30.30\nClosed:  001  14-92-2018  13:50:58\nServer:  SIM  JIAN  WAI\nCASH  :  [4/2 /(8-  50.68\nCHANGE  :  19.70\n30:30\nGST  Summary  Amount(RM)   Tax(RM)\nSR  (@  6%)  28.58  18727",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 83.04
+    }
+  ],
+  "elapsed_seconds": 1.363
+}

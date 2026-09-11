@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Profit & Loss/Consolidated Profit & Loss 2023.pdf",
+  "document_type": "profit_and_loss",
+  "sha256": "7ffdb8e9da12fa2452225dd877e9c057f86398401cdb50ce4f469fd92a6a13e7",
+  "file_validation": {
+    "file_name": "Consolidated Profit & Loss 2023.pdf",
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "|  Consolidated Profit and Loss Account\n|  For the year ended March 31, 2023\n|  @ in crore\n|  Year ended  Year ended\n|  sciaep  March 31, 2022\n|  | INCOME  |  s—isSY\n|  Interest earned  13  135,936.41\n|  Other income  14  31,758.99\n|  Total  167,695.40\n|  I EXPENDITURE  ;s—isSY\nInterest expended  15  58,584.33\nOperating expenses  16  40,312.43\n|  Provisions and contingencies [Refer Schedule 18 (11)]  30,647.74\n|  Total  129,544.50\n|  Ill PROFIT  | sd\n|  Consolidated Net Profit for the year before minorities' interest  38,150.90\nLess : Minorities’ Interest  98.15\n:  Consolidated Net Profit for the year attributable to the group  38,052.75\n|  Add: Brought forward consolidated profit attributable to the group  78,594.20\n|  Total  116,646.95\n|  IV APPROPRIATIONS  ;i(isisizC\n|  Transfer to Statutory Reserve  9,444.38\n|  Transfer to General Reserve  3,696.14\n|  Transfer to Special Reserve  -\nTransfer to Capital Reserve  666.47\nTransfer to / (from) Investment Reserve Account (net)  233.13\nTransfer to / (from) Investment Fluctuation Reserve  -\n|  Dividend pertaining to previous year paid during the year  3,592.40\n|  Transfer to / (from) Minority Interest (opening adjustment)  (48.34)\n|  Balance carried over to consolidated balance sheet  99,062.77\n|  Total  116,646.95\n|  V_EARNINGS PER EQUITY SHARE (FACE VALUE % 1 PER SHARE)  z\n|  Basic  68.77\n|  Diluted  68.31\n|  Significant accounting policies and notes to the Consolidated financial statements  17 & 18  |\n|  The schedules referred to above form an integral part of the Consolidated Profit and Loss\nAccount.\nAs per our report of even date  For and on behalf of the Board\n|  For MM Nissim & Co LLP  For Price Waterhouse LLP  Atanu Chakraborty  Umesh Chandra Sarangi\n|  Chartered Accountants  Chartered Accountants  Part-time Chairman of the Board  Independent Director\n|  ICAI Firm Registration Number:  ICAI Firm Registration Number:\n107122W/W100672  301112E/E300264  M. D. Ranganath  Sandeep Parekh\n|  Independent Director  Independent Director\n|  Sanjay Khemani  Sharad Vasant  Sanjiv Sachar  Lily Vadera\n|  Partner  Partner  Independent Director  Independent Director\n|  Membership Number: 044577  Membership Number: 101119\n|  Sashidhar Jagdishan  Renu Karnad\n|  Managing Director & CEO  Non-Executive Director\n|  Kaizad Bharucha  Srinivasan Vaidyanathan\nExecutive Director  Chief Financial Officer\nSantosh Haldankar\n|  Mumbai, April 15, 2023  Company Secretary\n|  HDFC Bank Limited Integrated Annual Report 2022-23  319",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 90.01
+    }
+  ],
+  "elapsed_seconds": 1.28
+}

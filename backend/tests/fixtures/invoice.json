@@ -1,0 +1,1002 @@
+{
+  "provenance": {
+    "mode": "reviewed_reference",
+    "live_model_invocation": false,
+    "source": "New Dataset/Invoices/batch1-1109.jpg",
+    "sha256": "b618e6dd6c10b1590e41c4e986d98cb84da104950e20e15543929b7988b6d57e",
+    "scope": "Source-backed reference fields and tables for testing grounding and arithmetic; not evidence of live model completeness."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Invoice no: 94404257\nDate of issue:  07/03/2013\nSeller:  Client:\nCruz PLC  Sandoval-Phillips\nUSNV Harris  23699 James Villages Suite 818\nFPO AA 34966  West Tamara, MS 58825\nTax Id: 964-99-8203  Tax Id: 976-94-5245\nIBAN: GB31XOVK34958853133204\nITEMS\nNo.  Description  Qty  UM  Net price  Net worth  VAT [%]  Gross\nworth\ntks  BOO28NAO6EC Shoeless Joe  5,00  each  3,49  17,45  10%  19,20\n2.  The Fifty Greatest Conspiracies  3,00  each  4,49  13,47  10%  14,82\nof All Time History s Biggest\nMyster\nBe  Story of a Soul: The  5,00  each  9,35  46,75  10%  51,42\nAutobiography of St. Therese of\nLisieux\n4.  The Complete Idiots Guide to  4,00  each  4,49  17,96  10%  19,76\nTrouble-Free Home Re\n5:  Rebecca to the Rescue  2,00  each  4,89  9,78  10%  10,76\n(American Girl (Quality))\n6.  Tales from the Buffalo Bills  1,00  each  5,50  5,50  10%  6,05\n7.  Vietnam, The Decisive Battles  2,00  each  7,68  15,36  10%  16,90\nSUMMARY\nVAT [%]  Net worth  VAT  Gross worth\n10%  126,27  12,63  138,90\nTotal  $ 126,27  $ 12,63  $ 138,90",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 94.71
+    }
+  ],
+  "wire_output": {
+    "fields": [
+      {
+        "key": "invoice_number",
+        "label": "invoice_number",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "94404257",
+          "source_text": "Invoice no: 94404257",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "invoice_date",
+        "label": "invoice_date",
+        "kind": "date",
+        "period": null,
+        "content": {
+          "raw_value": "07/03/2013",
+          "source_text": "Date of issue:  07/03/2013",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "vendor_name",
+        "label": "vendor_name",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Cruz PLC",
+          "source_text": "Cruz PLC  Sandoval-Phillips",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "customer_name",
+        "label": "customer_name",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Sandoval-Phillips",
+          "source_text": "Cruz PLC  Sandoval-Phillips",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "subtotal",
+        "label": "subtotal",
+        "kind": "number",
+        "period": null,
+        "content": {
+          "raw_value": "126,27",
+          "source_text": "Total  $ 126,27  $ 12,63  $ 138,90",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "tax_amount",
+        "label": "tax_amount",
+        "kind": "number",
+        "period": null,
+        "content": {
+          "raw_value": "12,63",
+          "source_text": "Total  $ 126,27  $ 12,63  $ 138,90",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "total_amount",
+        "label": "total_amount",
+        "kind": "number",
+        "period": null,
+        "content": {
+          "raw_value": "138,90",
+          "source_text": "Total  $ 126,27  $ 12,63  $ 138,90",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "currency",
+        "label": "currency",
+        "kind": "currency",
+        "period": null,
+        "content": {
+          "raw_value": "$",
+          "source_text": "Total  $ 126,27  $ 12,63  $ 138,90",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_1",
+        "label": "source_line_1",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Invoice no: 94404257",
+          "source_text": "Invoice no: 94404257",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_2",
+        "label": "source_line_2",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Date of issue:  07/03/2013",
+          "source_text": "Date of issue:  07/03/2013",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_3",
+        "label": "source_line_3",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Seller:  Client:",
+          "source_text": "Seller:  Client:",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_4",
+        "label": "source_line_4",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Cruz PLC  Sandoval-Phillips",
+          "source_text": "Cruz PLC  Sandoval-Phillips",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_5",
+        "label": "source_line_5",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "USNV Harris  23699 James Villages Suite 818",
+          "source_text": "USNV Harris  23699 James Villages Suite 818",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_6",
+        "label": "source_line_6",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "FPO AA 34966  West Tamara, MS 58825",
+          "source_text": "FPO AA 34966  West Tamara, MS 58825",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_7",
+        "label": "source_line_7",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Tax Id: 964-99-8203  Tax Id: 976-94-5245",
+          "source_text": "Tax Id: 964-99-8203  Tax Id: 976-94-5245",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_8",
+        "label": "source_line_8",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "IBAN: GB31XOVK34958853133204",
+          "source_text": "IBAN: GB31XOVK34958853133204",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_9",
+        "label": "source_line_9",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "ITEMS",
+          "source_text": "ITEMS",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_10",
+        "label": "source_line_10",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "No.  Description  Qty  UM  Net price  Net worth  VAT [%]  Gross",
+          "source_text": "No.  Description  Qty  UM  Net price  Net worth  VAT [%]  Gross",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_11",
+        "label": "source_line_11",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "worth",
+          "source_text": "worth",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_12",
+        "label": "source_line_12",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "tks  BOO28NAO6EC Shoeless Joe  5,00  each  3,49  17,45  10%  19,20",
+          "source_text": "tks  BOO28NAO6EC Shoeless Joe  5,00  each  3,49  17,45  10%  19,20",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_13",
+        "label": "source_line_13",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "2.  The Fifty Greatest Conspiracies  3,00  each  4,49  13,47  10%  14,82",
+          "source_text": "2.  The Fifty Greatest Conspiracies  3,00  each  4,49  13,47  10%  14,82",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_14",
+        "label": "source_line_14",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "of All Time History s Biggest",
+          "source_text": "of All Time History s Biggest",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_15",
+        "label": "source_line_15",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Myster",
+          "source_text": "Myster",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_16",
+        "label": "source_line_16",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Be  Story of a Soul: The  5,00  each  9,35  46,75  10%  51,42",
+          "source_text": "Be  Story of a Soul: The  5,00  each  9,35  46,75  10%  51,42",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_17",
+        "label": "source_line_17",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Autobiography of St. Therese of",
+          "source_text": "Autobiography of St. Therese of",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_18",
+        "label": "source_line_18",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Lisieux",
+          "source_text": "Lisieux",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_19",
+        "label": "source_line_19",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "4.  The Complete Idiots Guide to  4,00  each  4,49  17,96  10%  19,76",
+          "source_text": "4.  The Complete Idiots Guide to  4,00  each  4,49  17,96  10%  19,76",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_20",
+        "label": "source_line_20",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Trouble-Free Home Re",
+          "source_text": "Trouble-Free Home Re",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_21",
+        "label": "source_line_21",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "5:  Rebecca to the Rescue  2,00  each  4,89  9,78  10%  10,76",
+          "source_text": "5:  Rebecca to the Rescue  2,00  each  4,89  9,78  10%  10,76",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_22",
+        "label": "source_line_22",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "(American Girl (Quality))",
+          "source_text": "(American Girl (Quality))",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_23",
+        "label": "source_line_23",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "6.  Tales from the Buffalo Bills  1,00  each  5,50  5,50  10%  6,05",
+          "source_text": "6.  Tales from the Buffalo Bills  1,00  each  5,50  5,50  10%  6,05",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_24",
+        "label": "source_line_24",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "7.  Vietnam, The Decisive Battles  2,00  each  7,68  15,36  10%  16,90",
+          "source_text": "7.  Vietnam, The Decisive Battles  2,00  each  7,68  15,36  10%  16,90",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_25",
+        "label": "source_line_25",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "SUMMARY",
+          "source_text": "SUMMARY",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_26",
+        "label": "source_line_26",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "VAT [%]  Net worth  VAT  Gross worth",
+          "source_text": "VAT [%]  Net worth  VAT  Gross worth",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_27",
+        "label": "source_line_27",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "10%  126,27  12,63  138,90",
+          "source_text": "10%  126,27  12,63  138,90",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_line_28",
+        "label": "source_line_28",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Total  $ 126,27  $ 12,63  $ 138,90",
+          "source_text": "Total  $ 126,27  $ 12,63  $ 138,90",
+          "page_number": 1
+        }
+      }
+    ],
+    "periods": [],
+    "tables": [],
+    "line_items": [
+      {
+        "fields": [
+          {
+            "key": "description",
+            "label": "description",
+            "kind": "text",
+            "period": null,
+            "content": {
+              "raw_value": "BOO28NAO6EC Shoeless Joe",
+              "source_text": "tks  BOO28NAO6EC Shoeless Joe  5,00  each  3,49  17,45  10%  19,20",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "quantity",
+            "label": "quantity",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "5,00",
+              "source_text": "tks  BOO28NAO6EC Shoeless Joe  5,00  each  3,49  17,45  10%  19,20",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "unit_price",
+            "label": "unit_price",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "3,49",
+              "source_text": "tks  BOO28NAO6EC Shoeless Joe  5,00  each  3,49  17,45  10%  19,20",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "line_total",
+            "label": "line_total",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "17,45",
+              "source_text": "tks  BOO28NAO6EC Shoeless Joe  5,00  each  3,49  17,45  10%  19,20",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "net_amount",
+            "label": "net_amount",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "17,45",
+              "source_text": "tks  BOO28NAO6EC Shoeless Joe  5,00  each  3,49  17,45  10%  19,20",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "tax_rate",
+            "label": "tax_rate",
+            "kind": "percentage",
+            "period": null,
+            "content": {
+              "raw_value": "10%",
+              "source_text": "tks  BOO28NAO6EC Shoeless Joe  5,00  each  3,49  17,45  10%  19,20",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "gross_amount",
+            "label": "gross_amount",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "19,20",
+              "source_text": "tks  BOO28NAO6EC Shoeless Joe  5,00  each  3,49  17,45  10%  19,20",
+              "page_number": 1
+            }
+          }
+        ],
+        "amount_basis": "net"
+      },
+      {
+        "fields": [
+          {
+            "key": "description",
+            "label": "description",
+            "kind": "text",
+            "period": null,
+            "content": {
+              "raw_value": "The Fifty Greatest Conspiracies",
+              "source_text": "2.  The Fifty Greatest Conspiracies  3,00  each  4,49  13,47  10%  14,82",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "quantity",
+            "label": "quantity",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "3,00",
+              "source_text": "2.  The Fifty Greatest Conspiracies  3,00  each  4,49  13,47  10%  14,82",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "unit_price",
+            "label": "unit_price",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "4,49",
+              "source_text": "2.  The Fifty Greatest Conspiracies  3,00  each  4,49  13,47  10%  14,82",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "line_total",
+            "label": "line_total",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "13,47",
+              "source_text": "2.  The Fifty Greatest Conspiracies  3,00  each  4,49  13,47  10%  14,82",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "net_amount",
+            "label": "net_amount",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "13,47",
+              "source_text": "2.  The Fifty Greatest Conspiracies  3,00  each  4,49  13,47  10%  14,82",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "tax_rate",
+            "label": "tax_rate",
+            "kind": "percentage",
+            "period": null,
+            "content": {
+              "raw_value": "10%",
+              "source_text": "2.  The Fifty Greatest Conspiracies  3,00  each  4,49  13,47  10%  14,82",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "gross_amount",
+            "label": "gross_amount",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "14,82",
+              "source_text": "2.  The Fifty Greatest Conspiracies  3,00  each  4,49  13,47  10%  14,82",
+              "page_number": 1
+            }
+          }
+        ],
+        "amount_basis": "net"
+      },
+      {
+        "fields": [
+          {
+            "key": "description",
+            "label": "description",
+            "kind": "text",
+            "period": null,
+            "content": {
+              "raw_value": "Story of a Soul: The",
+              "source_text": "Be  Story of a Soul: The  5,00  each  9,35  46,75  10%  51,42",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "quantity",
+            "label": "quantity",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "5,00",
+              "source_text": "Be  Story of a Soul: The  5,00  each  9,35  46,75  10%  51,42",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "unit_price",
+            "label": "unit_price",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "9,35",
+              "source_text": "Be  Story of a Soul: The  5,00  each  9,35  46,75  10%  51,42",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "line_total",
+            "label": "line_total",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "46,75",
+              "source_text": "Be  Story of a Soul: The  5,00  each  9,35  46,75  10%  51,42",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "net_amount",
+            "label": "net_amount",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "46,75",
+              "source_text": "Be  Story of a Soul: The  5,00  each  9,35  46,75  10%  51,42",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "tax_rate",
+            "label": "tax_rate",
+            "kind": "percentage",
+            "period": null,
+            "content": {
+              "raw_value": "10%",
+              "source_text": "Be  Story of a Soul: The  5,00  each  9,35  46,75  10%  51,42",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "gross_amount",
+            "label": "gross_amount",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "51,42",
+              "source_text": "Be  Story of a Soul: The  5,00  each  9,35  46,75  10%  51,42",
+              "page_number": 1
+            }
+          }
+        ],
+        "amount_basis": "net"
+      },
+      {
+        "fields": [
+          {
+            "key": "description",
+            "label": "description",
+            "kind": "text",
+            "period": null,
+            "content": {
+              "raw_value": "The Complete Idiots Guide to",
+              "source_text": "4.  The Complete Idiots Guide to  4,00  each  4,49  17,96  10%  19,76",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "quantity",
+            "label": "quantity",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "4,00",
+              "source_text": "4.  The Complete Idiots Guide to  4,00  each  4,49  17,96  10%  19,76",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "unit_price",
+            "label": "unit_price",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "4,49",
+              "source_text": "4.  The Complete Idiots Guide to  4,00  each  4,49  17,96  10%  19,76",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "line_total",
+            "label": "line_total",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "17,96",
+              "source_text": "4.  The Complete Idiots Guide to  4,00  each  4,49  17,96  10%  19,76",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "net_amount",
+            "label": "net_amount",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "17,96",
+              "source_text": "4.  The Complete Idiots Guide to  4,00  each  4,49  17,96  10%  19,76",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "tax_rate",
+            "label": "tax_rate",
+            "kind": "percentage",
+            "period": null,
+            "content": {
+              "raw_value": "10%",
+              "source_text": "4.  The Complete Idiots Guide to  4,00  each  4,49  17,96  10%  19,76",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "gross_amount",
+            "label": "gross_amount",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "19,76",
+              "source_text": "4.  The Complete Idiots Guide to  4,00  each  4,49  17,96  10%  19,76",
+              "page_number": 1
+            }
+          }
+        ],
+        "amount_basis": "net"
+      },
+      {
+        "fields": [
+          {
+            "key": "description",
+            "label": "description",
+            "kind": "text",
+            "period": null,
+            "content": {
+              "raw_value": "Rebecca to the Rescue",
+              "source_text": "5:  Rebecca to the Rescue  2,00  each  4,89  9,78  10%  10,76",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "quantity",
+            "label": "quantity",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "2,00",
+              "source_text": "5:  Rebecca to the Rescue  2,00  each  4,89  9,78  10%  10,76",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "unit_price",
+            "label": "unit_price",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "4,89",
+              "source_text": "5:  Rebecca to the Rescue  2,00  each  4,89  9,78  10%  10,76",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "line_total",
+            "label": "line_total",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "9,78",
+              "source_text": "5:  Rebecca to the Rescue  2,00  each  4,89  9,78  10%  10,76",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "net_amount",
+            "label": "net_amount",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "9,78",
+              "source_text": "5:  Rebecca to the Rescue  2,00  each  4,89  9,78  10%  10,76",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "tax_rate",
+            "label": "tax_rate",
+            "kind": "percentage",
+            "period": null,
+            "content": {
+              "raw_value": "10%",
+              "source_text": "5:  Rebecca to the Rescue  2,00  each  4,89  9,78  10%  10,76",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "gross_amount",
+            "label": "gross_amount",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "10,76",
+              "source_text": "5:  Rebecca to the Rescue  2,00  each  4,89  9,78  10%  10,76",
+              "page_number": 1
+            }
+          }
+        ],
+        "amount_basis": "net"
+      },
+      {
+        "fields": [
+          {
+            "key": "description",
+            "label": "description",
+            "kind": "text",
+            "period": null,
+            "content": {
+              "raw_value": "Tales from the Buffalo Bills",
+              "source_text": "6.  Tales from the Buffalo Bills  1,00  each  5,50  5,50  10%  6,05",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "quantity",
+            "label": "quantity",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "1,00",
+              "source_text": "6.  Tales from the Buffalo Bills  1,00  each  5,50  5,50  10%  6,05",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "unit_price",
+            "label": "unit_price",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "5,50",
+              "source_text": "6.  Tales from the Buffalo Bills  1,00  each  5,50  5,50  10%  6,05",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "line_total",
+            "label": "line_total",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "5,50",
+              "source_text": "6.  Tales from the Buffalo Bills  1,00  each  5,50  5,50  10%  6,05",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "net_amount",
+            "label": "net_amount",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "5,50",
+              "source_text": "6.  Tales from the Buffalo Bills  1,00  each  5,50  5,50  10%  6,05",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "tax_rate",
+            "label": "tax_rate",
+            "kind": "percentage",
+            "period": null,
+            "content": {
+              "raw_value": "10%",
+              "source_text": "6.  Tales from the Buffalo Bills  1,00  each  5,50  5,50  10%  6,05",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "gross_amount",
+            "label": "gross_amount",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "6,05",
+              "source_text": "6.  Tales from the Buffalo Bills  1,00  each  5,50  5,50  10%  6,05",
+              "page_number": 1
+            }
+          }
+        ],
+        "amount_basis": "net"
+      },
+      {
+        "fields": [
+          {
+            "key": "description",
+            "label": "description",
+            "kind": "text",
+            "period": null,
+            "content": {
+              "raw_value": "Vietnam, The Decisive Battles",
+              "source_text": "7.  Vietnam, The Decisive Battles  2,00  each  7,68  15,36  10%  16,90",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "quantity",
+            "label": "quantity",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "2,00",
+              "source_text": "7.  Vietnam, The Decisive Battles  2,00  each  7,68  15,36  10%  16,90",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "unit_price",
+            "label": "unit_price",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "7,68",
+              "source_text": "7.  Vietnam, The Decisive Battles  2,00  each  7,68  15,36  10%  16,90",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "line_total",
+            "label": "line_total",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "15,36",
+              "source_text": "7.  Vietnam, The Decisive Battles  2,00  each  7,68  15,36  10%  16,90",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "net_amount",
+            "label": "net_amount",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "15,36",
+              "source_text": "7.  Vietnam, The Decisive Battles  2,00  each  7,68  15,36  10%  16,90",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "tax_rate",
+            "label": "tax_rate",
+            "kind": "percentage",
+            "period": null,
+            "content": {
+              "raw_value": "10%",
+              "source_text": "7.  Vietnam, The Decisive Battles  2,00  each  7,68  15,36  10%  16,90",
+              "page_number": 1
+            }
+          },
+          {
+            "key": "gross_amount",
+            "label": "gross_amount",
+            "kind": "number",
+            "period": null,
+            "content": {
+              "raw_value": "16,90",
+              "source_text": "7.  Vietnam, The Decisive Battles  2,00  each  7,68  15,36  10%  16,90",
+              "page_number": 1
+            }
+          }
+        ],
+        "amount_basis": "net"
+      }
+    ],
+    "reconciliations": [],
+    "tax_basis": "exclusive",
+    "line_items_complete": true,
+    "warnings": [
+      "Offline reference annotated from actual OCR text for regression testing. Not a live Gemini extraction."
+    ]
+  }
+}

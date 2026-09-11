@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Balance Sheet/Consolidated Balance Sheet 2022.pdf",
+  "document_type": "balance_sheet",
+  "sha256": "1be19ce1be9857fe379911d2b570770ca4e0b483f5cc5be24510632c974680d4",
+  "file_validation": {
+    "file_name": "Consolidated Balance Sheet 2022.pdf",
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "fat  Consolidated  Balance Sheet\nAs at March 31, 2022\nin crore\nSchedule  March 31,2001\nCAPITAL AND LIABILITIES  ;  | ts—iSOY\nCapital  4  551.28\nReserves and surplus  2  209,258.90\nMinority interest  2A  632.76\nDeposits  3  1,333,720.87\nBorrowings  4  | 226,966.50 |  177,696.75\nOther liabilities and provisions  5  89,918.19  77,646.07\nTotal  | __ 2,122,934.30|  _1,799,506.63\nASSETS  :  :  :  :  :  :  _\nCash and balances with Reserve Bank of India  6  :  97,370.35\nBalances with banks and money at call and short notice :  _  _  _  7  ____ 25,355.02  _  23,902.1 6\nInvestments  8  __ 449,263.86  438,823.11\nAdvances  9  |: 1,420,942.28 |  1,185,283.52\nFixed assets  10  6,283.28  5,099.56\nOther assets  1  90,910.36  48,879.14\nGoodwill on Consolidation  ;  148.79\nTotal  1,799,506.63\nContingent liabilities  12  975,280.66\nBills for collection  :  —— __ 56,968.05 |  44,748.14\nSignificant accounting policies and notes to the Consolidated financial statements  17&18\nThe schedules referred to above form an integral part of the Consolidated Balance Sheet.\nAs per our report of even date  For and on behalf of the Board\nFor MSKA & Associates  For MM Nissim & Co LLP  Atanu Chakraborty  Umesh Chandra Sarangi\nChartered Accountants  Chartered Accountants  Part Time Chairman of the Board — Independent Director  i\nICAI Firm Registration Number:  ICAI Firm Registration Number:\n105047W  107122W/W100672  M. D. Ranganath  Malay Patel\nIndependent Director  Independent Director\nSwapnil Kale  Sanjay Khemani  Lily Vadera  Sashidhar Jagdishan\nPartner  Partner  Independent Director  Managing Director & CEO\nMembership Number: 117812  Membership Number: 044577\nKaizad Bharucha  Srinivasan Vaidyanathan\nExecutive Director  Chief Financial Officer\nSantosh Haldankar\nMumbai, April 16, 2022  Company Secretary\n308",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 84.01
+    }
+  ],
+  "elapsed_seconds": 1.286
+}

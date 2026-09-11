@@ -1,0 +1,14 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file: .env
+    environment:
+      DATABASE_BACKEND: sqlite
+      DATABASE_PATH: /app/data/documents.sqlite3
+    volumes:
+      - documents:/app/data
+    restart: unless-stopped
+volumes:
+  documents:

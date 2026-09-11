@@ -1,0 +1,60 @@
+{
+  "source": "New Dataset/Cash Flows/Consolidated Cash Flow Statement 2017.pdf",
+  "http_status": 503,
+  "live_model_configured": false,
+  "response": {
+    "error": {
+      "code": "MODEL_NOT_CONFIGURED",
+      "message": "Structured extraction is unavailable: configure GEMINI_API_KEY on the server.",
+      "request_id": "e07e53897469431c8354cfc44f61c579"
+    },
+    "processing_status": "FAILED",
+    "result": {
+      "document_name": "Consolidated Cash Flow Statement 2017.pdf",
+      "document_type": "cash_flow_statement",
+      "processing_status": "FAILED",
+      "file_validation": {
+        "file_name": "Consolidated Cash Flow Statement 2017.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 2,
+        "status": "PASS"
+      },
+      "extracted_data": null,
+      "validation": {
+        "checks": [],
+        "overall_status": "NOT_APPLICABLE",
+        "issues": []
+      },
+      "processing_metadata": {
+        "request_id": "e07e53897469431c8354cfc44f61c579",
+        "processed_at": "2026-09-11T07:46:25.658857+00:00",
+        "processing_time_ms": 2054,
+        "ocr_used": true,
+        "model": null,
+        "extraction_completed": false,
+        "source_sha256": "49cc7ee24e82ddf9b5c8b23aff4eb3eda29bfba5a25880bfe81b02c6c5b79e39",
+        "pages": [
+          {
+            "page_number": 1,
+            "text": "Consolidated Cash Flow Statement\nFor the year ended March 31, 2017\n= in ‘000\nYear ended  Year ended\n31-Mar-17  31-Mar-16\nCash flows from operating activities\nConsolidated profit before income tax  233,311,478  194,949,948\nAdjustments for:\nDepreciation on fixed assets  8,861,876  7,380,326\n(Profit) / loss on revaluation of investments  (87,543)  173,689\nAmortisation of premia on held to maturity investments  1,756,569  1,002,801\n(Profit) / loss on sale of fixed assets  16,229  1,185\nProvision / charge for non performing assets  37,024,296  25,179,864\nProvision for dimunition in value of Investments  (76,417)  146,543\nFloating provisions  250,000  1,150,000\nProvision for standard assets  4,312,322  4,648,890\nContingency provisions  388,440  218,602\nShare in current year's profits of associates  (23,393)  (37,278)\n234,814,570\nAdjustments for:\n(Increase) / decrease in investments (excluding investments in subsidiaries)  (173,257,700)  (391,159,616)\n(Increase) / decrease in advances  (1,018,904,990)  (1,066,012,996)\nIncrease / (decrease) in deposits  972,609,590  955,896,412\n(Increase) / decrease in other assets  (44,855,329)  (38,485,747)\nIncrease / (decrease) in other liabilities and provisions  228,337,692  31,324,658\n249,663,120  (273,622,719)\nDirect taxes paid (net of refunds)  (76,847,189)  (70,730,944)\nNet cash flow (used in) / from operating activities  (344,353,663)\nCash flows used in investing activities\nPurchase of fixed assets  (11,577,570)  (8,771,635)\nProceeds from sale of fixed assets  100,768  116,125\nInvestment in subsidiaries and / or joint ventures  -  5\nNet cash used in investing activities  (8,655,510)\nIG  HFC BANK\nHDFC Bank Limited Annual Report 2016-17  150  We understand your world",
+            "method": "tesseract",
+            "rotation_applied": 0,
+            "ocr_mean_word_confidence": 94.37
+          },
+          {
+            "page_number": 2,
+            "text": "Consolidated Cash Flow Statement\nFor the year ended March 31, 2017\n= in ‘000\nYear ended  Year ended\n31-Mar-17  31-Mar-16\nCash flows from financing activities\nIncrease in minority interest  818,605  189,954\nMoney received on exercise of stock options by employees  22,615,161  12,229,008\nIncrease / (decrease) in borrowings (excluding subordinate debt,\n.  .  (33,898,658)  402,081,134\nperpetual debt and upper tier II instruments)\nRedemption of subordinated debt  (19,084,500)  (12,020,000)\nDividend paid during the year  (24,083,093)  (20,091,666)\nTax on dividend  (5,297,258)  (4,237,089)\nNet cash generated from financing activities  (58,929,743)  378,151,341\nEffect of exchange fluctuation on translation reserve  (282,622)  282,433\nCash and cash equivalents on amalgamation [Refer Schedule 18(1)]  295,617  -\nNet increase / (decrease) in cash and cash equivalents  102,422,381  25,424,601\nCash and cash equivalents as at April 1st (Schedules 6 and 7)  390,688,815  365,264,214\nCash and cash equivalents as at March 31st (Schedules 6 and 7)  493,111,196  390,688,815\nAs per our report of even date.  For and on behalf of the Board\nFor Deloitte Haskins & Sells  Shyamala Gopinath  Aditya Puri  Anami Roy\nChartered Accountants  Chairperson  Managing Director  Bobby Parikh\nKeki Mistry\n.  Malay Patel\nPerr maralwalla  Paresh Sukthankar  Kaizad Bharucha  Partho Datta\nMembership No.: 40005  Deputy Managing Director  Executive Director  RenulKarnad\nSrikanth Nadhamuni\nSanjay Dongre  Sashidhar Jagdishan  Umesh Sarangi\nExecutive Vice President  Chief Financial Officer  Directors\nMumbai, April 21, 2017  (Legal) & Company Secretary\nHt}  HDFC BANK\nHDFC Bank Limited Annual Report 2016-17  151  We understand your world",
+            "method": "tesseract",
+            "rotation_applied": 0,
+            "ocr_mean_word_confidence": 93.61
+          }
+        ],
+        "warnings": [],
+        "error_code": "MODEL_NOT_CONFIGURED",
+        "error_message": "Structured extraction is unavailable: configure GEMINI_API_KEY on the server."
+      }
+    }
+  }
+}

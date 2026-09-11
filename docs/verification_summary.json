@@ -1,0 +1,20 @@
+{
+  "documents": 50,
+  "pages": 57,
+  "ocr_pages": 56,
+  "native_pages": 1,
+  "ocr_exceptions": 0,
+  "total_seconds": 79.639,
+  "per_category": {
+    "profit_and_loss": 10,
+    "cash_flow_statement": 10,
+    "invoice": 20,
+    "balance_sheet": 10
+  },
+  "unit_http_ocr_tests_passed": 54,
+  "live_model_verified": false,
+  "browser_verified": false,
+  "docker_build_verified": false,
+  "live_turso_verified": false,
+  "public_deployment_verified": false
+}

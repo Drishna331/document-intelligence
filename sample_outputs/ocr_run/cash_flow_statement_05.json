@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Cash Flows/Consolidated Cash Flow Statement 2021.pdf",
+  "document_type": "cash_flow_statement",
+  "sha256": "0466c7ca41c69b3631816976a3a5e9a0c555aad6562760e0a694b6f028d384a7",
+  "file_validation": {
+    "file_name": "Consolidated Cash Flow Statement 2021.pdf",
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "i=1  Consolidated Cash Flow Statement\nFor the year ended March 31, 2021\n% in ‘000\nYear ended  Year ended\n31-Mar-21  31-Mar-20\nCash flows from / (used in) operating activities\nConsolidated profit before income tax  427,725,836  381,525,366\nAdjustments for :\nDepreciation on fixed assets  13,850,062  12,767,714\n(Profit) / loss on revaluation of investments  14,853,243  7,021,095\nAmortisation of premium on held to maturity investments  7,654,693  5,014,137\n(Profit) / loss on sale of fixed assets  -  2,859  81,865\nProvision / charge for non performing assets  139,270,110  110,657,129\nProvision for standard assets and contingencies  52,830,711  30,574,317\n656,187,514  547,641,623\nAdjustments for :  a\n(Increase) / decrease in investments  (501,566,359)  (1,010,700,996)\n(Increase) / decrease in advances  (1,556,810,724)  (1,855,003,617)\nIncrease / (decrease) in deposits  1,875,137,422  2,237,044,557\n(Increase) / decrease in other assets  83,076,840  (72,497,457)\nIncrease / (decrease) in other liabilities and provisions  (1,045,600)  93,598,719\n554,979,093  (59,917,171)\nDirect taxes paid (net of refunds)  (130,214,530)  (108,773,749)\nNet cash flow from / (used in) operating activities  424,764,563  (168,690,920)\nCash flows from / (used in) investing activities\nPurchase of fixed assets  (16,961,460)  (16,358,706)\nProceeds from sale of fixed assets  152,809  489,462\nNet cash flow used in investing activities  (16,808,651)  (16,169,244)\nCash flows (used in) / from financing activities\nIncrease in minority interest  561,234  748,468\nProceeds from issue of share capital, net of issue expenses  17,600,995  18,486,821\nProceeds from issue of Tier | and Tier Il capital bonds  3,565,000  7,435,000\nRedemption of Tier Il Capital Bonds _  (11,050,000)  -  -\nIncrease / (decrease) in other borrowings  (83,890,744)  283,580,441\nDividend paid during the period (including tax on dividend)  -  (66,305,761)\nNet cash flow (used in) / from financing activities  (73,213,515)  243,944,969\nEffect of exchange fluctuation on translation reserve  (1,418,252)  2,139,891\nNet increase / (decrease) in cash and cash equivalents  333,324,145  61,224,696\nCash and cash equivalents as at April 1**  879,401,119  818,176,423\nCash and cash equivalents as at March 31**  1,212,725,264  879,401,119\nAs per our report of even date  For and on behalf of the Board\nFor MSKA & Associates  Umesh Chandra Sarangi  Sashidhar Jagdishan\nChartered Accountants  Independent Director  Managing Director & CEO\nICAI Firm Registration Number: 105047W\nSwapnil Kale  Kaizad Bharucha  Srinivasan Vaidyanathan\nPartner  Executive Director  Chief Financial Officer\nMembership Number: 117812\nMumbai, April 17, 2021  Santosh Haldankar\nCompany Secretary\n280",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 92.83
+    }
+  ],
+  "elapsed_seconds": 1.523
+}

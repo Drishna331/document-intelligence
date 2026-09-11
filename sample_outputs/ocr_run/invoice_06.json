@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Invoices/batch3-1445.jpg",
+  "document_type": "invoice",
+  "sha256": "4920ec9f255e0007829b0be4795bddfe4c6294a6c0e5d0aa124ab4b7d8372961",
+  "file_validation": {
+    "file_name": "batch3-1445.jpg",
+    "file_type": "image/jpeg",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Roofing Renovations INC  4917 Old Randleman Rd\n336-862-5235  | Greensboro, North Carolina\n27406\nf=  United States\nBilled To  Date of Issue  Invoice Number  Amount Due (USD)\nReal Property Management  01/29/2020  0001131  $  OO\n1901 Lendew St Suite 7  2,650.\nGreensboro, NC  Due Date  Reference\n27408  01/29/2020  7783 Newhaven Dr\nDescription  Rate  Qty  Line Total\nReplace HVAC Unit.  $2,650.00  1  $2,650.00\nSubtotal  2,650.00\nTax  0.00\nTotal  2,650.00\nAmount Paid  0.00\nAmount Due (USD)  $2,650.00\nNotes\nT8EW3A3\nTerms\nThank you for trusting us with all your home improvement needs.",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 94.39
+    }
+  ],
+  "elapsed_seconds": 0.674
+}

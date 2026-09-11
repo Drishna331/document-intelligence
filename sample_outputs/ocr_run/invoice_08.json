@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Invoices/X00016469619.jpg",
+  "document_type": "invoice",
+  "sha256": "4e7bb7f427732e769eafc6f6eed5a92eedccf96bc0c711f46466462b98916c73",
+  "file_validation": {
+    "file_name": "X00016469619.jpg",
+    "file_type": "image/jpeg",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "tan  woon  yann\nINDAH  GIFT  &  HOME  BECO\n27, JALAN  DEDAP  13,\nTAMAN  JOHOR  JAYA,\n81100  JOHOR  BAHRU, JOHOR.\nTel:07-3507405  Faé:07-3558160\nRECEIPT\n19/10/2018  20:49:59  #01\nCashier:  CN  Location/SP:  @5  /O0531\nHMB:  4026568\nRoom  No:  O01  N50i100025279\nLlesc/Iten  Qty  Price  Amt/RN)\nST-FRIVILEGE  CARD/GD  INDAK\n88883  1  10.00  10.00\nGF-TABLE  LAMP/STITCH  <i>\n62483  1  55.90  55.90\n@lISC  10.00%  ~5.59\n#Total  Qty  2  ~-------\nTOTAL  All faccacaveeeesenaac  hn  60.31\nROUNDING  ADT. ..002c0nces  -0.G1\nRH  60,30 yf\nCAGHS isseasccessaeesaies  OC  70.30\nCHANGE culeaccceseseacsaue.  RE  10.00\nThank  You  !  Please  Come  Again  !\nGoods  Sold  Are  Not  Returnable\nDealing  In  Wholesale  And  Retsil.",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 70.31
+    }
+  ],
+  "elapsed_seconds": 1.156
+}

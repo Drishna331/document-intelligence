@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Invoices/batch1-1109.jpg",
+  "document_type": "invoice",
+  "sha256": "b618e6dd6c10b1590e41c4e986d98cb84da104950e20e15543929b7988b6d57e",
+  "file_validation": {
+    "file_name": "batch1-1109.jpg",
+    "file_type": "image/jpeg",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Invoice no: 94404257\nDate of issue:  07/03/2013\nSeller:  Client:\nCruz PLC  Sandoval-Phillips\nUSNV Harris  23699 James Villages Suite 818\nFPO AA 34966  West Tamara, MS 58825\nTax Id: 964-99-8203  Tax Id: 976-94-5245\nIBAN: GB31XOVK34958853133204\nITEMS\nNo.  Description  Qty  UM  Net price  Net worth  VAT [%]  Gross\nworth\ntks  BOO28NAO6EC Shoeless Joe  5,00  each  3,49  17,45  10%  19,20\n2.  The Fifty Greatest Conspiracies  3,00  each  4,49  13,47  10%  14,82\nof All Time History s Biggest\nMyster\nBe  Story of a Soul: The  5,00  each  9,35  46,75  10%  51,42\nAutobiography of St. Therese of\nLisieux\n4.  The Complete Idiots Guide to  4,00  each  4,49  17,96  10%  19,76\nTrouble-Free Home Re\n5:  Rebecca to the Rescue  2,00  each  4,89  9,78  10%  10,76\n(American Girl (Quality))\n6.  Tales from the Buffalo Bills  1,00  each  5,50  5,50  10%  6,05\n7.  Vietnam, The Decisive Battles  2,00  each  7,68  15,36  10%  16,90\nSUMMARY\nVAT [%]  Net worth  VAT  Gross worth\n10%  126,27  12,63  138,90\nTotal  $ 126,27  $ 12,63  $ 138,90",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 94.71
+    }
+  ],
+  "elapsed_seconds": 0.644
+}

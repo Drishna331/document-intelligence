@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Invoices/X51005719883.jpg",
+  "document_type": "invoice",
+  "sha256": "bfd9106416ab76a7d053982fd1e46f40b646895f977c56a47370aa8bc370a229",
+  "file_validation": {
+    "file_name": "X51005719883.jpg",
+    "file_type": "image/jpeg",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "99  SPEED  MART  $/B  (519537-%)\nLOT  P.T.  2811,  JALAN  ANGSA,\nTAMAN  BERKELEY\n41150  KLANG,  SELANGOR\n1342-JLN  DEVELOPMENT\nG57  ID.  NO  =  G00181747712  |\nINVOICE  NO  :  18311/102/TO39S\n7:44PM  566890  17-02-18\n489  TIGER  BEER  CAN  4K4k320M  RM108.50  =\nTotal  Sales  (Inclusive  GST)  RM  106.50\nCASH  RM  150.00\nCHANGE  RM  41,50\nGST  Summary  Amount (RM)  Tax(RM)\n$  =  6/  102.36  6.14\nThank  You.  Please  come  agair\nKeep  the  invoice  tor  applicable  returns",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 77.51
+    }
+  ],
+  "elapsed_seconds": 1.848
+}

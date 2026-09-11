@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Invoices/X51006328913.jpg",
+  "document_type": "invoice",
+  "sha256": "8b31ff5f14fdb9973fdb509ad997439be2811a342327f0417b21a8754704c504",
+  "file_validation": {
+    "file_name": "X51006328913.jpg",
+    "file_type": "image/jpeg",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": ".  =  t\nBEMED (SP) SON.  BHD.\nWo.49, Jalan OlnarsG UsG,\nSubang Perdana,\n40150 Shah Alam, Selangor 0.6.\ne]  03-745 6155\nGST Req : 001734164460\n.  CASH  RECEIPT\nCB# : 5927350G475  Oesjan/20t7 10:49:25\nCashier:  be (}  ae  3\nQty  Cowe&Desc  Price  Tatal\nALPHA LIPID  LIFE LINE 450MG 450G\n1  184810  1865.N0  145  3rk\n1  Type:  1\nSubT atal:  145.00\nReaunding Ad :  0.00\nTotal  Inclusive GST:  165.00\nMASTER  195.00\nGST Summary:  Armaunt  Tax\n(MTR)  (MYR)\nSR Tee ae  /\nGING GUAT CHYE\nPaints :\n3,052\nThank  you.\nPlease come aqain.\ns  [65:60",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 63.55
+    }
+  ],
+  "elapsed_seconds": 1.814
+}

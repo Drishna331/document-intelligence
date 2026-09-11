@@ -1,0 +1,18 @@
+{
+  "health": {
+    "status": "ok",
+    "database": "ok",
+    "ocr_available": true,
+    "model_configured": false,
+    "ready_for_processing": false,
+    "max_upload_bytes": 15728640,
+    "max_pages": 3
+  },
+  "/": 200,
+  "/docs": 200,
+  "/openapi.json": 200,
+  "/static/js/app.js": 200,
+  "/static/css/app.css": 200,
+  "persisted_after_process_restart": 4,
+  "live_model_verified": false
+}

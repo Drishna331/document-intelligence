@@ -1,0 +1,30 @@
+{
+  "source": "New Dataset/Cash Flows/Consolidated Cash Flow Statement 2019.pdf",
+  "document_type": "cash_flow_statement",
+  "sha256": "bc8f7ef0345d27e8c2da377a44c81fc0147a5097d72a51b81ac32aeb9f601864",
+  "file_validation": {
+    "file_name": "Consolidated Cash Flow Statement 2019.pdf",
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 2,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "CONSOLIDATED CASH FLOW STATEMENT\nFor the year ended March 31, 2019\n% in ‘000\nYear ended  Year ended\n31-Mar-19  31-Mar-18\nCash flows from operating activities\nConsolidated profit before income tax  342,049,793  284,131,068\nAdjustments for:\nDepreciation on fixed assets  12,206,675  9,667,819\n(Profit) / loss on revaluation of investments  152,437  1,570,448\nAmortisation of premia on held to maturity investments  4,534,626  3,599,102\n(Profit) / loss on sale of fixed assets  (62,054)  11,833\nProvision / charge for non performing assets  74,186,708  57,553,339\nProvision for dimunition in value of investments  47,066  808,075\nProvision for standard assets  6,861,413  6,575,746\nContingency provisions  4,991,092  3,961,191\nShare in current year's profits of associates  -  (5,221)\n367,373,400\nAdjustments for:\n(Increase) / decrease in investments (excluding investments in subsidiaries)  (489,301,670)  (282,310,524)\n(Increase) / decrease in advances  (1,766,074,976)  (1,203,053,7 19)\nIncrease / (decrease) in deposits  1,341,275,360  1,452,408,940\n(Increase) / decrease in other assets  (122,449,924)  52,336,433\nIncrease / (decrease) in other liabilities and provisions  87,851,107  (114,511,772)\n(503,732,347)  272,242,758\nDirect taxes paid (net of refunds)  (124,983,100)  (100,098,994)\nNet cash flow (used in) / from operating activities  172,143,764\nCash flows used in investing activities\nPurchase of fixed assets  (16,206,124)  (8,477,746)\nProceeds from sale of fixed assets  222,037  99,204\nInvestment in subsidiaries and / or joint ventures  -  (143,331)\nNet cash flow used in investing activities  (8,521,873)\nHDFC Bank Limited Annual Report 2018 - 2019  188",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 94.38
+    },
+    {
+      "page_number": 2,
+      "text": "For the year ended March 31, 2019\n= in ‘000\nYear ended  Year ended\n31-Mar-19  31-Mar-18\nCash flows from financing activities\nIncrease in minority interest  1,454,623  666,553\nProceeds from issue of equity shares under preferential allotment  84,999,999  -\nProceeds from issue of shares under Qualified Institutions Placement and American\n.  :  .  :  150,896,153  -\nDepository Receipt offering (net of issue expenses)\nMoney received on exercise of stock options by employees  22,008,150  27,259,098\nIncrease / (decrease) in borrowings (excluding subordinate debt, perpetual debt and\ni  i  32,656,942  498,214,409\nupper Tier Il instruments)\nProceeds from issue of Additional Tier | and Tier Il Capital Bonds  9,000,000  102,800,000\nRedemption of subordinated debt  (28,750,000)  (20,750,000)\nDividend paid during the year  (33,842,896)  (28,312,716)\nTax on dividend paid during the year  (7,116,039)  (6,100,741)\nNet cash flow from financing activities  |  __ 231,806,932  573,776,603\nEffect of exchange fluctuation on translation reserve  988,463  105,872\nNet increase / (decrease) in cash and cash equivalents  (412,439,139)  737,504,366\nCash and cash equivalents as at April 1st, 2018  1,230,615,562  493,111,196\nCash and cash equivalents as at March 31st, 2019  818,176,423  1,230,615,562\nAs per our report of even date.  For and on behalf of the Board\nFor S. R. BATLIBO! & CO. LLP  Shyamala Gopinath  Aditya Puri  Keki Mistry\nChemicresi Aces units  Chairperson  Managing Director  Malay Patel\nFirm Registration No. 301003E/E300005  ie  ging  y\nUmesh Sarangi\nper Sudhir Soni  Kaizad Bharucha  Sanjiv Sachar\nPartner  .  Executive Director  Sendlegp Pavesi\nMembership No.: 41870  M D Ranganath\nDirect\nSantosh Haldankar  Sashidhar Jagdishan  NOLS\n.  .  Vice President (Legal)  Chief Financial Officer\nMumbai, April 20, 2019\n& Company Secretary\ni}  HDFC BANK  [ay’4)\n189  YEARS",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 88.96
+    }
+  ],
+  "elapsed_seconds": 2.164
+}

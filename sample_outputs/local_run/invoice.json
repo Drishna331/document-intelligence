@@ -1,0 +1,55 @@
+{
+  "source": "New Dataset/Invoices/20251118_000612.jpg",
+  "http_status": 503,
+  "live_model_configured": false,
+  "response": {
+    "error": {
+      "code": "MODEL_NOT_CONFIGURED",
+      "message": "Structured extraction is unavailable: configure GEMINI_API_KEY on the server.",
+      "request_id": "c1732bf00b974741b0c2e555c202b7fe"
+    },
+    "processing_status": "FAILED",
+    "result": {
+      "document_name": "20251118_000612.jpg",
+      "document_type": "invoice",
+      "processing_status": "FAILED",
+      "file_validation": {
+        "file_name": "20251118_000612.jpg",
+        "file_type": "image/jpeg",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "extracted_data": null,
+      "validation": {
+        "checks": [],
+        "overall_status": "NOT_APPLICABLE",
+        "issues": []
+      },
+      "processing_metadata": {
+        "request_id": "c1732bf00b974741b0c2e555c202b7fe",
+        "processed_at": "2026-09-11T07:46:33.192178+00:00",
+        "processing_time_ms": 7503,
+        "ocr_used": true,
+        "model": null,
+        "extraction_completed": false,
+        "source_sha256": "1f8e6506e848bdad7508525f2e047568a4c5d580e68ebd464bb262ebd2ef038b",
+        "pages": [
+          {
+            "page_number": 1,
+            "text": "OO\n:  TAX INVOICE  Printed on 16-Jul-25 at 18:39\n-24  ]  pape  :\nShankar Enterprises-(7° dae  al No.  |Dated\n12B, SHIB DEY LANE  SCWV25-26/3331  16-Jul-25\nKOLKATA. 700087 (W./687641  |Delivery Note  \\Mode/Terms of Payment\nD.L. Nov  WB/KOLINE Gs 651N1ZS  |  co  ;  oo\nGSTIN/UIN:  19BF IF 1B Sagal,  Code : 19  ‘Sales Man  Market\nState Name : W®®  -, 9231883650  SUJIT(9007785327) Area LOHAPOOL\nee’  eiorprises©231 @gmail. com -  No. & Date.  |\\Other References\n‘haa  a  Bae SED BN ate stare\n‘Consignee ( Shi Teri dar 2  ‘Buyer s Order No.  Dated\nLaxmi Narayec Choudhry Lane  |  as  Gene\n7/8f Abhines  :  19CPQPS9464F 17x  Dispatch Doc No.  Delivery Note Date\nGSTIN/UI  {B  |\nte Name  : West  Bengal, Code : 19  Pas  (a  ee\npie 299517181 56  ‘Dispatched through  Destination\n‘Buyer (Bill to)  ot  fe  :\nLaxmi Narayan Bhandar 2  Terms of Delivery\n‘7/8f Abhinesh eoueny Lane\nGSTIN/UIN _  ; 19CPQPS9464F 12x\nState Name  - West Bengal, Code : 19\nContact  : 9831715156\nSI  Description of Goods  HSN/SAC Quantity)  Rate  Rate  per Disc.%  Amount\n‘No.  (Incl. of Tax) |\n+  Rae  Ey\neee\n-1SAFED 800GM  (24PKT)  G8/-  —_  |24020011/48 pcs 61.45 52.08  3  2,499.84\n2 SAFED WHITE  DP  140GM  34029011|6 PCS|  8-78  7.44 7(§99%  0.45\n60PCS  Twin  Pack  10/-\n3 SAFED 2  KG  (12  PKT)  3402901142 PCS 203.02  472.05 PCs  2,064.60\n_  PRINTED  BUCKET+LID  230/-  |\n4SAFED WHITE  DP  140GM  34028011/420 PCS,  8.78  7.44  PCS  892.80\n60PCS Twin  Pack  10/-  |  |\n5  SAFED WHITE  DP  140GM  34029011/8 PCS|  8-78 7.44  ?(§99%   O.60\n60PCS  Twin  Pack  10/-  |  |\n6SPARKLE  200.GM  BATI  48PCS.  24054000/24 PCS|  17.55  14.87  PCS  356.88\n(9.6  KG) WITH  SCRUB  PAD  20/-  |  io\n|  |  |5,818-17\nbe  SGSRQ9%  9%  523.36\nGST@9%  9%  |  |  523.36\nRound  Off  0.11\na  Ee\nen  ao\nJenouni Chargeable (in words)  a  Wee\nINR Six Thousand &£ ight  . ndred Sixty Two Only  f\n%  6,862.00\nE&OE\nDi  p.  ~  Taxable  SGST/UTGST|  Total\nValue  Rate|Amount| Rate | Rate Amount Tax Amount\n5,815.17  9%|523. 36) B|  9%  | 52 523. 36) 4,046.72\n~ Total:  6,815.17\nTex Amount (in words) : INR. One see erty  | Six and Seventy Two paise Only\nCompany's Bank Details\n;  'S that this invoice shows the actual\nprice of the goods  and that all particulars are true and correct.\n|523.36)  (623. 361 046.72\nBank Name  :  Union Bank of India\n|  Alc No.  :  301301010036937\nBranch & IFS Code:  DHARMTALA & UBIN0530131 |\nWe Gecte  ~~  for Shankar Enterprises-{2023-24) |\n|\nae  oe  Authorised Signatory\n“This is a fanputer Gereaied involoee",
+            "method": "tesseract",
+            "rotation_applied": 0,
+            "ocr_mean_word_confidence": 68.72
+          }
+        ],
+        "warnings": [
+          "Page 1 has low OCR word confidence; review against the original."
+        ],
+        "error_code": "MODEL_NOT_CONFIGURED",
+        "error_message": "Structured extraction is unavailable: configure GEMINI_API_KEY on the server."
+      }
+    }
+  }
+}

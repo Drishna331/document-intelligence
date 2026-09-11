@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Balance Sheet/Consolidated Balance Sheet 2024.pdf",
+  "document_type": "balance_sheet",
+  "sha256": "ccd066d93e9061959fcc1c641d61e73e59ad1c7517499a89a0f67b6f9b6415e8",
+  "file_validation": {
+    "file_name": "Consolidated Balance Sheet 2024.pdf",
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "ryt\na  i\nLud  CONSOLIDATED  BALANCE  SHEET  /\nAs at March 31, 2024\n2 in crore\nAs at  As at  i\nCAPITAL AND LIABILITIES  |\nCapital  1  759.69  557.97\nEmployees stock options outstanding  18 (4)  2,652.72  1,117.20  /\nReserves and surplus  2  452,982.84  287,762.33  :\nMinority interest  2A  13,383.40  860.26\nDeposits  3  2,376,887.28  1,882,663.25  /\nBorrowings  4  730,615.46  256,548.66\nOther liabilities and provisions  5  174,832.07  100,922.77\nPolicyholders' funds  278,080.80  -\nTotal  4,030,194.26  2,530,432.44\nASSETS  /\nCash and balances with Reserve Bank of India  6  178,718.67  117,189.28\nBalances with banks and money at call and short notice  7  50,115.84  79,958.53\nInvestments  8  1,005,681 .63  511,581.71\nAdvances  9  2,565,891.41  1,661,949.29\nFixed assets  10  12,603.76  8,282.56  /\nOther assets  an)  217,182.95  151,322.28  /\nGoodwill on Consolidation  =  148.79\nTotal  4,030,194.26  2,530,432.44\nContingent liabilities  12  2,344,487.73  1,750,953.81\nBills for collection  65,332.87  71,439.54\nSignificant accounting policies and notes to the Consolidated Financial Statements  17&18\nThe schedules referred to above form an integral part of the Consolidated Balance  |\nSheet.\nAs per our report of even date  For and on behalf of the Board\nFor MM Nissim & Co LLP  For Price Waterhouse LLP  Atanu Chakraborty  Sashidhar Jagdishan\nChartered Accountants  Chartered Accountants  Part-time Chairman of the Board  Managing Director & CEO  i\nICAI Firm Registration Number:  ICAI Firm Registration Number:  :\n107122W/W100672  301 112E/E300264  Kaizad Bharucha  Sandeep Parekh  i\nDeputy Managing Director  Independent Director  :\nSanjay Khemani  Sharad Vasant  :\nPartner  Partner  Sunita Maheshwari  Lily Vadera  :\nMembership Number: 044577  Membership Number: 101119  Independent Director  Independent Director  i\nHarsh Kumar Bhanwala  Bhavesh Zaveri\nIndependent Director  Executive Director  i\nVv. S. Rangan  Renu Karnad\nExecutive Director  Non-Executive Director  :\nKeki Mistry  Srinivasan Vaidyanathan\nNon-Executive Director  Chief Financial Officer\nSantosh Haldankar\nMumbai, April 20, 2024  Company Secretary\n416  HDFC Bank Limited  /",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 87.8
+    }
+  ],
+  "elapsed_seconds": 1.407
+}

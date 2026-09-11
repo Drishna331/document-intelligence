@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Document Intelligence</title><link rel="stylesheet" href="/static/css/app.css"><script src="/static/js/app.js" defer></script></head>
+<body><header><a class="brand" href="/">Document Intelligence</a><nav><a href="/docs">API documentation</a></nav></header>
+<main><section class="intro"><p class="eyebrow">FINANCIAL DOCUMENT WORKSPACE</p><h1>Extract the details.<br>Check the numbers.</h1>
+<p>Upload invoices and financial statements to view structured fields, source evidence and financial checks.</p></section>
+<p id="service-status" class="notice" role="status">Checking service availability…</p>
+<section class="upload-section" aria-labelledby="upload-heading"><div><h2 id="upload-heading">Process a document</h2><p class="muted">PDF, JPG or PNG · Up to 3 pages · Maximum 15 MB</p></div>
+<form id="upload-form"><div class="form-fields"><label>Document type<select name="document_type" id="document-type"><option value="invoice">Invoice</option><option value="balance_sheet">Balance sheet</option><option value="profit_and_loss">Profit and loss</option><option value="cash_flow_statement">Cash flow statement</option></select></label>
+<label class="file-label">Source document<input type="file" name="file" id="document-file" accept=".pdf,.jpg,.jpeg,.png" required></label>
+<button id="process-button" type="submit">Process document</button></div>
+<p id="upload-message" role="status" aria-live="polite"></p></form></section>
+<section aria-labelledby="dashboard-heading" class="dashboard-section"><div class="section-heading"><div><h2 id="dashboard-heading">Processed documents</h2><p class="muted" id="document-count">Loading saved results…</p></div><div class="search"><label class="sr-only" for="search">Search by filename</label><input id="search" type="search" placeholder="Search by filename"><button id="refresh" class="secondary" type="button">Refresh</button></div></div>
+<div class="table-scroll"><table id="document-table"><thead><tr><th>Document name</th><th>Type</th><th>Processing</th><th>Financial checks</th><th>Processed at</th><th><span class="sr-only">Action</span></th></tr></thead><tbody id="document-rows"></tbody></table></div>
+<div class="pagination"><button id="previous" class="secondary" type="button">Previous</button><span id="page-info"></span><button id="next" class="secondary" type="button">Next</button></div><p id="list-error" class="error" role="alert"></p></section>
+<section id="result" hidden aria-labelledby="result-title" tabindex="-1"><div class="section-heading"><div><p class="eyebrow">DOCUMENT RESULT</p><h2 id="result-title"></h2></div><button id="close-result" type="button" class="secondary">Close result</button></div><div id="result-content"></div></section>
+</main><footer>Page references refer to the uploaded file. Missing values remain empty; arithmetic checks use the reported amounts.</footer></body></html>

@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Profit & Loss/Consolidated Profit & Loss 2020.pdf",
+  "document_type": "profit_and_loss",
+  "sha256": "4687caa29f070950b3fa69d8e398d2d7042e27694682519e8b29669705460611",
+  "file_validation": {
+    "file_name": "Consolidated Profit & Loss 2020.pdf",
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Consolidated Profit and Loss Account\nFor the year ended March 31, 2020\n= in ‘000\nSchedule  bales\n|  INCOME  —\nInterest earned  13  1,051,607,400\nOther income  14  189,470,509\nTotal  1,241,077,909\nEXPENDITURE  rd\nInterest expended  15  587,126,876\nOperating expenses  16  276,947,604\nProvisions and contingencies  202,547,300\nTotal  1,016,621,780\nIll PROFIT  ee\nNet profit for the year  224,456,129\nLess : Minority interest  1,131,820\nConsolidated profit for the year  223,324,309\nBalance in the Profit and Loss Account brought forward  430,989,822\nTotal  654,314,131\nIV APPROPRIATIONS  fF\nTransfer to Statutory Reserve  54,997,602\nTax (including cess) on dividend  433,081\nDividend (including tax / cess thereon) pertaining to previous year paid during  40,525,854\nthe year, net of dividend tax credits\nInterim Dividend (including tax)  -\nTransfer to General Reserve  21,078,165\nTransfer to Capital Reserve  1,053,354\nTransfer to / (from) Investment Reserve Account  |  -\nTransfer to / (from) Investment Fluctuation Reserve  7,730,000\nBalance carried over to Balance Sheet  528,496,075\nTotal  654,314,131\nV_EARNINGS PER EQUITY SHARE (FACE VALUE % 1 PER SHARE)  z\nBasic  41.66\nDiluted  41.25\nSignificant accounting policies and notes to the Consolidated financial statements  17&18\nThe schedules referred to above form an integral part of the Consolidated Profit\nand Loss Account.\nAs per our report of even date.  For and on behalf of the Board\nFor MSKA & Associates  Shyamala Gopinath  Umesh Chandra Sarangi\nChartered Accountants  Part Time Non-Executive Chairperson &  Independent Director\nICAI Firm Registration Number: 105047W  Independent Director\nSwapnil Kale  Aditya Puri  Srinivasan Vaidyanathan\nPartner  Managing Director  Chief Financial Officer\nMembership Number: 117812\nMumbai, April 18, 2020  Santosh Haldankar\nCompany Secretary\n237",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 92.39
+    }
+  ],
+  "elapsed_seconds": 1.069
+}

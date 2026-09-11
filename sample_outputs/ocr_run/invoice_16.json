@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Invoices/X51006387931.jpg",
+  "document_type": "invoice",
+  "sha256": "d2d3f366a15c85af169294363567e3158c57f94c86c846e5d3d465366e24a960",
+  "file_validation": {
+    "file_name": "X51006387931.jpg",
+    "file_type": "image/jpeg",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "|  “Cun  em\nAMANO  MALAYSIA  SON  BHD  (682288-V )\n12  JALAN  PENGACARA  U1/48\nTEMASYA  INDUSTRIAL  PARK\n40150  SHAH  ALAM  SELANGOR\nTEL:  06-55695002/5008\n@«  ID:  001137704960 )\nTAX  INVOTCE\nP/S  #02  A  JNV-No.  00023004  179100148\nI/D  #11  licket  No  (%47856\nEnitry  Tim  30/04/2017  (Sui)  Ai\nPaid  Vime  30/04/2017  (Sn)  7  53\nParking  Time  Cre!\nType  Rate  Ay  pay. 00\nPOS  i  ED\nParking  Fee  RM2.  83\nGST(Included)  6.00  %  240.  7/\nTotal  RM3.00\nPaid  mM3.00\nChange  RMO.00\nThank  You\nInclusive  6%  GST",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 66.92
+    }
+  ],
+  "elapsed_seconds": 2.007
+}

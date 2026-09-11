@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Profit & Loss/Consolidated Profit & Loss 2017.pdf",
+  "document_type": "profit_and_loss",
+  "sha256": "f69cd383985ac49c76c43761b4ddc8cf82aba9633a3fb562b5e8e0a49b660ace",
+  "file_validation": {
+    "file_name": "Consolidated Profit & Loss 2017.pdf",
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Consolidated Statement of Profit and Loss\nFor the year ended March 31, 2017\n= in ‘000\nYear ended  Year ended\nSchedule  31-Mar-17  31-Mar-16\nI  INCOME\nInterest earned  13  732,713,529  631,615,614\nOther income  14  128,776,329  112,116,541\nTotal  743,732,155\nIl  EXPENDITURE\nInterest expended  15  380,415,844  340,695,748\nOperating expenses  16  207,510,707  178,318,808\nProvisions and contingencies  120,689,285  96,544,349\nTotal  615,558,905\nIl  PROFIT\nNet profit for the year  152,874,022  128,173,250\nLess: Minority interest  367,165  197,212\nAdd: Share in profits of associates  23,393  37,278\nConsolidated profit for the year attributable to the Group  152,530,250  128,013,316\nImpact on amalgamation [Refer Schedule 18(1)]  274,507  -\nBalance in Profit and Loss account brought forward  248,255,886  195,508,642\nTotal  323,521,958\nIV.  APPROPRIATIONS\nTransfer to Statutory Reserve  37,771,634  31,809,345\nProposed dividend [Refer Schedule 18(3)]  -  24,017,772\nTax (including cess) on interim / proposed dividend  255,959  5,123,529\nDividend (including tax / cess thereon) pertaining to previous year  (16,909)  (117,135)\npaid during the year, net of dividend tax credits\nTransfer to General Reserve  14,549,641  12,296,213\nTransfer to Capital Reserve  3,134,100  2,221,532\nTransfer to / (from) Investment Reserve Account  42,934  (85,184)\nBalance carried over to Balance Sheet  345,323,284  248,255,886\nTotal  323,521,958\nV__  EARNINGS PER EQUITY SHARE (Face value = 2 per share)  z  z\nBasic  59.95  50.85\nDiluted  59.16  50.24\nSignificant accounting policies and notes to the\nConsolidated financial statements  17 & 18\nThe schedules referred to above form an integral part of the\nConsolidated Statement of Profit and Loss\nAs per our report of even date.  For and on behalf of the Board\nFor Deloitte Haskins & Sells  Shyamala Gopinath  Aditya Puri  Anami Roy\nChartered Accountants  Chairperson  Managing Director  Bobby Parikh\nKeki Mistry\nP. B. Pardiwalla  Paresh Sukthankar  Kaizad Bharucha  Malay Patel\nPartner  Deputy Managing Director  Executive Director  Partho Datta\nMembership No.: 40005  Renu Karnad\nSanjay Dongre  Sashidhar Jagdishan  Srikanth Nadhamuni\nExecutive Vice President  Chief Financial Officer  Umesh Sarangi\nMumbai, April 21, 2017  (Legal) & Company Secretary  Directors\nIEE HOFC BANK\nHDFC Bank Limited Annual Report 2016-17  149  We understand your world",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 93.95
+    }
+  ],
+  "elapsed_seconds": 1.327
+}

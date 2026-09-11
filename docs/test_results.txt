@@ -1,0 +1,203 @@
+test_database_error_redacted (backend.tests.test_api.APITests.test_database_error_redacted) ... {"time": "2026-09-11T07:58:37.326853+00:00", "stage": "request_received", "request_id": "d1c1737c707a4c94aea32a8024a07305", "method": "POST", "route": "/api/v1/documents/{name_or_action}"}
+{"time": "2026-09-11T07:58:37.328450+00:00", "stage": "file_validation_start", "request_id": "d1c1737c707a4c94aea32a8024a07305", "document_name": "invoice.pdf", "document_type": "invoice"}
+{"time": "2026-09-11T07:58:37.334704+00:00", "stage": "file_validation_complete", "request_id": "d1c1737c707a4c94aea32a8024a07305", "page_count": 1}
+{"time": "2026-09-11T07:58:37.334762+00:00", "stage": "ocr_start", "request_id": "d1c1737c707a4c94aea32a8024a07305"}
+{"time": "2026-09-11T07:58:37.336576+00:00", "stage": "ocr_complete", "request_id": "d1c1737c707a4c94aea32a8024a07305", "ocr_used": false, "text_characters": 153}
+{"time": "2026-09-11T07:58:37.336634+00:00", "stage": "extraction_start", "request_id": "d1c1737c707a4c94aea32a8024a07305"}
+{"time": "2026-09-11T07:58:37.337969+00:00", "stage": "extraction_complete", "request_id": "d1c1737c707a4c94aea32a8024a07305"}
+{"time": "2026-09-11T07:58:37.338017+00:00", "stage": "financial_validation_start", "request_id": "d1c1737c707a4c94aea32a8024a07305"}
+{"time": "2026-09-11T07:58:37.338142+00:00", "stage": "financial_validation_complete", "request_id": "d1c1737c707a4c94aea32a8024a07305", "status": "PASS"}
+{"time": "2026-09-11T07:58:37.338178+00:00", "stage": "database_save_start", "request_id": "d1c1737c707a4c94aea32a8024a07305"}
+{"time": "2026-09-11T07:58:37.338232+00:00", "stage": "request_failure", "request_id": "d1c1737c707a4c94aea32a8024a07305", "error_code": "DATABASE_ERROR"}
+ok
+test_filename_spaces_are_retrievable (backend.tests.test_api.APITests.test_filename_spaces_are_retrievable) ... {"time": "2026-09-11T07:58:37.350670+00:00", "stage": "request_received", "request_id": "6dde6ab9693f44bb9db81a5d5dbf7d0a", "method": "POST", "route": "/api/v1/documents/{name_or_action}"}
+{"time": "2026-09-11T07:58:37.351776+00:00", "stage": "file_validation_start", "request_id": "6dde6ab9693f44bb9db81a5d5dbf7d0a", "document_name": "Balance Sheet 2025.pdf", "document_type": "invoice"}
+{"time": "2026-09-11T07:58:37.353623+00:00", "stage": "file_validation_complete", "request_id": "6dde6ab9693f44bb9db81a5d5dbf7d0a", "page_count": 1}
+{"time": "2026-09-11T07:58:37.353671+00:00", "stage": "ocr_start", "request_id": "6dde6ab9693f44bb9db81a5d5dbf7d0a"}
+{"time": "2026-09-11T07:58:37.355414+00:00", "stage": "ocr_complete", "request_id": "6dde6ab9693f44bb9db81a5d5dbf7d0a", "ocr_used": false, "text_characters": 153}
+{"time": "2026-09-11T07:58:37.355448+00:00", "stage": "extraction_start", "request_id": "6dde6ab9693f44bb9db81a5d5dbf7d0a"}
+{"time": "2026-09-11T07:58:37.355821+00:00", "stage": "extraction_complete", "request_id": "6dde6ab9693f44bb9db81a5d5dbf7d0a"}
+{"time": "2026-09-11T07:58:37.355852+00:00", "stage": "financial_validation_start", "request_id": "6dde6ab9693f44bb9db81a5d5dbf7d0a"}
+{"time": "2026-09-11T07:58:37.355979+00:00", "stage": "financial_validation_complete", "request_id": "6dde6ab9693f44bb9db81a5d5dbf7d0a", "status": "PASS"}
+{"time": "2026-09-11T07:58:37.356009+00:00", "stage": "database_save_start", "request_id": "6dde6ab9693f44bb9db81a5d5dbf7d0a"}
+{"time": "2026-09-11T07:58:37.357047+00:00", "stage": "database_save_complete", "request_id": "6dde6ab9693f44bb9db81a5d5dbf7d0a"}
+{"time": "2026-09-11T07:58:37.357098+00:00", "stage": "processing_complete", "request_id": "6dde6ab9693f44bb9db81a5d5dbf7d0a", "status": "PASS", "processing_time_ms": 4}
+{"time": "2026-09-11T07:58:37.358705+00:00", "stage": "request_received", "request_id": "f812f45e47da4715b53947526d16042d", "method": "GET", "route": "/api/v1/documents/{name_or_action}"}
+ok
+test_financial_failure_is_not_processing_pass (backend.tests.test_api.APITests.test_financial_failure_is_not_processing_pass) ... {"time": "2026-09-11T07:58:37.370635+00:00", "stage": "request_received", "request_id": "f15dc31d76d2436885962d69ce18f9da", "method": "POST", "route": "/api/v1/documents/{name_or_action}"}
+{"time": "2026-09-11T07:58:37.371564+00:00", "stage": "file_validation_start", "request_id": "f15dc31d76d2436885962d69ce18f9da", "document_name": "invoice.pdf", "document_type": "invoice"}
+{"time": "2026-09-11T07:58:37.373293+00:00", "stage": "file_validation_complete", "request_id": "f15dc31d76d2436885962d69ce18f9da", "page_count": 1}
+{"time": "2026-09-11T07:58:37.373338+00:00", "stage": "ocr_start", "request_id": "f15dc31d76d2436885962d69ce18f9da"}
+{"time": "2026-09-11T07:58:37.375014+00:00", "stage": "ocr_complete", "request_id": "f15dc31d76d2436885962d69ce18f9da", "ocr_used": false, "text_characters": 153}
+{"time": "2026-09-11T07:58:37.375062+00:00", "stage": "extraction_start", "request_id": "f15dc31d76d2436885962d69ce18f9da"}
+{"time": "2026-09-11T07:58:37.375748+00:00", "stage": "extraction_complete", "request_id": "f15dc31d76d2436885962d69ce18f9da"}
+{"time": "2026-09-11T07:58:37.375799+00:00", "stage": "financial_validation_start", "request_id": "f15dc31d76d2436885962d69ce18f9da"}
+{"time": "2026-09-11T07:58:37.375889+00:00", "stage": "financial_validation_complete", "request_id": "f15dc31d76d2436885962d69ce18f9da", "status": "FAIL"}
+{"time": "2026-09-11T07:58:37.375963+00:00", "stage": "database_save_start", "request_id": "f15dc31d76d2436885962d69ce18f9da"}
+{"time": "2026-09-11T07:58:37.376766+00:00", "stage": "database_save_complete", "request_id": "f15dc31d76d2436885962d69ce18f9da"}
+{"time": "2026-09-11T07:58:37.376807+00:00", "stage": "processing_complete", "request_id": "f15dc31d76d2436885962d69ce18f9da", "status": "FAILED", "processing_time_ms": 5}
+ok
+test_invalid_form_and_document_type (backend.tests.test_api.APITests.test_invalid_form_and_document_type) ... {"time": "2026-09-11T07:58:37.388989+00:00", "stage": "request_received", "request_id": "4615f1b7b67741bfad8e0bf29f15ba09", "method": "POST", "route": "/api/v1/documents/{name_or_action}"}
+{"time": "2026-09-11T07:58:37.389755+00:00", "stage": "request_failure", "request_id": "4615f1b7b67741bfad8e0bf29f15ba09", "error_code": "INVALID_FORM"}
+{"time": "2026-09-11T07:58:37.390964+00:00", "stage": "request_received", "request_id": "a3627e7256a24f0186a6b68d7c0960bb", "method": "POST", "route": "/api/v1/documents/{name_or_action}"}
+{"time": "2026-09-11T07:58:37.391198+00:00", "stage": "request_failure", "request_id": "a3627e7256a24f0186a6b68d7c0960bb", "error_code": "INVALID_MULTIPART"}
+ok
+test_malformed_multipart (backend.tests.test_api.APITests.test_malformed_multipart) ... {"time": "2026-09-11T07:58:37.416950+00:00", "stage": "request_received", "request_id": "80988cf2c8cd419baa06fdb33fa4d453", "method": "POST", "route": "/api/v1/documents/{name_or_action}"}
+{"time": "2026-09-11T07:58:37.417420+00:00", "stage": "request_failure", "request_id": "80988cf2c8cd419baa06fdb33fa4d453", "error_code": "INVALID_MULTIPART"}
+ok
+test_missing_filename_returns_404 (backend.tests.test_api.APITests.test_missing_filename_returns_404) ... {"time": "2026-09-11T07:58:37.425589+00:00", "stage": "request_received", "request_id": "fee69fcb0e6b4045a81f868f5103340f", "method": "GET", "route": "/api/v1/documents/{name_or_action}"}
+{"time": "2026-09-11T07:58:37.426742+00:00", "stage": "request_failure", "request_id": "fee69fcb0e6b4045a81f868f5103340f", "error_code": "DOCUMENT_NOT_FOUND"}
+ok
+test_missing_model_key_controlled_failure (backend.tests.test_api.APITests.test_missing_model_key_controlled_failure) ... {"time": "2026-09-11T07:58:37.438095+00:00", "stage": "request_received", "request_id": "96d8e59e5e8d49acbbba04ca32435409", "method": "POST", "route": "/api/v1/documents/{name_or_action}"}
+{"time": "2026-09-11T07:58:37.438939+00:00", "stage": "file_validation_start", "request_id": "96d8e59e5e8d49acbbba04ca32435409", "document_name": "invoice.pdf", "document_type": "invoice"}
+{"time": "2026-09-11T07:58:37.440755+00:00", "stage": "file_validation_complete", "request_id": "96d8e59e5e8d49acbbba04ca32435409", "page_count": 1}
+{"time": "2026-09-11T07:58:37.440801+00:00", "stage": "ocr_start", "request_id": "96d8e59e5e8d49acbbba04ca32435409"}
+{"time": "2026-09-11T07:58:37.442179+00:00", "stage": "ocr_complete", "request_id": "96d8e59e5e8d49acbbba04ca32435409", "ocr_used": false, "text_characters": 153}
+{"time": "2026-09-11T07:58:37.442222+00:00", "stage": "extraction_start", "request_id": "96d8e59e5e8d49acbbba04ca32435409"}
+{"time": "2026-09-11T07:58:37.442292+00:00", "stage": "processing_failure", "request_id": "96d8e59e5e8d49acbbba04ca32435409", "error_code": "MODEL_NOT_CONFIGURED"}
+{"time": "2026-09-11T07:58:37.442315+00:00", "stage": "database_save_start", "request_id": "96d8e59e5e8d49acbbba04ca32435409"}
+{"time": "2026-09-11T07:58:37.443067+00:00", "stage": "database_save_complete", "request_id": "96d8e59e5e8d49acbbba04ca32435409"}
+{"time": "2026-09-11T07:58:37.443117+00:00", "stage": "request_failure", "request_id": "96d8e59e5e8d49acbbba04ca32435409", "error_code": "MODEL_NOT_CONFIGURED"}
+ok
+test_model_timeout (backend.tests.test_api.APITests.test_model_timeout) ... {"time": "2026-09-11T07:58:37.453632+00:00", "stage": "request_received", "request_id": "5bad127829544cdfb68935fd226de1d8", "method": "POST", "route": "/api/v1/documents/{name_or_action}"}
+{"time": "2026-09-11T07:58:37.454616+00:00", "stage": "file_validation_start", "request_id": "5bad127829544cdfb68935fd226de1d8", "document_name": "invoice.pdf", "document_type": "invoice"}
+{"time": "2026-09-11T07:58:37.456341+00:00", "stage": "file_validation_complete", "request_id": "5bad127829544cdfb68935fd226de1d8", "page_count": 1}
+{"time": "2026-09-11T07:58:37.456385+00:00", "stage": "ocr_start", "request_id": "5bad127829544cdfb68935fd226de1d8"}
+{"time": "2026-09-11T07:58:37.457776+00:00", "stage": "ocr_complete", "request_id": "5bad127829544cdfb68935fd226de1d8", "ocr_used": false, "text_characters": 153}
+{"time": "2026-09-11T07:58:37.457810+00:00", "stage": "extraction_start", "request_id": "5bad127829544cdfb68935fd226de1d8"}
+{"time": "2026-09-11T07:58:37.457859+00:00", "stage": "processing_failure", "request_id": "5bad127829544cdfb68935fd226de1d8", "error_code": "MODEL_TIMEOUT"}
+{"time": "2026-09-11T07:58:37.457879+00:00", "stage": "database_save_start", "request_id": "5bad127829544cdfb68935fd226de1d8"}
+{"time": "2026-09-11T07:58:37.458591+00:00", "stage": "database_save_complete", "request_id": "5bad127829544cdfb68935fd226de1d8"}
+{"time": "2026-09-11T07:58:37.458634+00:00", "stage": "request_failure", "request_id": "5bad127829544cdfb68935fd226de1d8", "error_code": "MODEL_TIMEOUT"}
+ok
+test_openapi_and_frontend_assets (backend.tests.test_api.APITests.test_openapi_and_frontend_assets) ... {"time": "2026-09-11T07:58:37.466800+00:00", "stage": "request_received", "request_id": "962c1d65a3f545a3ac5b70530e202f83", "method": "GET", "route": "/"}
+{"time": "2026-09-11T07:58:37.469640+00:00", "stage": "request_received", "request_id": "6230b6e2fc4f4424ad602fd644aa44df", "method": "GET", "route": "/results"}
+{"time": "2026-09-11T07:58:37.471848+00:00", "stage": "request_received", "request_id": "8a83250e66584897800d49881c71d14a", "method": "GET", "route": "/docs"}
+{"time": "2026-09-11T07:58:37.474307+00:00", "stage": "request_received", "request_id": "553db59a9c434e579d9b3c647cb0cc82", "method": "GET", "route": "/static/js/app.js"}
+{"time": "2026-09-11T07:58:37.477567+00:00", "stage": "request_received", "request_id": "65a7e852b1f84d86a9e70f94a461fa88", "method": "GET", "route": "/static/css/app.css"}
+{"time": "2026-09-11T07:58:37.480422+00:00", "stage": "request_received", "request_id": "37bf2c79b62041d1b681b23f13676dfb", "method": "GET", "route": "/openapi.json"}
+{"time": "2026-09-11T07:58:37.487660+00:00", "stage": "request_received", "request_id": "4f4ea5a8901542758b1dead738f425ce", "method": "GET", "route": "/openapi.json"}
+ok
+test_pagination_and_search (backend.tests.test_api.APITests.test_pagination_and_search) ... {"time": "2026-09-11T07:58:37.503690+00:00", "stage": "request_received", "request_id": "f2060c3ab6bc4403885c6ea77c2592a5", "method": "POST", "route": "/api/v1/documents/{name_or_action}"}
+{"time": "2026-09-11T07:58:37.504554+00:00", "stage": "file_validation_start", "request_id": "f2060c3ab6bc4403885c6ea77c2592a5", "document_name": "invoice.pdf", "document_type": "invoice"}
+{"time": "2026-09-11T07:58:37.506235+00:00", "stage": "file_validation_complete", "request_id": "f2060c3ab6bc4403885c6ea77c2592a5", "page_count": 1}
+{"time": "2026-09-11T07:58:37.506277+00:00", "stage": "ocr_start", "request_id": "f2060c3ab6bc4403885c6ea77c2592a5"}
+{"time": "2026-09-11T07:58:37.507973+00:00", "stage": "ocr_complete", "request_id": "f2060c3ab6bc4403885c6ea77c2592a5", "ocr_used": false, "text_characters": 153}
+{"time": "2026-09-11T07:58:37.508010+00:00", "stage": "extraction_start", "request_id": "f2060c3ab6bc4403885c6ea77c2592a5"}
+{"time": "2026-09-11T07:58:37.508312+00:00", "stage": "extraction_complete", "request_id": "f2060c3ab6bc4403885c6ea77c2592a5"}
+{"time": "2026-09-11T07:58:37.508338+00:00", "stage": "financial_validation_start", "request_id": "f2060c3ab6bc4403885c6ea77c2592a5"}
+{"time": "2026-09-11T07:58:37.508426+00:00", "stage": "financial_validation_complete", "request_id": "f2060c3ab6bc4403885c6ea77c2592a5", "status": "PASS"}
+{"time": "2026-09-11T07:58:37.508452+00:00", "stage": "database_save_start", "request_id": "f2060c3ab6bc4403885c6ea77c2592a5"}
+{"time": "2026-09-11T07:58:37.509256+00:00", "stage": "database_save_complete", "request_id": "f2060c3ab6bc4403885c6ea77c2592a5"}
+{"time": "2026-09-11T07:58:37.509293+00:00", "stage": "processing_complete", "request_id": "f2060c3ab6bc4403885c6ea77c2592a5", "status": "PASS", "processing_time_ms": 4}
+{"time": "2026-09-11T07:58:37.510544+00:00", "stage": "request_received", "request_id": "e223981ad9cd4ec395376972b4a245ae", "method": "GET", "route": "/api/v1/documents"}
+{"time": "2026-09-11T07:58:37.510615+00:00", "stage": "request_failure", "request_id": "e223981ad9cd4ec395376972b4a245ae", "error_code": "INVALID_PAGINATION"}
+{"time": "2026-09-11T07:58:37.511547+00:00", "stage": "request_received", "request_id": "7a223b9e1d344beeb71539bfbdcbbb4f", "method": "GET", "route": "/api/v1/documents"}
+{"time": "2026-09-11T07:58:37.511610+00:00", "stage": "request_failure", "request_id": "7a223b9e1d344beeb71539bfbdcbbb4f", "error_code": "INVALID_PAGINATION"}
+{"time": "2026-09-11T07:58:37.512500+00:00", "stage": "request_received", "request_id": "22dc7472518445ac962c0c3f174aadd4", "method": "GET", "route": "/api/v1/documents"}
+ok
+test_persistence_new_database_instance (backend.tests.test_api.APITests.test_persistence_new_database_instance) ... {"time": "2026-09-11T07:58:37.524042+00:00", "stage": "request_received", "request_id": "9d4d515b48094da59d5613fa56ad878e", "method": "POST", "route": "/api/v1/documents/{name_or_action}"}
+{"time": "2026-09-11T07:58:37.524867+00:00", "stage": "file_validation_start", "request_id": "9d4d515b48094da59d5613fa56ad878e", "document_name": "invoice.pdf", "document_type": "invoice"}
+{"time": "2026-09-11T07:58:37.526609+00:00", "stage": "file_validation_complete", "request_id": "9d4d515b48094da59d5613fa56ad878e", "page_count": 1}
+{"time": "2026-09-11T07:58:37.526670+00:00", "stage": "ocr_start", "request_id": "9d4d515b48094da59d5613fa56ad878e"}
+{"time": "2026-09-11T07:58:37.528151+00:00", "stage": "ocr_complete", "request_id": "9d4d515b48094da59d5613fa56ad878e", "ocr_used": false, "text_characters": 153}
+{"time": "2026-09-11T07:58:37.528192+00:00", "stage": "extraction_start", "request_id": "9d4d515b48094da59d5613fa56ad878e"}
+{"time": "2026-09-11T07:58:37.528483+00:00", "stage": "extraction_complete", "request_id": "9d4d515b48094da59d5613fa56ad878e"}
+{"time": "2026-09-11T07:58:37.528509+00:00", "stage": "financial_validation_start", "request_id": "9d4d515b48094da59d5613fa56ad878e"}
+{"time": "2026-09-11T07:58:37.528591+00:00", "stage": "financial_validation_complete", "request_id": "9d4d515b48094da59d5613fa56ad878e", "status": "PASS"}
+{"time": "2026-09-11T07:58:37.528615+00:00", "stage": "database_save_start", "request_id": "9d4d515b48094da59d5613fa56ad878e"}
+{"time": "2026-09-11T07:58:37.529387+00:00", "stage": "database_save_complete", "request_id": "9d4d515b48094da59d5613fa56ad878e"}
+{"time": "2026-09-11T07:58:37.529424+00:00", "stage": "processing_complete", "request_id": "9d4d515b48094da59d5613fa56ad878e", "status": "PASS", "processing_time_ms": 4}
+ok
+test_processing_get_list_health_and_latest_result (backend.tests.test_api.APITests.test_processing_get_list_health_and_latest_result) ... {"time": "2026-09-11T07:58:37.541986+00:00", "stage": "request_received", "request_id": "8ccd7de8f7a64f32b3f17b9737b5e310", "method": "POST", "route": "/api/v1/documents/{name_or_action}"}
+{"time": "2026-09-11T07:58:37.542799+00:00", "stage": "file_validation_start", "request_id": "8ccd7de8f7a64f32b3f17b9737b5e310", "document_name": "invoice.pdf", "document_type": "invoice"}
+{"time": "2026-09-11T07:58:37.544541+00:00", "stage": "file_validation_complete", "request_id": "8ccd7de8f7a64f32b3f17b9737b5e310", "page_count": 1}
+{"time": "2026-09-11T07:58:37.544589+00:00", "stage": "ocr_start", "request_id": "8ccd7de8f7a64f32b3f17b9737b5e310"}
+{"time": "2026-09-11T07:58:37.545916+00:00", "stage": "ocr_complete", "request_id": "8ccd7de8f7a64f32b3f17b9737b5e310", "ocr_used": false, "text_characters": 153}
+{"time": "2026-09-11T07:58:37.545948+00:00", "stage": "extraction_start", "request_id": "8ccd7de8f7a64f32b3f17b9737b5e310"}
+{"time": "2026-09-11T07:58:37.546237+00:00", "stage": "extraction_complete", "request_id": "8ccd7de8f7a64f32b3f17b9737b5e310"}
+{"time": "2026-09-11T07:58:37.546263+00:00", "stage": "financial_validation_start", "request_id": "8ccd7de8f7a64f32b3f17b9737b5e310"}
+{"time": "2026-09-11T07:58:37.546345+00:00", "stage": "financial_validation_complete", "request_id": "8ccd7de8f7a64f32b3f17b9737b5e310", "status": "PASS"}
+{"time": "2026-09-11T07:58:37.546368+00:00", "stage": "database_save_start", "request_id": "8ccd7de8f7a64f32b3f17b9737b5e310"}
+{"time": "2026-09-11T07:58:37.547117+00:00", "stage": "database_save_complete", "request_id": "8ccd7de8f7a64f32b3f17b9737b5e310"}
+{"time": "2026-09-11T07:58:37.547150+00:00", "stage": "processing_complete", "request_id": "8ccd7de8f7a64f32b3f17b9737b5e310", "status": "PASS", "processing_time_ms": 4}
+{"time": "2026-09-11T07:58:37.548569+00:00", "stage": "request_received", "request_id": "38261ee51817402bb3e5a5301cc5cfd5", "method": "GET", "route": "/api/v1/documents/{name_or_action}"}
+{"time": "2026-09-11T07:58:37.550459+00:00", "stage": "request_received", "request_id": "8a3127910aaa489c81ad3d199d79d315", "method": "GET", "route": "/api/v1/documents"}
+{"time": "2026-09-11T07:58:37.554867+00:00", "stage": "request_received", "request_id": "0c5eb3265c74469795d5b1037904bee6", "method": "POST", "route": "/api/v1/documents/{name_or_action}"}
+{"time": "2026-09-11T07:58:37.555815+00:00", "stage": "file_validation_start", "request_id": "0c5eb3265c74469795d5b1037904bee6", "document_name": "invoice.pdf", "document_type": "invoice"}
+{"time": "2026-09-11T07:58:37.557576+00:00", "stage": "file_validation_complete", "request_id": "0c5eb3265c74469795d5b1037904bee6", "page_count": 1}
+{"time": "2026-09-11T07:58:37.557623+00:00", "stage": "ocr_start", "request_id": "0c5eb3265c74469795d5b1037904bee6"}
+{"time": "2026-09-11T07:58:37.559016+00:00", "stage": "ocr_complete", "request_id": "0c5eb3265c74469795d5b1037904bee6", "ocr_used": false, "text_characters": 153}
+{"time": "2026-09-11T07:58:37.559051+00:00", "stage": "extraction_start", "request_id": "0c5eb3265c74469795d5b1037904bee6"}
+{"time": "2026-09-11T07:58:37.559333+00:00", "stage": "extraction_complete", "request_id": "0c5eb3265c74469795d5b1037904bee6"}
+{"time": "2026-09-11T07:58:37.559361+00:00", "stage": "financial_validation_start", "request_id": "0c5eb3265c74469795d5b1037904bee6"}
+{"time": "2026-09-11T07:58:37.559445+00:00", "stage": "financial_validation_complete", "request_id": "0c5eb3265c74469795d5b1037904bee6", "status": "PASS"}
+{"time": "2026-09-11T07:58:37.559536+00:00", "stage": "database_save_start", "request_id": "0c5eb3265c74469795d5b1037904bee6"}
+{"time": "2026-09-11T07:58:37.560218+00:00", "stage": "database_save_complete", "request_id": "0c5eb3265c74469795d5b1037904bee6"}
+{"time": "2026-09-11T07:58:37.560251+00:00", "stage": "processing_complete", "request_id": "0c5eb3265c74469795d5b1037904bee6", "status": "PASS", "processing_time_ms": 4}
+{"time": "2026-09-11T07:58:37.561461+00:00", "stage": "request_received", "request_id": "9fe2fd3ca00b45eda238c11f860ec7f3", "method": "GET", "route": "/api/v1/documents/{name_or_action}"}
+{"time": "2026-09-11T07:58:37.563273+00:00", "stage": "request_received", "request_id": "26b303fb5e374eb999d9ad00e56eaac7", "method": "GET", "route": "/api/v1/documents"}
+{"time": "2026-09-11T07:58:37.565652+00:00", "stage": "request_received", "request_id": "8fbc9530e8ee43c29dffbbbfa2858d78", "method": "GET", "route": "/api/v1/health"}
+ok
+test_unexpected_failure_redacted (backend.tests.test_api.APITests.test_unexpected_failure_redacted) ... {"time": "2026-09-11T07:58:37.578084+00:00", "stage": "request_received", "request_id": "9383ca3ffaab4a5ebcd1b48fc80f985a", "method": "POST", "route": "/api/v1/documents/{name_or_action}"}
+{"time": "2026-09-11T07:58:37.578930+00:00", "stage": "file_validation_start", "request_id": "9383ca3ffaab4a5ebcd1b48fc80f985a", "document_name": "invoice.pdf", "document_type": "invoice"}
+{"time": "2026-09-11T07:58:37.580648+00:00", "stage": "file_validation_complete", "request_id": "9383ca3ffaab4a5ebcd1b48fc80f985a", "page_count": 1}
+{"time": "2026-09-11T07:58:37.580703+00:00", "stage": "ocr_start", "request_id": "9383ca3ffaab4a5ebcd1b48fc80f985a"}
+{"time": "2026-09-11T07:58:37.581069+00:00", "stage": "processing_failure", "request_id": "9383ca3ffaab4a5ebcd1b48fc80f985a", "error_code": "PROCESSING_FAILED", "exception_type": "RuntimeError"}
+{"time": "2026-09-11T07:58:37.581104+00:00", "stage": "database_save_start", "request_id": "9383ca3ffaab4a5ebcd1b48fc80f985a"}
+{"time": "2026-09-11T07:58:37.581847+00:00", "stage": "database_save_complete", "request_id": "9383ca3ffaab4a5ebcd1b48fc80f985a"}
+{"time": "2026-09-11T07:58:37.581923+00:00", "stage": "request_failure", "request_id": "9383ca3ffaab4a5ebcd1b48fc80f985a", "error_code": "PROCESSING_FAILED"}
+ok
+test_unsupported_file_has_controlled_error_and_saved_failure (backend.tests.test_api.APITests.test_unsupported_file_has_controlled_error_and_saved_failure) ... {"time": "2026-09-11T07:58:37.590700+00:00", "stage": "request_received", "request_id": "bcac4285419244979a2bae7421c2c11b", "method": "POST", "route": "/api/v1/documents/{name_or_action}"}
+{"time": "2026-09-11T07:58:37.591646+00:00", "stage": "file_validation_start", "request_id": "bcac4285419244979a2bae7421c2c11b", "document_name": "bad.txt", "document_type": "invoice"}
+{"time": "2026-09-11T07:58:37.592191+00:00", "stage": "processing_failure", "request_id": "bcac4285419244979a2bae7421c2c11b", "error_code": "UNSUPPORTED_FILE_TYPE"}
+{"time": "2026-09-11T07:58:37.592237+00:00", "stage": "database_save_start", "request_id": "bcac4285419244979a2bae7421c2c11b"}
+{"time": "2026-09-11T07:58:37.592889+00:00", "stage": "database_save_complete", "request_id": "bcac4285419244979a2bae7421c2c11b"}
+{"time": "2026-09-11T07:58:37.592953+00:00", "stage": "request_failure", "request_id": "bcac4285419244979a2bae7421c2c11b", "error_code": "UNSUPPORTED_FILE_TYPE"}
+{"time": "2026-09-11T07:58:37.594095+00:00", "stage": "request_received", "request_id": "433a4d126a8342f4ace5368de02155ab", "method": "GET", "route": "/api/v1/documents/{name_or_action}"}
+ok
+test_bound_sql_arguments_and_result_decoding (backend.tests.test_database.TursoContractTests.test_bound_sql_arguments_and_result_decoding) ... ok
+test_remote_sql_error_is_controlled (backend.tests.test_database.TursoContractTests.test_remote_sql_error_is_controlled) ... ok
+test_additional_meaningful_fields_preserved (backend.tests.test_extraction.ExtractionTests.test_additional_meaningful_fields_preserved) ... ok
+test_duplicate_fields_fail (backend.tests.test_extraction.ExtractionTests.test_duplicate_fields_fail) ... ok
+test_fake_evidence_is_rejected (backend.tests.test_extraction.ExtractionTests.test_fake_evidence_is_rejected) ... ok
+test_malformed_model_output (backend.tests.test_extraction.ExtractionTests.test_malformed_model_output) ... ok
+test_periods_must_exist_in_source (backend.tests.test_extraction.ExtractionTests.test_periods_must_exist_in_source) ... ok
+test_schema_and_grounded_fields (backend.tests.test_extraction.ExtractionTests.test_schema_and_grounded_fields) ... ok
+test_value_must_be_a_complete_source_token (backend.tests.test_extraction.ExtractionTests.test_value_must_be_a_complete_source_token) ... ok
+test_wrong_page_is_rejected (backend.tests.test_extraction.ExtractionTests.test_wrong_page_is_rejected) ... ok
+test_balance_sheet_components (backend.tests.test_financial.FinancialTests.test_balance_sheet_components) ... ok
+test_balance_sheet_independent_periods (backend.tests.test_financial.FinancialTests.test_balance_sheet_independent_periods) ... ok
+test_cash_flow_negative_values_and_periods (backend.tests.test_financial.FinancialTests.test_cash_flow_negative_values_and_periods) ... ok
+test_inclusive_tax_not_double_counted (backend.tests.test_financial.FinancialTests.test_inclusive_tax_not_double_counted) ... ok
+test_incomplete_lines_not_summed (backend.tests.test_financial.FinancialTests.test_incomplete_lines_not_summed) ... ok
+test_invoice (backend.tests.test_financial.FinancialTests.test_invoice) ... ok
+test_invoice_rounding_and_discount (backend.tests.test_financial.FinancialTests.test_invoice_rounding_and_discount) ... ok
+test_missing_fx_is_not_zero (backend.tests.test_financial.FinancialTests.test_missing_fx_is_not_zero) ... ok
+test_missing_is_not_applicable (backend.tests.test_financial.FinancialTests.test_missing_is_not_applicable) ... ok
+test_profit_and_loss (backend.tests.test_financial.FinancialTests.test_profit_and_loss) ... ok
+test_tolerance (backend.tests.test_financial.FinancialTests.test_tolerance) ... ok
+test_provider_error_statuses (backend.tests.test_model_client.ModelClientTests.test_provider_error_statuses) ... ok
+test_response_size_limit (backend.tests.test_model_client.ModelClientTests.test_response_size_limit) ... ok
+test_structured_provider_request_contract (backend.tests.test_model_client.ModelClientTests.test_structured_provider_request_contract) ... ok
+test_timeout_is_controlled (backend.tests.test_model_client.ModelClientTests.test_timeout_is_controlled) ... ok
+test_truncated_response_is_not_accepted (backend.tests.test_model_client.ModelClientTests.test_truncated_response_is_not_accepted) ... ok
+test_real_png_ocr (backend.tests.test_ocr_integration.OCRIntegrationTests.test_real_png_ocr) ... ok
+test_scanned_pdf_uses_ocr (backend.tests.test_ocr_integration.OCRIntegrationTests.test_scanned_pdf_uses_ocr) ... ok
+test_ambiguous_missing_and_nonfinite_numbers (backend.tests.test_validation.ValidationTests.test_ambiguous_missing_and_nonfinite_numbers) ... ok
+test_empty_corrupt_and_unsupported (backend.tests.test_validation.ValidationTests.test_empty_corrupt_and_unsupported) ... ok
+test_file_size_limit (backend.tests.test_validation.ValidationTests.test_file_size_limit) ... ok
+test_four_pages_rejected (backend.tests.test_validation.ValidationTests.test_four_pages_rejected) ... ok
+test_image_pixel_limit (backend.tests.test_validation.ValidationTests.test_image_pixel_limit) ... ok
+test_native_pdf_skips_ocr (backend.tests.test_validation.ValidationTests.test_native_pdf_skips_ocr) ... ok
+test_numbers (backend.tests.test_validation.ValidationTests.test_numbers) ... ok
+test_path_sanitization (backend.tests.test_validation.ValidationTests.test_path_sanitization) ... ok
+test_png_and_jpeg (backend.tests.test_validation.ValidationTests.test_png_and_jpeg) ... ok
+test_spoofed_mime_and_signature (backend.tests.test_validation.ValidationTests.test_spoofed_mime_and_signature) ... ok
+test_three_pages_accepted (backend.tests.test_validation.ValidationTests.test_three_pages_accepted) ... ok
+test_valid_native_pdf (backend.tests.test_validation.ValidationTests.test_valid_native_pdf) ... ok
+
+----------------------------------------------------------------------
+Ran 54 tests in 1.111s
+
+OK

@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Balance Sheet/Consolidated Balance Sheet 2017.pdf",
+  "document_type": "balance_sheet",
+  "sha256": "05a19e2b51301fbaac1d87da10bf14ecb25e1e7b825f5e53694254dc97052ad1",
+  "file_validation": {
+    "file_name": "Consolidated Balance Sheet 2017.pdf",
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Consolidated Balance Sheet\nAs at March 31, 2017\n= in ‘000\nAs at  As at\nSchedule  31-Mar-17  31-Mar-16\nCAPITAL AND LIABILITIES\nCapital  1  5,125,091  5,056,373\nReserves and surplus  2  912,814,397  737,984,869\nMinority interest  2A  2,914,389  1,806,228\nDeposits  3  6,431,342,479  5,458,732,889\nBorrowings  4  984,156,439  1,037,139,597\nOther liabilities and provisions  5)  587,088,812  381,403,308\nTotal  8,923,441,607  7,622,123,264\nASSETS\nCash and balances with Reserve Bank of India  6  379,105,485  300,765,846\nBalances with banks and money at call and short notice  7  114,005,711  89,922,969\nInvestments  8  2,107,771,120  1,936,338,475\nAdvances  9  5,854,809,871  4,872,904,174\nFixed assets  10  38,146,997  34,796,976\nOther assets  11  429,602,423  387,394,824\nTotal  8,923,441 ,607  7,622,123,264\nContingent liabilities  12  8,182,842,892  8,535,273,826\nBills for collection  308,480,352  234,899,997\nSignificant accounting policies and notes to the Consolidated financial  17& 18\nstatements\nThe schedules referred to above form an integral part of the\nConsolidated Balance Sheet\nAs per our report of even date.  For and on behalf of the Board\nFor Deloitte Haskins & Sells  Shyamala Gopinath  Aditya Puri  Anami Roy\nChartered Accountants  Chairperson  Managing Director  Bobby Parikh\nKeki Mistry\nMalay Patel\nP. B. Pardiwalla  Paresh Sukthankar  Kaizad Bharucha  Y\ni  .  .  Partho Datta\nPartner  Deputy Managing Director  Executive Director  R  K  d\nMembership No.: 40005  Ch)  KEL)  ;\n.  .  .  Srikanth Nadhamuni\nSanjay Dongre  Sashidhar Jagdishan  Umesh Sarangi\nExecutive Vice President  Chief Financial Officer  tors\nMumbai, April 21, 2017  (Legal) & Company Secretary\nHt}  HDFC BANK\nHDFC Bank Limited Annual Report 2016-17  148  We understand your world",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 90.59
+    }
+  ],
+  "elapsed_seconds": 1.067
+}

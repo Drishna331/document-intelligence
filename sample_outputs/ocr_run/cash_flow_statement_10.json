@@ -1,0 +1,30 @@
+{
+  "source": "New Dataset/Cash Flows/Consolidated Cash Flow Statement 2026.pdf",
+  "document_type": "cash_flow_statement",
+  "sha256": "3fd321f726dafd2601ad94d837c4f63c75c7ccb1f881c5ac8089c9a5b2d0dddd",
+  "file_validation": {
+    "file_name": "Consolidated Cash Flow Statement 2026.pdf",
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 2,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "or\nCONSOLIDATED CASH  FLOW STATEMENT\nFor the year ended March 31, 2026\n(@ in crore)\nYear ended  Year ended\nMarch 31, 2026  March 31, 2025\nCash flows from operating activities:\nConsolidated Profit after tax and minority interest  76,025.97  70,792.25\nAdd: Provision for income tax ( Refer schedule 18 (9))  22,921.99  22,801.88\nConsolidated profit before income tax and after minority interest  98,947.96  93,594.13\nAdjustments for:\nDepreciation on fixed assets  4,194.90  3,805.23\nLoss on revaluation of investments  7,739.96  3,909.10\nAmortisation of premium on investments  986.17  87.07\nProfit on sale of fixed assets  (207.91)  (22.03)\n(Profit) / loss on sale of investment in subsidiary  (7,000.27)  8.00\nProvision / charge for non performing assets  14,445.98  15,385.24\nFloating provisions  9,000.00  -\nProvision / (write-back) for standard assets and contingencies  3,210.24  (1,210.63)\nEmployee stock options / units expense  2,228.30  2,086.05\n133,545.33  117,642.16\nAdjustments for:\nIncrease in investments  (102,572.73)  (180,362.67)\nIncrease in advances  (840,270.74)  (169,918.22)\nIncrease in deposits  388,740.06  334,010.95\nIncrease in other assets  (29,678.54)  (10,829.67)\nIncrease in other liabilities and provisions  52,338.92  13,117.98\nIncrease in policyholders' funds  34,060.45  43,289.99\n136,162.75  146,950.52\nDirect taxes paid (net of refunds)  (22,656.37)  (19,708.68)\nNet cash flows from operating activities  113,506.38  127,241.84\nCash flows from investing activities:\nPurchase of fixed assets  (3,889.97)  (4,075.89)\nProceeds from sale of fixed assets  527.56  100.72\nProceeds from sale of investment in subsidiary (net of expenses)  9,806.00  192.00\nInvestment in subsidiaries  (80.87)  (67.47)\nNet cash flow from / (used in) investing activities  6,362.72  (3,850.64)\nHDFC Bank Limited\n478  Integrated Annual Report 2025-26",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 95.26
+    },
+    {
+      "page_number": 2,
+      "text": "For the year ended March 31, 2026\n(@ in crore)\nYear ended  Year ended\nMarch 31, 2026  March 31, 2025\nCash flows from financing activities:\nIncrease in minority interest (including issue of ESOPs by subsidiaries)  2,331.21  2,382.88\nProceeds from issue of share capital  5,108.50  6,346.50\nProceeds from issue of shares through subsidiary IPO (net of issue expenses)  2,456.61  -\nProceeds from issue of Tier 1 and Tier 2 capital instruments  700.00  1,182.00\nRepayment of Tier 1 and Tier 2 capital instruments  -  (500.00)\nRepayments from other borrowings (net)  (48,895.19)  (97,062.73)\nDividend paid during the year  (20,705.98)  (14,826.19)\nNet cash flow used in financing activities  (59,004.85)  (102,477.54)\nEffect of fluctuation in foreign currency translation reserve  1,113.90  199.73\nNet increase in cash and cash equivalents  61,978.15  21,113.39\nCash and cash equivalents at the beginning of the year  249,947.90  228,834.51\nCash and cash equivalents at the end of the year  311,926.05  249,947.90\nCash and cash equivalents include Cash and balances with Reserve Bank of India and Balances with banks and money at call and short notice\n(Refer Schedule 6 and Schedule 7).\nAs per our report of even date.  For and on behalf of the Board\nFor Batliboi & Purohit  ForBSR &Co. LLP  Keki Mistry  Sandeep Parekh\nChartered Accountants  Chartered Accountants  Interim Part-Time Chairman  Independent Director\nICAI Firm Registration No.:  ICAI Firm Registration No.:  Non indooenttent) Director\n101048W  101248W/W-100022  p  \"\nM. D. Ranganath  Sunita Maheshwari\nIndependent Director  Independent Director\nJanak Mehta  Sudhir Soni  Lily Vadera  Renu Karnad\nPartner  Partner  Independent Director  Non-Executive (Non-\nMembership No.: 116976  Membership No.: 041870  Independent Director)\nHarsh Kumar Bhanwala  Santhosh Keshavan\nIndependent Director  Independent Director\nSashidhar Jagdishan  Kaizad Bharucha\nManaging Director & Chief  Deputy Managing Director\nExecutive Officer\nBhavesh Zaveri  V. Srinivasa Rangan\nExecutive Director  Executive Director\nMumbai, April 18, 2026  Srinivasan Vaidyanathan  Ajay Agarwal\nChief Financial Officer  Company Secretary\n479",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 94.16
+    }
+  ],
+  "elapsed_seconds": 2.177
+}

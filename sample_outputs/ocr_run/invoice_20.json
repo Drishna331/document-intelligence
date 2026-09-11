@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Invoices/X51008145450.jpg",
+  "document_type": "invoice",
+  "sha256": "1f65581ac31cce5e59a8d32ffb3dd8bd26cf62461eaabbb3091a528d859e6169",
+  "file_validation": {
+    "file_name": "X51008145450.jpg",
+    "file_type": "image/jpeg",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "EO _e—_—\nMey\nGHEE  HIANG\nGH  DISTRIBUTOR  &  MARKETING  SON  BHD\n(1097826-H)\n216,  Macalister  Road,  10460  Penang.\n1400  Penang.\n|  sTel:  04-227  2222\nGST  Reg.No.:  001315377152\nTAX  INVOICE\nInvoice  No  :  216_01/2104?\nDate  :  20/06/2018  #1  12:53  PM\nCashier  :  PART  TIMERS  05\nPRN  ON  :  20/06/2018  12:56  PM\nQUY  IVEM  .  RM\nkK  Retail/Takeaway  #0\n4  TAU  SAR  PNEAH  (S$)  16PCS  @9.00  36.00  SR\n2  DB  TAU  SAR  PNEAH  (S)  12PCS  @7.60  15.20  SR\n2  BEH  TEH  SAW  BPCS  @8.00  16.00  SR\n2  PHONG  PNEAH  BPCS  @9.00  18.00  SR\ni0  SubTotal  85.20\nNet  Total  S5.20\ncast)  100.20\nCHANGE  15.00\nkK  20/06/2018  12:56  PM  kk  ----~--~--\nax  Summacy  Amount  Tax\nSR:GST  @0%  85.20  0.06\nTHANK  YO!  PLEASE  COME  AGAIN\nGao0r3  Sold  Are  Nor:  Refi rdable",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 74.73
+    }
+  ],
+  "elapsed_seconds": 1.427
+}

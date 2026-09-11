@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Invoices/batch2-0999.jpg",
+  "document_type": "invoice",
+  "sha256": "60cff50794974d863d9f190ae95511a536d004231cbd53ac944f1c31cfac6fcd",
+  "file_validation": {
+    "file_name": "batch2-0999.jpg",
+    "file_type": "image/jpeg",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "INVOICE\nINVOICE NO.\n118\nDATE:\nMarch 9, 2022\nDUE DATE:\nApril 9, 2022\nBill from  Bill To\nBLUE STREAK ELECTRONICS  GEONICS LTD\n30 Moyal Court  1745 Meyerside Drive\nInvoices SSarker@bsecorp.com  MISSISSAUGA, Ontario, Canada\nCONCORD, Ontario, Canada\nID  | DESCRIPTION  QUANTITY  PRICE, $  TOTAL, $\n3M Scotchcast Electrical Resin #8 - 16  Ibs/kit 16  lbs/case\n01  2  346.00  346.00\n3M DP460 EG Epoxy Adhesive - 50ml 2:1 12 kits/case\n02  4  226.00  226.00\nFreight AE Blake Montreal to Aerospace Metal\n03  6  136.00  136.00\nCe is a mere estimate. Actual delivery may differ  8800  88.00\nithout notice\nTotal Due  916.47",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 92.72
+    }
+  ],
+  "elapsed_seconds": 0.701
+}

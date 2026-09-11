@@ -1,0 +1,26 @@
+{
+  "mode": "reference_fixture_replay",
+  "live_model_invocation": false,
+  "records": [
+    {
+      "document_type": "balance_sheet",
+      "http_status": 201,
+      "validation_status": "PASS"
+    },
+    {
+      "document_type": "cash_flow_statement",
+      "http_status": 201,
+      "validation_status": "PASS"
+    },
+    {
+      "document_type": "invoice",
+      "http_status": 201,
+      "validation_status": "PASS"
+    },
+    {
+      "document_type": "profit_and_loss",
+      "http_status": 201,
+      "validation_status": "PASS"
+    }
+  ]
+}

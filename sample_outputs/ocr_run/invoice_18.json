@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Invoices/X51008099071.jpg",
+  "document_type": "invoice",
+  "sha256": "dfd45d5933cbcbcec8ee24ecc1e304b737d5b58b5c22653e2f81f07e70b00f52",
+  "file_validation": {
+    "file_name": "X51008099071.jpg",
+    "file_type": "image/jpeg",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "LEONG  HENG  SHELL  SERVICE  STATION\nCompany  No  :256628-W\nLOT  26151  BANDAR  SG  LONG,\n11  1/4  MILES  CHERAS,\n43000  KAJANG,  SELANGOR\nSite  :  2188\nTelephone  :  03-90805318\nGST  No  :  001934041088\nInvoice  number:  01000339450\nPre  auth  code  AULA1529424173\n22.73  litre  Pump  #  06\nFuelSave  95  RM  50.00  C\n2.200  RM  /  litre\nTotal  RM  50.00\nCash  RM  50.00\nRelief  GST  C  RM  0.00\nTotal  Gross  C  RM  50.00\nCashier:\nKKHALEK\nDate  Time  Num  POS  CNo  Shift\n20/06/18  00:05  90554  01  4145  331\nDiesel  &  Petro]  RON9S  given  relief  |\nunder  Section  56(3)(b)  GST  Act  2014  |\nThank  You  and  Please  Come  Again\n7)",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 90.46
+    }
+  ],
+  "elapsed_seconds": 0.644
+}

@@ -1,0 +1,1027 @@
+{
+  "provenance": {
+    "mode": "reviewed_reference",
+    "live_model_invocation": false,
+    "source": "New Dataset/Invoices/batch1-1109.jpg",
+    "sha256": "b618e6dd6c10b1590e41c4e986d98cb84da104950e20e15543929b7988b6d57e",
+    "scope": "Source-backed reference fields and tables for testing grounding and arithmetic; not evidence of live model completeness.",
+    "model_replaced_by_fixture": true,
+    "api_and_ocr_executed": true
+  },
+  "http_status": 201,
+  "result": {
+    "document_name": "batch1-1109.jpg",
+    "document_type": "invoice",
+    "processing_status": "PASS",
+    "file_validation": {
+      "file_name": "batch1-1109.jpg",
+      "file_type": "image/jpeg",
+      "is_supported": true,
+      "is_readable": true,
+      "page_count": 1,
+      "status": "PASS"
+    },
+    "extracted_data": {
+      "fields": {
+        "invoice_number": {
+          "value": "94404257",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "Invoice no: 94404257",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "invoice_date": {
+          "value": "07/03/2013",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "Date of issue:  07/03/2013",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "vendor_name": {
+          "value": "Cruz PLC",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "Cruz PLC  Sandoval-Phillips",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "customer_name": {
+          "value": "Sandoval-Phillips",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "Cruz PLC  Sandoval-Phillips",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "subtotal": {
+          "value": "126,27",
+          "numeric_value": "126.27",
+          "evidence": {
+            "source_text": "Total  $ 126,27  $ 12,63  $ 138,90",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "tax_amount": {
+          "value": "12,63",
+          "numeric_value": "12.63",
+          "evidence": {
+            "source_text": "Total  $ 126,27  $ 12,63  $ 138,90",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "total_amount": {
+          "value": "138,90",
+          "numeric_value": "138.90",
+          "evidence": {
+            "source_text": "Total  $ 126,27  $ 12,63  $ 138,90",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "currency": {
+          "value": "$",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "Total  $ 126,27  $ 12,63  $ 138,90",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_1": {
+          "value": "Invoice no: 94404257",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "Invoice no: 94404257",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_2": {
+          "value": "Date of issue:  07/03/2013",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "Date of issue:  07/03/2013",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_3": {
+          "value": "Seller:  Client:",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "Seller:  Client:",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_4": {
+          "value": "Cruz PLC  Sandoval-Phillips",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "Cruz PLC  Sandoval-Phillips",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_5": {
+          "value": "USNV Harris  23699 James Villages Suite 818",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "USNV Harris  23699 James Villages Suite 818",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_6": {
+          "value": "FPO AA 34966  West Tamara, MS 58825",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "FPO AA 34966  West Tamara, MS 58825",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_7": {
+          "value": "Tax Id: 964-99-8203  Tax Id: 976-94-5245",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "Tax Id: 964-99-8203  Tax Id: 976-94-5245",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_8": {
+          "value": "IBAN: GB31XOVK34958853133204",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "IBAN: GB31XOVK34958853133204",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_9": {
+          "value": "ITEMS",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "ITEMS",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_10": {
+          "value": "No.  Description  Qty  UM  Net price  Net worth  VAT [%]  Gross",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "No.  Description  Qty  UM  Net price  Net worth  VAT [%]  Gross",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_11": {
+          "value": "worth",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "worth",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_12": {
+          "value": "tks  BOO28NAO6EC Shoeless Joe  5,00  each  3,49  17,45  10%  19,20",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "tks  BOO28NAO6EC Shoeless Joe  5,00  each  3,49  17,45  10%  19,20",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_13": {
+          "value": "2.  The Fifty Greatest Conspiracies  3,00  each  4,49  13,47  10%  14,82",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "2.  The Fifty Greatest Conspiracies  3,00  each  4,49  13,47  10%  14,82",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_14": {
+          "value": "of All Time History s Biggest",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "of All Time History s Biggest",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_15": {
+          "value": "Myster",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "Myster",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_16": {
+          "value": "Be  Story of a Soul: The  5,00  each  9,35  46,75  10%  51,42",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "Be  Story of a Soul: The  5,00  each  9,35  46,75  10%  51,42",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_17": {
+          "value": "Autobiography of St. Therese of",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "Autobiography of St. Therese of",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_18": {
+          "value": "Lisieux",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "Lisieux",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_19": {
+          "value": "4.  The Complete Idiots Guide to  4,00  each  4,49  17,96  10%  19,76",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "4.  The Complete Idiots Guide to  4,00  each  4,49  17,96  10%  19,76",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_20": {
+          "value": "Trouble-Free Home Re",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "Trouble-Free Home Re",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_21": {
+          "value": "5:  Rebecca to the Rescue  2,00  each  4,89  9,78  10%  10,76",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "5:  Rebecca to the Rescue  2,00  each  4,89  9,78  10%  10,76",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_22": {
+          "value": "(American Girl (Quality))",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "(American Girl (Quality))",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_23": {
+          "value": "6.  Tales from the Buffalo Bills  1,00  each  5,50  5,50  10%  6,05",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "6.  Tales from the Buffalo Bills  1,00  each  5,50  5,50  10%  6,05",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_24": {
+          "value": "7.  Vietnam, The Decisive Battles  2,00  each  7,68  15,36  10%  16,90",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "7.  Vietnam, The Decisive Battles  2,00  each  7,68  15,36  10%  16,90",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_25": {
+          "value": "SUMMARY",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "SUMMARY",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_26": {
+          "value": "VAT [%]  Net worth  VAT  Gross worth",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "VAT [%]  Net worth  VAT  Gross worth",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_27": {
+          "value": "10%  126,27  12,63  138,90",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "10%  126,27  12,63  138,90",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "source_line_28": {
+          "value": "Total  $ 126,27  $ 12,63  $ 138,90",
+          "numeric_value": null,
+          "evidence": {
+            "source_text": "Total  $ 126,27  $ 12,63  $ 138,90",
+            "page_number": 1
+          },
+          "reason": null
+        },
+        "discount": {
+          "value": null,
+          "numeric_value": null,
+          "evidence": null,
+          "reason": "Not present or unreadable in the source."
+        }
+      },
+      "periods": [],
+      "tables": [],
+      "line_items": [
+        {
+          "fields": {
+            "description": {
+              "value": "BOO28NAO6EC Shoeless Joe",
+              "numeric_value": null,
+              "evidence": {
+                "source_text": "tks  BOO28NAO6EC Shoeless Joe  5,00  each  3,49  17,45  10%  19,20",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "quantity": {
+              "value": "5,00",
+              "numeric_value": "5.00",
+              "evidence": {
+                "source_text": "tks  BOO28NAO6EC Shoeless Joe  5,00  each  3,49  17,45  10%  19,20",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "unit_price": {
+              "value": "3,49",
+              "numeric_value": "3.49",
+              "evidence": {
+                "source_text": "tks  BOO28NAO6EC Shoeless Joe  5,00  each  3,49  17,45  10%  19,20",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "line_total": {
+              "value": "17,45",
+              "numeric_value": "17.45",
+              "evidence": {
+                "source_text": "tks  BOO28NAO6EC Shoeless Joe  5,00  each  3,49  17,45  10%  19,20",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "net_amount": {
+              "value": "17,45",
+              "numeric_value": "17.45",
+              "evidence": {
+                "source_text": "tks  BOO28NAO6EC Shoeless Joe  5,00  each  3,49  17,45  10%  19,20",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "tax_rate": {
+              "value": "10%",
+              "numeric_value": "10",
+              "evidence": {
+                "source_text": "tks  BOO28NAO6EC Shoeless Joe  5,00  each  3,49  17,45  10%  19,20",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "gross_amount": {
+              "value": "19,20",
+              "numeric_value": "19.20",
+              "evidence": {
+                "source_text": "tks  BOO28NAO6EC Shoeless Joe  5,00  each  3,49  17,45  10%  19,20",
+                "page_number": 1
+              },
+              "reason": null
+            }
+          },
+          "amount_basis": "net"
+        },
+        {
+          "fields": {
+            "description": {
+              "value": "The Fifty Greatest Conspiracies",
+              "numeric_value": null,
+              "evidence": {
+                "source_text": "2.  The Fifty Greatest Conspiracies  3,00  each  4,49  13,47  10%  14,82",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "quantity": {
+              "value": "3,00",
+              "numeric_value": "3.00",
+              "evidence": {
+                "source_text": "2.  The Fifty Greatest Conspiracies  3,00  each  4,49  13,47  10%  14,82",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "unit_price": {
+              "value": "4,49",
+              "numeric_value": "4.49",
+              "evidence": {
+                "source_text": "2.  The Fifty Greatest Conspiracies  3,00  each  4,49  13,47  10%  14,82",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "line_total": {
+              "value": "13,47",
+              "numeric_value": "13.47",
+              "evidence": {
+                "source_text": "2.  The Fifty Greatest Conspiracies  3,00  each  4,49  13,47  10%  14,82",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "net_amount": {
+              "value": "13,47",
+              "numeric_value": "13.47",
+              "evidence": {
+                "source_text": "2.  The Fifty Greatest Conspiracies  3,00  each  4,49  13,47  10%  14,82",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "tax_rate": {
+              "value": "10%",
+              "numeric_value": "10",
+              "evidence": {
+                "source_text": "2.  The Fifty Greatest Conspiracies  3,00  each  4,49  13,47  10%  14,82",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "gross_amount": {
+              "value": "14,82",
+              "numeric_value": "14.82",
+              "evidence": {
+                "source_text": "2.  The Fifty Greatest Conspiracies  3,00  each  4,49  13,47  10%  14,82",
+                "page_number": 1
+              },
+              "reason": null
+            }
+          },
+          "amount_basis": "net"
+        },
+        {
+          "fields": {
+            "description": {
+              "value": "Story of a Soul: The",
+              "numeric_value": null,
+              "evidence": {
+                "source_text": "Be  Story of a Soul: The  5,00  each  9,35  46,75  10%  51,42",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "quantity": {
+              "value": "5,00",
+              "numeric_value": "5.00",
+              "evidence": {
+                "source_text": "Be  Story of a Soul: The  5,00  each  9,35  46,75  10%  51,42",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "unit_price": {
+              "value": "9,35",
+              "numeric_value": "9.35",
+              "evidence": {
+                "source_text": "Be  Story of a Soul: The  5,00  each  9,35  46,75  10%  51,42",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "line_total": {
+              "value": "46,75",
+              "numeric_value": "46.75",
+              "evidence": {
+                "source_text": "Be  Story of a Soul: The  5,00  each  9,35  46,75  10%  51,42",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "net_amount": {
+              "value": "46,75",
+              "numeric_value": "46.75",
+              "evidence": {
+                "source_text": "Be  Story of a Soul: The  5,00  each  9,35  46,75  10%  51,42",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "tax_rate": {
+              "value": "10%",
+              "numeric_value": "10",
+              "evidence": {
+                "source_text": "Be  Story of a Soul: The  5,00  each  9,35  46,75  10%  51,42",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "gross_amount": {
+              "value": "51,42",
+              "numeric_value": "51.42",
+              "evidence": {
+                "source_text": "Be  Story of a Soul: The  5,00  each  9,35  46,75  10%  51,42",
+                "page_number": 1
+              },
+              "reason": null
+            }
+          },
+          "amount_basis": "net"
+        },
+        {
+          "fields": {
+            "description": {
+              "value": "The Complete Idiots Guide to",
+              "numeric_value": null,
+              "evidence": {
+                "source_text": "4.  The Complete Idiots Guide to  4,00  each  4,49  17,96  10%  19,76",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "quantity": {
+              "value": "4,00",
+              "numeric_value": "4.00",
+              "evidence": {
+                "source_text": "4.  The Complete Idiots Guide to  4,00  each  4,49  17,96  10%  19,76",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "unit_price": {
+              "value": "4,49",
+              "numeric_value": "4.49",
+              "evidence": {
+                "source_text": "4.  The Complete Idiots Guide to  4,00  each  4,49  17,96  10%  19,76",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "line_total": {
+              "value": "17,96",
+              "numeric_value": "17.96",
+              "evidence": {
+                "source_text": "4.  The Complete Idiots Guide to  4,00  each  4,49  17,96  10%  19,76",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "net_amount": {
+              "value": "17,96",
+              "numeric_value": "17.96",
+              "evidence": {
+                "source_text": "4.  The Complete Idiots Guide to  4,00  each  4,49  17,96  10%  19,76",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "tax_rate": {
+              "value": "10%",
+              "numeric_value": "10",
+              "evidence": {
+                "source_text": "4.  The Complete Idiots Guide to  4,00  each  4,49  17,96  10%  19,76",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "gross_amount": {
+              "value": "19,76",
+              "numeric_value": "19.76",
+              "evidence": {
+                "source_text": "4.  The Complete Idiots Guide to  4,00  each  4,49  17,96  10%  19,76",
+                "page_number": 1
+              },
+              "reason": null
+            }
+          },
+          "amount_basis": "net"
+        },
+        {
+          "fields": {
+            "description": {
+              "value": "Rebecca to the Rescue",
+              "numeric_value": null,
+              "evidence": {
+                "source_text": "5:  Rebecca to the Rescue  2,00  each  4,89  9,78  10%  10,76",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "quantity": {
+              "value": "2,00",
+              "numeric_value": "2.00",
+              "evidence": {
+                "source_text": "5:  Rebecca to the Rescue  2,00  each  4,89  9,78  10%  10,76",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "unit_price": {
+              "value": "4,89",
+              "numeric_value": "4.89",
+              "evidence": {
+                "source_text": "5:  Rebecca to the Rescue  2,00  each  4,89  9,78  10%  10,76",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "line_total": {
+              "value": "9,78",
+              "numeric_value": "9.78",
+              "evidence": {
+                "source_text": "5:  Rebecca to the Rescue  2,00  each  4,89  9,78  10%  10,76",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "net_amount": {
+              "value": "9,78",
+              "numeric_value": "9.78",
+              "evidence": {
+                "source_text": "5:  Rebecca to the Rescue  2,00  each  4,89  9,78  10%  10,76",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "tax_rate": {
+              "value": "10%",
+              "numeric_value": "10",
+              "evidence": {
+                "source_text": "5:  Rebecca to the Rescue  2,00  each  4,89  9,78  10%  10,76",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "gross_amount": {
+              "value": "10,76",
+              "numeric_value": "10.76",
+              "evidence": {
+                "source_text": "5:  Rebecca to the Rescue  2,00  each  4,89  9,78  10%  10,76",
+                "page_number": 1
+              },
+              "reason": null
+            }
+          },
+          "amount_basis": "net"
+        },
+        {
+          "fields": {
+            "description": {
+              "value": "Tales from the Buffalo Bills",
+              "numeric_value": null,
+              "evidence": {
+                "source_text": "6.  Tales from the Buffalo Bills  1,00  each  5,50  5,50  10%  6,05",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "quantity": {
+              "value": "1,00",
+              "numeric_value": "1.00",
+              "evidence": {
+                "source_text": "6.  Tales from the Buffalo Bills  1,00  each  5,50  5,50  10%  6,05",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "unit_price": {
+              "value": "5,50",
+              "numeric_value": "5.50",
+              "evidence": {
+                "source_text": "6.  Tales from the Buffalo Bills  1,00  each  5,50  5,50  10%  6,05",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "line_total": {
+              "value": "5,50",
+              "numeric_value": "5.50",
+              "evidence": {
+                "source_text": "6.  Tales from the Buffalo Bills  1,00  each  5,50  5,50  10%  6,05",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "net_amount": {
+              "value": "5,50",
+              "numeric_value": "5.50",
+              "evidence": {
+                "source_text": "6.  Tales from the Buffalo Bills  1,00  each  5,50  5,50  10%  6,05",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "tax_rate": {
+              "value": "10%",
+              "numeric_value": "10",
+              "evidence": {
+                "source_text": "6.  Tales from the Buffalo Bills  1,00  each  5,50  5,50  10%  6,05",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "gross_amount": {
+              "value": "6,05",
+              "numeric_value": "6.05",
+              "evidence": {
+                "source_text": "6.  Tales from the Buffalo Bills  1,00  each  5,50  5,50  10%  6,05",
+                "page_number": 1
+              },
+              "reason": null
+            }
+          },
+          "amount_basis": "net"
+        },
+        {
+          "fields": {
+            "description": {
+              "value": "Vietnam, The Decisive Battles",
+              "numeric_value": null,
+              "evidence": {
+                "source_text": "7.  Vietnam, The Decisive Battles  2,00  each  7,68  15,36  10%  16,90",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "quantity": {
+              "value": "2,00",
+              "numeric_value": "2.00",
+              "evidence": {
+                "source_text": "7.  Vietnam, The Decisive Battles  2,00  each  7,68  15,36  10%  16,90",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "unit_price": {
+              "value": "7,68",
+              "numeric_value": "7.68",
+              "evidence": {
+                "source_text": "7.  Vietnam, The Decisive Battles  2,00  each  7,68  15,36  10%  16,90",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "line_total": {
+              "value": "15,36",
+              "numeric_value": "15.36",
+              "evidence": {
+                "source_text": "7.  Vietnam, The Decisive Battles  2,00  each  7,68  15,36  10%  16,90",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "net_amount": {
+              "value": "15,36",
+              "numeric_value": "15.36",
+              "evidence": {
+                "source_text": "7.  Vietnam, The Decisive Battles  2,00  each  7,68  15,36  10%  16,90",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "tax_rate": {
+              "value": "10%",
+              "numeric_value": "10",
+              "evidence": {
+                "source_text": "7.  Vietnam, The Decisive Battles  2,00  each  7,68  15,36  10%  16,90",
+                "page_number": 1
+              },
+              "reason": null
+            },
+            "gross_amount": {
+              "value": "16,90",
+              "numeric_value": "16.90",
+              "evidence": {
+                "source_text": "7.  Vietnam, The Decisive Battles  2,00  each  7,68  15,36  10%  16,90",
+                "page_number": 1
+              },
+              "reason": null
+            }
+          },
+          "amount_basis": "net"
+        }
+      ],
+      "reconciliations": [],
+      "tax_basis": "exclusive",
+      "line_items_complete": true,
+      "warnings": [
+        "Offline reference annotated from actual OCR text for regression testing. Not a live Gemini extraction."
+      ]
+    },
+    "validation": {
+      "checks": [
+        {
+          "name": "line_1_quantity_price",
+          "period": null,
+          "formula": "quantity × unit_price ≈ net_amount",
+          "operands": {
+            "quantity": "5.00",
+            "unit_price": "3.49"
+          },
+          "calculated_value": "17.4500",
+          "reported_value": "17.45",
+          "variance": "0.0000",
+          "tolerance": "0.05",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "name": "line_2_quantity_price",
+          "period": null,
+          "formula": "quantity × unit_price ≈ net_amount",
+          "operands": {
+            "quantity": "3.00",
+            "unit_price": "4.49"
+          },
+          "calculated_value": "13.4700",
+          "reported_value": "13.47",
+          "variance": "0.0000",
+          "tolerance": "0.05",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "name": "line_3_quantity_price",
+          "period": null,
+          "formula": "quantity × unit_price ≈ net_amount",
+          "operands": {
+            "quantity": "5.00",
+            "unit_price": "9.35"
+          },
+          "calculated_value": "46.7500",
+          "reported_value": "46.75",
+          "variance": "0.0000",
+          "tolerance": "0.05",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "name": "line_4_quantity_price",
+          "period": null,
+          "formula": "quantity × unit_price ≈ net_amount",
+          "operands": {
+            "quantity": "4.00",
+            "unit_price": "4.49"
+          },
+          "calculated_value": "17.9600",
+          "reported_value": "17.96",
+          "variance": "0.0000",
+          "tolerance": "0.05",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "name": "line_5_quantity_price",
+          "period": null,
+          "formula": "quantity × unit_price ≈ net_amount",
+          "operands": {
+            "quantity": "2.00",
+            "unit_price": "4.89"
+          },
+          "calculated_value": "9.7800",
+          "reported_value": "9.78",
+          "variance": "0.0000",
+          "tolerance": "0.05",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "name": "line_6_quantity_price",
+          "period": null,
+          "formula": "quantity × unit_price ≈ net_amount",
+          "operands": {
+            "quantity": "1.00",
+            "unit_price": "5.50"
+          },
+          "calculated_value": "5.5000",
+          "reported_value": "5.50",
+          "variance": "0.0000",
+          "tolerance": "0.05",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "name": "line_7_quantity_price",
+          "period": null,
+          "formula": "quantity × unit_price ≈ net_amount",
+          "operands": {
+            "quantity": "2.00",
+            "unit_price": "7.68"
+          },
+          "calculated_value": "15.3600",
+          "reported_value": "15.36",
+          "variance": "0.0000",
+          "tolerance": "0.05",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "name": "invoice_line_sum",
+          "period": null,
+          "formula": "line_1 + line_2 + line_3 + line_4 + line_5 + line_6 + line_7 ≈ subtotal",
+          "operands": {
+            "line_1": "17.45",
+            "line_2": "13.47",
+            "line_3": "46.75",
+            "line_4": "17.96",
+            "line_5": "9.78",
+            "line_6": "5.50",
+            "line_7": "15.36"
+          },
+          "calculated_value": "126.27",
+          "reported_value": "126.27",
+          "variance": "0.00",
+          "tolerance": "0.05",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "name": "invoice_tax_total",
+          "period": null,
+          "formula": "subtotal + tax_amount ≈ total_amount",
+          "operands": {
+            "subtotal": "126.27",
+            "tax_amount": "12.63"
+          },
+          "calculated_value": "138.90",
+          "reported_value": "138.90",
+          "variance": "0.00",
+          "tolerance": "0.05",
+          "status": "PASS",
+          "reason": null
+        },
+        {
+          "name": "invoice_cash_change",
+          "period": null,
+          "formula": "cash_paid - total_amount ≈ change",
+          "operands": {
+            "cash_paid": null,
+            "total_amount": "138.90"
+          },
+          "calculated_value": null,
+          "reported_value": null,
+          "variance": null,
+          "tolerance": "0.05",
+          "status": "NOT_APPLICABLE",
+          "reason": "A required source amount is missing, unreadable or ambiguous."
+        }
+      ],
+      "overall_status": "PASS",
+      "issues": []
+    },
+    "processing_metadata": {
+      "request_id": "42efa1dd43da466ebfd2beec825ad0e1",
+      "processed_at": "2026-09-11T07:47:12.830597+00:00",
+      "processing_time_ms": 683,
+      "ocr_used": true,
+      "model": "reference-fixture-replay",
+      "extraction_completed": true,
+      "source_sha256": "b618e6dd6c10b1590e41c4e986d98cb84da104950e20e15543929b7988b6d57e",
+      "pages": [
+        {
+          "page_number": 1,
+          "text": "Invoice no: 94404257\nDate of issue:  07/03/2013\nSeller:  Client:\nCruz PLC  Sandoval-Phillips\nUSNV Harris  23699 James Villages Suite 818\nFPO AA 34966  West Tamara, MS 58825\nTax Id: 964-99-8203  Tax Id: 976-94-5245\nIBAN: GB31XOVK34958853133204\nITEMS\nNo.  Description  Qty  UM  Net price  Net worth  VAT [%]  Gross\nworth\ntks  BOO28NAO6EC Shoeless Joe  5,00  each  3,49  17,45  10%  19,20\n2.  The Fifty Greatest Conspiracies  3,00  each  4,49  13,47  10%  14,82\nof All Time History s Biggest\nMyster\nBe  Story of a Soul: The  5,00  each  9,35  46,75  10%  51,42\nAutobiography of St. Therese of\nLisieux\n4.  The Complete Idiots Guide to  4,00  each  4,49  17,96  10%  19,76\nTrouble-Free Home Re\n5:  Rebecca to the Rescue  2,00  each  4,89  9,78  10%  10,76\n(American Girl (Quality))\n6.  Tales from the Buffalo Bills  1,00  each  5,50  5,50  10%  6,05\n7.  Vietnam, The Decisive Battles  2,00  each  7,68  15,36  10%  16,90\nSUMMARY\nVAT [%]  Net worth  VAT  Gross worth\n10%  126,27  12,63  138,90\nTotal  $ 126,27  $ 12,63  $ 138,90",
+          "method": "tesseract",
+          "rotation_applied": 0,
+          "ocr_mean_word_confidence": 94.71
+        }
+      ],
+      "warnings": [],
+      "error_code": null,
+      "error_message": null
+    }
+  }
+}

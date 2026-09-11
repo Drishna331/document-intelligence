@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Invoices/X51008142038.jpg",
+  "document_type": "invoice",
+  "sha256": "e008cba939fd03693d27ec45fa3d79786201d19c59a7c00131c8e1001904ea7a",
+  "file_validation": {
+    "file_name": "X51008142038.jpg",
+    "file_type": "image/jpeg",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "99  SPEED  MART  5/8  (519537-%)\nLOT  P.T.  2811,  JALAN  ANGSA,\nTAMAN  BERKELEY\n44150  KLANG,  SELANGOR\n1225-DENGKIL\nGST  ID,  NO  :  000181747712\nINVOICE  NO  :  18291/102/T0163\n11:59AM  567640  28-01-18\n973  COKE  LIGHT  SOOML  RN4.40  =\n@2  X  RM  2,20\n5581  SPRITZER  MINERAL  WATER  = RM23.50\nTotal  Sales  (Inclusive  G57)  RM  27.90\nCASH  RM  28.00\nCHANGE  RM  10\nGST  Summary  Amount (RM)  Tax(RM)\n¢  =  67  26.33  1.57\nThank  You.  Please  come  again\nKeep  the  invoice  for  applicable  returns",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 79.46
+    }
+  ],
+  "elapsed_seconds": 1.209
+}

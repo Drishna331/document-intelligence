@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Balance Sheet/Consolidated Balance Sheet 2021.pdf",
+  "document_type": "balance_sheet",
+  "sha256": "df63c449ac8d1b1f8a632d069fac03aae405252d4f2746a3fc62b990d1c89c79",
+  "file_validation": {
+    "file_name": "Consolidated Balance Sheet 2021.pdf",
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "\"1  Consolidated Balance Sheet\nAs at March 31, 2021\n% in ‘000\nSchedule  As at 31-Mar-21  As at 31-Mar-20\nCAPITAL AND LIABILITIES\n‘Capital  1  5,512,776  5,483,286\nReservesandsurplus  ss  ssssi—‘i—sSS——CO  2,092,589,110 —=—_1,758,103,766\nMinority interest  a). ae  6,327,647 «5,766,413\nDeposits  13,937,208,758 —11,462,071,336\nBorrowings  4.  1,776,967,487  1,868,343,231\nOther liabilities and provisions  5  776,460,664  708,536,341\nTotal t—<“tiCi‘“‘“‘i‘isOSOSOSOS™S™S™S™SSS TT 895,066,442  — 15,808,304,373\nASSETS\nCash and balances with Reserve Bank of India  6  973,703,555 «722,110,033\nBalances with banks and money at call and short notice  7  ;  239,021,709  157,291,086\nInvestments  8  4,388,231,117  3,893,049,519\nAdvances  gn  11,852,835,198  —-10,436,708,771\nFixed assets  10  50,995,631  46,268,558\nOtherassetts  490,279,232 552,876,406\nTotal t—(i—‘“‘“‘“‘i<i‘ié 87 995,066,442  — 15,808,304,373\nContingentiiabiiies  ==  ssisi<‘—sSsS  9,752,806,592  —=-11,304,740,615\nBills for collection  447,481,440  515,849,020\n‘Significant accounting policies and notes to the Consolidated financial statements  17818 —  OO\nThe schedules referred to above form an integral part of the Consolidated\nBalance Sheet\nAs per our report of even date  For and on behalf of the Board\nFor MSKA & Associates  Umesh Chandra Sarangi  Sashidhar Jagdishan\nChartered Accountants  Independent Director  Managing Director & CEO\nICAI Firm Registration Number: 105047W\nSwapnil Kale  Kaizad Bharucha  Srinivasan Vaidyanathan\nPartner  Executive Director  Chief Financial Officer\nMembership Number: 117812\nMumbai, April 17, 2021  Santosh Haldankar\nCompany Secretary\n278",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 77.05
+    }
+  ],
+  "elapsed_seconds": 1.993
+}

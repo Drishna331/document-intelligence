@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Balance Sheet/Consolidated Balance Sheet 2023.pdf",
+  "document_type": "balance_sheet",
+  "sha256": "34c8ed99ffdc9c20b91fc91c83d7ab3887b60f08b409e35c1cbc98433d36271e",
+  "file_validation": {
+    "file_name": "Consolidated Balance Sheet 2023.pdf",
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "t=;  Consolidated Balance Sheet  |\nAs at March 31, 2023\n% in crore\nSaitashie  March ees  |\nCAPITAL AND LIABILITIES  |  sisdY\nCapital  1  554.55\nReserves and surplus  2  246,771.62\nMinority interest  2A  720.41\nDeposits  3  1,558,003.03\nBorrowings  4  226,966.50\nOther liabilities and provisions  5  89,918.19  /\nTotal  2,122,934.30  /\nASSETS  |  |\nCash and balances with Reserve Bank of India  6  130,030.71\nBalances with banks and money at call and short notice  7  25,355.02\nInvestments  8  449,263.86\nAdvances  9  1,420,942.28\nFixed assets  10  6,283.28  i\nOther assets  1  90,910.36\nGoodwill on Consolidation  148,79\nTotal  2,122,934.30\nContingent liabilities  12  1,400,197.64\nBills for collection  56,968.05  /\nSignificant accounting policies and notes to the Consolidated financial statements  17 &18 P|\nThe schedules referred to above form an integral part of the Consolidated Balance Sheet.  :\nAs per our report of even date  For and on behalf of the Board\nFor MM Nissim & Co LLP  For Price Waterhouse LLP  Atanu Chakraborty  Umesh Chandra Sarangi\nChartered Accountants  Chartered Accountants  Part-time Chairman of the Board  Independent Director\nICAI Firm Registration Number:  ICAI Firm Registration Number:  :\n107122W/W100672  301112E/E300264  M. D. Ranganath  Sandeep Parekh  ‘\nIndependent Director  Independent Director\nSanjay Khemani  Sharad Vasant  Sanjiv Sachar  Lily Vadera  :\nPartner  Partner  Independent Director  Independent Director\nMembership Number: 044577  Membership Number: 101119\nSashidhar Jagdishan  Renu Karnad  /\nManaging Director & CEO  Non-Executive Director\nKaizad Bharucha  Srinivasan Vaidyanathan\nExecutive Director  Chief Financial Officer\nSantosh Haldankar\nMumbai, April 15, 2023  Company Secretary\n318",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 88.55
+    }
+  ],
+  "elapsed_seconds": 0.97
+}

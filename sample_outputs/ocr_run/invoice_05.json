@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Invoices/batch3-1354.jpg",
+  "document_type": "invoice",
+  "sha256": "7e7d954ea8b56895b497a260ab8a6e430aaa44b7ed4558273d6d9c324d9b7d96",
+  "file_validation": {
+    "file_name": "batch3-1354.jpg",
+    "file_type": "image/jpeg",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "A.E. Blake Sales Ltd.  Tel. 416 431 0440\nLE. Ss  VENTE. Ss AE.  BLAKE  100 Consilium Place  Fax. 416 431 0450\n_  Suite 200  torontosales@aeblake.ca\nA. E .  B L A K E Ss ‘A L E Ss  Scarborough, ON  www.aeblake.ca\nM1H 3E3\nInvoice - Facture  NO:  — 138236\nDATE:  Jan 06 2022\nVendu a - Sold To  Livré a - Ship To\nOz Optics Ltd.  Oz Optics Ltd.\n219 Westbrook Road  219 Westbrook Road\nAP@ozoptics.com  AP@ozoptics.com\nCARP, Ontario, Canada  CARP, Ontario, Canada\nKOA 1L0  KOA 1L0\nCOMPTE CLIENT/  BON D'ACHAT CLIENT/  DATE COMMANDE/  COMMANDE AEB/\nCUSTOMER ACCOUNT  CUSTOMER PO  ORDER DATE  AEB ORDER\n10102028  292539  Jun 24 2021  50001506\nTERMES/  REPRESENTANT/  CONDITIONS D’EXPEDITION/  LIVRE PAR/\nTERMS  REPRESENTATIVE  SHIPPING TERMS  SHIP VIA\nNet 30 Days  Perry Chan OR Jeff Kang  Origin  UPS 3rd Party 139 2X5\nExpedited\n#  ITEM  DESCRIPTION  QTE/QTY   PRIX/PRICE  U/M  EXTENSION\n30  100237  BC 27767  24  $23.50  KIT  $564.00\nAraldite 2014 HT Epoxy Paste GRAY 50ml 2:1\n6 cartridges/box |\n120 cartridges/case\nBC/REF# BC 27767\nD.O.E on products\n40  100237  BC 27767  24  $23.50  KIT  $564.00\nAraldite 2014 HT Epoxy Paste GRAY 50ml 2:1\n6 cartridges/box |\n120 cartridges/case\nBC/REF# BC 27767\nD.O.E on products\nCourrier / Carrier: UPS CANADA  Bon d'emballage / Packing Slip: 50001506-9905\nWaybill: 126419X22090745749  Date D’expédition / Shipping Date: Jan 06 2022\nAEB Reference Quote# 50001502-6980 EXPEDITED  S. Total:  $ 1,128.00\n13% HST:  $ 146.64\nhttp://www. aeblake.ca/en/terms. php\nMerci - Thank you.  Votre contact - Your contact: DRAKE  Total:  $ 1,274.64\nCAD\nNo. T.P.S. - G.S.T. No. : 100064716  No. T.V.Q. - Q.S.T. No. : M1000098741TQ0001JT  Page 1/1\nMontréal - Toronto",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 89.98
+    }
+  ],
+  "elapsed_seconds": 1.239
+}

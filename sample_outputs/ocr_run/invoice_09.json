@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Invoices/X51005361895.jpg",
+  "document_type": "invoice",
+  "sha256": "deec5eb31030870b22f5428520ce3b5a3165e733471b0bbe8919f87996e9c602",
+  "file_validation": {
+    "file_name": "X51005361895.jpg",
+    "file_type": "image/jpeg",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "acon\n|  a  Py  =  |\nFUYI  MI  T  |\nSBR  No.  O195d32K  >\nP-46-476,  |  »\nTAMAN SET  /\n““IJOK, 45600 BE  ABIOHYA\nKUALA SELANGOR'Y\n03-3279 1851,  -\nGST No. : coreDva720  |\n26/01/2018  1:22:56PM\nTAX INVOICE\nTRN:  1CRO576494\nCOUNTER  1  CASHIER:  HOCK\nQty  OM  U.Price Amt  Amt Inc Tax Code\n013 SUMMER CUP 48X230ML\n{  KOTAP8.49  6.49  9.00  SR\nGST6%+  0.51\n‘otalQty. 1.00  ~~  9.00\nTotal  Includes GST 6%  9.00\nCustomer's Payment\nCash  50.00\nChange  41.00\nGST Summary  Amount  Tax\nSR  eB.  0.51\n*Goads sold are not returnable\nThank you for shopping at  FUY! MINI\nMARKET",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 73.79
+    }
+  ],
+  "elapsed_seconds": 2.672
+}

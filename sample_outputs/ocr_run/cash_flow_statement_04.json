@@ -1,0 +1,30 @@
+{
+  "source": "New Dataset/Cash Flows/Consolidated Cash Flow Statement 2020.pdf",
+  "document_type": "cash_flow_statement",
+  "sha256": "97bae602522421e868668ac7c441810082b5ac943d1113696a8ffb87336c5418",
+  "file_validation": {
+    "file_name": "Consolidated Cash Flow Statement 2020.pdf",
+    "file_type": "application/pdf",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 2,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Consolidated Cash Flow Statement\nFor the year ended March 31, 2020\nin ‘000\nYear ended\n31-Mar-20  31-Mar-19\nCash flows from operating activities  ro\nConsolidated profit before income tax  342,049,793\nAdjustments for:  hz\nDepreciation on fixed assets  12,206,675\n(Profit) / loss on revaluation of investments  152,437\nAmortisation of premium on held to maturity investments  4,534,626\n(Profit) / loss on sale of fixed assets  (62,054)\nProvision / charge for non performing assets  74,233,774\nProvision for standard assets and Contingencies  11,852,505\nwr\nAdjustments for:  rd\n(Increase) / decrease in investments  (514,583,611)\n(Increase) / decrease in advances  (1,766,074,976)\nIncrease / (decrease) in deposits  1,341 ,275,360\n(Increase) / decrease in other assets  (97,167,983)\nIncrease / (decrease) in other liabilities and provisions  87,851,107\nDirect taxes paid (net of refunds)  (124,983,100)\nNet cash flow used in operating activities  (628,715,447)\nCash flows used in investing activities  yl\nPurchase of fixed assets  (16,206, 124)\nProceeds from sale of fixed assets  222,037\nNet cash flow used in investing activities  (15,984,087)\n238 HDFC Bank Limited Integrated Annual Report 2019-20",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 92.96
+    },
+    {
+      "page_number": 2,
+      "text": "Integrated Report  Financial Statements and Statutory Reports\n% in ‘000\nYear ended\n31-Mar-20  31-Mar-19\nCash flows from financing activities  ;.SCté<~*™”\nIncrease in minority interest  1,454,623\nProceeds from issue of share capital, net of issue expenses  257,904,302\nProceeds from issue of Tier | and Tier Il capital bonds  9,000,000\nRedemption of Tier || capital bonds  Ft  (28,750,000)\nIncrease / (decrease) in other borrowings  32,656,942\nDividend paid during the year (including tax on dividend)  (40,958,935)\nNet cash flow from financing activities  231,306,932\nEffect of exchange fluctuation on translation reserve  953,463\nNet increase / (decrease) in cash and cash equivalents  (412,439,139)\nCash and cash equivalents as at April 1st  1,230,615,562\nCash and cash equivalents as at March 31st  818,176,423\nAs per our report of even date.  For and on behalf of the Board\nFor MSKA & Associates  Shyamala Gopinath  Umesh Chandra Sarangi\nChartered Accountants  Part Time Non-Executive Chairperson &  Independent Director\nICAI Firm Registration Number: 105047W  Independent Director\nSwapnil Kale  Aditya Puri  Srinivasan Vaidyanathan\nPartner  Managing Director  Chief Financial Officer\nMembership Number: 117812\nMumbai, April 18, 2020  puree\n239",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 93.41
+    }
+  ],
+  "elapsed_seconds": 1.663
+}

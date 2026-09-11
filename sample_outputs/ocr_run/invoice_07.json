@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Invoices/batch3-1495.jpg",
+  "document_type": "invoice",
+  "sha256": "bd3a25c965b606363bf1adfca1e856f8974e6c9d603d4f6075f7852cf1a38d76",
+  "file_validation": {
+    "file_name": "batch3-1495.jpg",
+    "file_type": "image/jpeg",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Invoice\nMeld #298839\nBEYOND DIGITAL IMAGING\n36 Apple Creek Blvd.\nMARKHAM,L3R 4Y4\nTotal: $5257\nFrom\nMARKHAM\nL3R 4Y4\nTicket Completed  Invoice date\nOct. 13, 2023  Sept. 5, 2023\nNotes\nUnclogged the disposal and repaired the stove knob. Both working as they should.\nNo.  Description  Quantity  Rate  Cost  Amount\n5991  3M SJ3550 Dual Lock Fastener  9  $367  $367  $3303\n6015  3M 369 Trans Polypro  9  $1  $1  $9\n6157  3M 4949 VHB Acryl. Foam Tape  1  $110  $110  $110\n5810  3M 2242 Electrical Rubber  6  $4  $4  $24\n5862  3M 256 Printable Flatback WH  2  $17  $17  $34\nTotal:$5257",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 95.27
+    }
+  ],
+  "elapsed_seconds": 0.615
+}

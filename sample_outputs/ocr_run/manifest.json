@@ -1,0 +1,705 @@
+{
+  "mode": "ocr",
+  "records": [
+    {
+      "source": "New Dataset/Balance Sheet/Consolidated Balance Sheet 2017.pdf",
+      "document_type": "balance_sheet",
+      "sha256": "05a19e2b51301fbaac1d87da10bf14ecb25e1e7b825f5e53694254dc97052ad1",
+      "file_validation": {
+        "file_name": "Consolidated Balance Sheet 2017.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.067
+    },
+    {
+      "source": "New Dataset/Balance Sheet/Consolidated Balance Sheet 2018.pdf",
+      "document_type": "balance_sheet",
+      "sha256": "969e7161e5ed1bf686ada6df1b678154063c4d2aa8d7d1167bdf80742d69d48d",
+      "file_validation": {
+        "file_name": "Consolidated Balance Sheet 2018.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.115
+    },
+    {
+      "source": "New Dataset/Balance Sheet/Consolidated Balance Sheet 2019.pdf",
+      "document_type": "balance_sheet",
+      "sha256": "c7d8db56210dd6f80fc40fd861b4a4a5de15eae23cb1d9c19efa1a0de4a59cc4",
+      "file_validation": {
+        "file_name": "Consolidated Balance Sheet 2019.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.118
+    },
+    {
+      "source": "New Dataset/Balance Sheet/Consolidated Balance Sheet 2020.pdf",
+      "document_type": "balance_sheet",
+      "sha256": "52f8ae694b05ed98e83a5c718a121806211571f262fd260ac8f48adcf24ffbd4",
+      "file_validation": {
+        "file_name": "Consolidated Balance Sheet 2020.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.032
+    },
+    {
+      "source": "New Dataset/Balance Sheet/Consolidated Balance Sheet 2021.pdf",
+      "document_type": "balance_sheet",
+      "sha256": "df63c449ac8d1b1f8a632d069fac03aae405252d4f2746a3fc62b990d1c89c79",
+      "file_validation": {
+        "file_name": "Consolidated Balance Sheet 2021.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.993
+    },
+    {
+      "source": "New Dataset/Balance Sheet/Consolidated Balance Sheet 2022.pdf",
+      "document_type": "balance_sheet",
+      "sha256": "1be19ce1be9857fe379911d2b570770ca4e0b483f5cc5be24510632c974680d4",
+      "file_validation": {
+        "file_name": "Consolidated Balance Sheet 2022.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.286
+    },
+    {
+      "source": "New Dataset/Balance Sheet/Consolidated Balance Sheet 2023.pdf",
+      "document_type": "balance_sheet",
+      "sha256": "34c8ed99ffdc9c20b91fc91c83d7ab3887b60f08b409e35c1cbc98433d36271e",
+      "file_validation": {
+        "file_name": "Consolidated Balance Sheet 2023.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 0.97
+    },
+    {
+      "source": "New Dataset/Balance Sheet/Consolidated Balance Sheet 2024.pdf",
+      "document_type": "balance_sheet",
+      "sha256": "ccd066d93e9061959fcc1c641d61e73e59ad1c7517499a89a0f67b6f9b6415e8",
+      "file_validation": {
+        "file_name": "Consolidated Balance Sheet 2024.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.407
+    },
+    {
+      "source": "New Dataset/Balance Sheet/Consolidated Balance Sheet 2025.pdf",
+      "document_type": "balance_sheet",
+      "sha256": "8829de010d6d26c636422c4f4eb8ba099ba1e06e2ee4bead070f3859c2e15c25",
+      "file_validation": {
+        "file_name": "Consolidated Balance Sheet 2025.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.103
+    },
+    {
+      "source": "New Dataset/Balance Sheet/Consolidated Balance Sheet 2026.pdf",
+      "document_type": "balance_sheet",
+      "sha256": "4f5c782350eb568d9cb5bbd0817737d52665f601fb2bb67ce2819de9fe3a1b41",
+      "file_validation": {
+        "file_name": "Consolidated Balance Sheet 2026.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.264
+    },
+    {
+      "source": "New Dataset/Cash Flows/Consolidated Cash Flow Statement 2017.pdf",
+      "document_type": "cash_flow_statement",
+      "sha256": "49cc7ee24e82ddf9b5c8b23aff4eb3eda29bfba5a25880bfe81b02c6c5b79e39",
+      "file_validation": {
+        "file_name": "Consolidated Cash Flow Statement 2017.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 2,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 2.082
+    },
+    {
+      "source": "New Dataset/Cash Flows/Consolidated Cash Flow Statement 2018.pdf",
+      "document_type": "cash_flow_statement",
+      "sha256": "c909985cb1dab42fd5aecb2d498977e4e2102fcacd2a59e879c5e3e568325c43",
+      "file_validation": {
+        "file_name": "Consolidated Cash Flow Statement 2018.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 2,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 2.06
+    },
+    {
+      "source": "New Dataset/Cash Flows/Consolidated Cash Flow Statement 2019.pdf",
+      "document_type": "cash_flow_statement",
+      "sha256": "bc8f7ef0345d27e8c2da377a44c81fc0147a5097d72a51b81ac32aeb9f601864",
+      "file_validation": {
+        "file_name": "Consolidated Cash Flow Statement 2019.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 2,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 2.164
+    },
+    {
+      "source": "New Dataset/Cash Flows/Consolidated Cash Flow Statement 2020.pdf",
+      "document_type": "cash_flow_statement",
+      "sha256": "97bae602522421e868668ac7c441810082b5ac943d1113696a8ffb87336c5418",
+      "file_validation": {
+        "file_name": "Consolidated Cash Flow Statement 2020.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 2,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.663
+    },
+    {
+      "source": "New Dataset/Cash Flows/Consolidated Cash Flow Statement 2021.pdf",
+      "document_type": "cash_flow_statement",
+      "sha256": "0466c7ca41c69b3631816976a3a5e9a0c555aad6562760e0a694b6f028d384a7",
+      "file_validation": {
+        "file_name": "Consolidated Cash Flow Statement 2021.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.523
+    },
+    {
+      "source": "New Dataset/Cash Flows/Consolidated Cash Flow Statement 2022.pdf",
+      "document_type": "cash_flow_statement",
+      "sha256": "deb487dbb1e2b7d19a5b428106e19f35ec3923bfafebfdea3c9c3a970eee5ac8",
+      "file_validation": {
+        "file_name": "Consolidated Cash Flow Statement 2022.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 0.083
+    },
+    {
+      "source": "New Dataset/Cash Flows/Consolidated Cash Flow Statement 2023.pdf",
+      "document_type": "cash_flow_statement",
+      "sha256": "f7164060f9c7fdf2d230859c79ef73959d82c30d554ac9431b272f16a45c35c9",
+      "file_validation": {
+        "file_name": "Consolidated Cash Flow Statement 2023.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.441
+    },
+    {
+      "source": "New Dataset/Cash Flows/Consolidated Cash Flow Statement 2024.pdf",
+      "document_type": "cash_flow_statement",
+      "sha256": "226691703e1492a81b3ca3e5c0594df2d663a8724a47f5141b1a73094983eba4",
+      "file_validation": {
+        "file_name": "Consolidated Cash Flow Statement 2024.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 2,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 3.215
+    },
+    {
+      "source": "New Dataset/Cash Flows/Consolidated Cash Flow Statement 2025.pdf",
+      "document_type": "cash_flow_statement",
+      "sha256": "e4d4bd38c6f8fe0a8c82dee76ac80b0627423db4542ea07616644dde7a6b2afe",
+      "file_validation": {
+        "file_name": "Consolidated Cash Flow Statement 2025.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 2,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 2.052
+    },
+    {
+      "source": "New Dataset/Cash Flows/Consolidated Cash Flow Statement 2026.pdf",
+      "document_type": "cash_flow_statement",
+      "sha256": "3fd321f726dafd2601ad94d837c4f63c75c7ccb1f881c5ac8089c9a5b2d0dddd",
+      "file_validation": {
+        "file_name": "Consolidated Cash Flow Statement 2026.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 2,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 2.177
+    },
+    {
+      "source": "New Dataset/Invoices/20251118_000612.jpg",
+      "document_type": "invoice",
+      "sha256": "1f8e6506e848bdad7508525f2e047568a4c5d580e68ebd464bb262ebd2ef038b",
+      "file_validation": {
+        "file_name": "20251118_000612.jpg",
+        "file_type": "image/jpeg",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 7.442
+    },
+    {
+      "source": "New Dataset/Invoices/batch1-1109.jpg",
+      "document_type": "invoice",
+      "sha256": "b618e6dd6c10b1590e41c4e986d98cb84da104950e20e15543929b7988b6d57e",
+      "file_validation": {
+        "file_name": "batch1-1109.jpg",
+        "file_type": "image/jpeg",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 0.644
+    },
+    {
+      "source": "New Dataset/Invoices/batch2-0499.jpg",
+      "document_type": "invoice",
+      "sha256": "98e032d3d9b7dbf0470e71b9aa3dc4c0d41efc202eb7cf13dec5f4d305ff259c",
+      "file_validation": {
+        "file_name": "batch2-0499.jpg",
+        "file_type": "image/jpeg",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 0.871
+    },
+    {
+      "source": "New Dataset/Invoices/batch2-0999.jpg",
+      "document_type": "invoice",
+      "sha256": "60cff50794974d863d9f190ae95511a536d004231cbd53ac944f1c31cfac6fcd",
+      "file_validation": {
+        "file_name": "batch2-0999.jpg",
+        "file_type": "image/jpeg",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 0.701
+    },
+    {
+      "source": "New Dataset/Invoices/batch3-1354.jpg",
+      "document_type": "invoice",
+      "sha256": "7e7d954ea8b56895b497a260ab8a6e430aaa44b7ed4558273d6d9c324d9b7d96",
+      "file_validation": {
+        "file_name": "batch3-1354.jpg",
+        "file_type": "image/jpeg",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.239
+    },
+    {
+      "source": "New Dataset/Invoices/batch3-1445.jpg",
+      "document_type": "invoice",
+      "sha256": "4920ec9f255e0007829b0be4795bddfe4c6294a6c0e5d0aa124ab4b7d8372961",
+      "file_validation": {
+        "file_name": "batch3-1445.jpg",
+        "file_type": "image/jpeg",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 0.674
+    },
+    {
+      "source": "New Dataset/Invoices/batch3-1495.jpg",
+      "document_type": "invoice",
+      "sha256": "bd3a25c965b606363bf1adfca1e856f8974e6c9d603d4f6075f7852cf1a38d76",
+      "file_validation": {
+        "file_name": "batch3-1495.jpg",
+        "file_type": "image/jpeg",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 0.615
+    },
+    {
+      "source": "New Dataset/Invoices/X00016469619.jpg",
+      "document_type": "invoice",
+      "sha256": "4e7bb7f427732e769eafc6f6eed5a92eedccf96bc0c711f46466462b98916c73",
+      "file_validation": {
+        "file_name": "X00016469619.jpg",
+        "file_type": "image/jpeg",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.156
+    },
+    {
+      "source": "New Dataset/Invoices/X51005361895.jpg",
+      "document_type": "invoice",
+      "sha256": "deec5eb31030870b22f5428520ce3b5a3165e733471b0bbe8919f87996e9c602",
+      "file_validation": {
+        "file_name": "X51005361895.jpg",
+        "file_type": "image/jpeg",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 2.672
+    },
+    {
+      "source": "New Dataset/Invoices/X51005663293.jpg",
+      "document_type": "invoice",
+      "sha256": "f501529a447f003e2f542b827933c2e72b7e6edca53be15c02d01161a1429221",
+      "file_validation": {
+        "file_name": "X51005663293.jpg",
+        "file_type": "image/jpeg",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.363
+    },
+    {
+      "source": "New Dataset/Invoices/X51005719883.jpg",
+      "document_type": "invoice",
+      "sha256": "bfd9106416ab76a7d053982fd1e46f40b646895f977c56a47370aa8bc370a229",
+      "file_validation": {
+        "file_name": "X51005719883.jpg",
+        "file_type": "image/jpeg",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.848
+    },
+    {
+      "source": "New Dataset/Invoices/X51005757342.jpg",
+      "document_type": "invoice",
+      "sha256": "22d6f3275344e8ab631f31da590c028cd77475b7aecdeee5c93e3aa3d2a6b79d",
+      "file_validation": {
+        "file_name": "X51005757342.jpg",
+        "file_type": "image/jpeg",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 3.069
+    },
+    {
+      "source": "New Dataset/Invoices/X51005806685.jpg",
+      "document_type": "invoice",
+      "sha256": "dab060ae8139a6fd841bba0aea092a5caade7dd5093abc285e5809bf4510117f",
+      "file_validation": {
+        "file_name": "X51005806685.jpg",
+        "file_type": "image/jpeg",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 2.144
+    },
+    {
+      "source": "New Dataset/Invoices/X51006328913.jpg",
+      "document_type": "invoice",
+      "sha256": "8b31ff5f14fdb9973fdb509ad997439be2811a342327f0417b21a8754704c504",
+      "file_validation": {
+        "file_name": "X51006328913.jpg",
+        "file_type": "image/jpeg",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.814
+    },
+    {
+      "source": "New Dataset/Invoices/X51006334741.jpg",
+      "document_type": "invoice",
+      "sha256": "246d06a0935c645d6cde3c7311a905c8e14716886ceb3aa90e98bde838eee29a",
+      "file_validation": {
+        "file_name": "X51006334741.jpg",
+        "file_type": "image/jpeg",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 3.502
+    },
+    {
+      "source": "New Dataset/Invoices/X51006387931.jpg",
+      "document_type": "invoice",
+      "sha256": "d2d3f366a15c85af169294363567e3158c57f94c86c846e5d3d465366e24a960",
+      "file_validation": {
+        "file_name": "X51006387931.jpg",
+        "file_type": "image/jpeg",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 2.007
+    },
+    {
+      "source": "New Dataset/Invoices/X51008099043.jpg",
+      "document_type": "invoice",
+      "sha256": "0f98566780e72642d76cd247cc607e7f35b563df60358ab7d42f7011249994f1",
+      "file_validation": {
+        "file_name": "X51008099043.jpg",
+        "file_type": "image/jpeg",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 0.617
+    },
+    {
+      "source": "New Dataset/Invoices/X51008099071.jpg",
+      "document_type": "invoice",
+      "sha256": "dfd45d5933cbcbcec8ee24ecc1e304b737d5b58b5c22653e2f81f07e70b00f52",
+      "file_validation": {
+        "file_name": "X51008099071.jpg",
+        "file_type": "image/jpeg",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 0.644
+    },
+    {
+      "source": "New Dataset/Invoices/X51008142038.jpg",
+      "document_type": "invoice",
+      "sha256": "e008cba939fd03693d27ec45fa3d79786201d19c59a7c00131c8e1001904ea7a",
+      "file_validation": {
+        "file_name": "X51008142038.jpg",
+        "file_type": "image/jpeg",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.209
+    },
+    {
+      "source": "New Dataset/Invoices/X51008145450.jpg",
+      "document_type": "invoice",
+      "sha256": "1f65581ac31cce5e59a8d32ffb3dd8bd26cf62461eaabbb3091a528d859e6169",
+      "file_validation": {
+        "file_name": "X51008145450.jpg",
+        "file_type": "image/jpeg",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.427
+    },
+    {
+      "source": "New Dataset/Profit & Loss/Consolidated Profit & Loss 2017.pdf",
+      "document_type": "profit_and_loss",
+      "sha256": "f69cd383985ac49c76c43761b4ddc8cf82aba9633a3fb562b5e8e0a49b660ace",
+      "file_validation": {
+        "file_name": "Consolidated Profit & Loss 2017.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.327
+    },
+    {
+      "source": "New Dataset/Profit & Loss/Consolidated Profit & Loss 2018.pdf",
+      "document_type": "profit_and_loss",
+      "sha256": "823d5b1fb7772ff7704e475dab946a3f5dc6437d5f587c4a6f6c73b39eeab9c0",
+      "file_validation": {
+        "file_name": "Consolidated Profit & Loss 2018.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.309
+    },
+    {
+      "source": "New Dataset/Profit & Loss/Consolidated Profit & Loss 2019.pdf",
+      "document_type": "profit_and_loss",
+      "sha256": "4fa1c99fef0c07c2e754839e1ff8c6d58c5c5db773c17ba148120f7f075c1b76",
+      "file_validation": {
+        "file_name": "Consolidated Profit & Loss 2019.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.208
+    },
+    {
+      "source": "New Dataset/Profit & Loss/Consolidated Profit & Loss 2020.pdf",
+      "document_type": "profit_and_loss",
+      "sha256": "4687caa29f070950b3fa69d8e398d2d7042e27694682519e8b29669705460611",
+      "file_validation": {
+        "file_name": "Consolidated Profit & Loss 2020.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.069
+    },
+    {
+      "source": "New Dataset/Profit & Loss/Consolidated Profit & Loss 2021.pdf",
+      "document_type": "profit_and_loss",
+      "sha256": "26a0f42b0c8b32b2abb22dccd05b15dd71851ccf5e1d264eb84e8ab7078c4d40",
+      "file_validation": {
+        "file_name": "Consolidated Profit & Loss 2021.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.262
+    },
+    {
+      "source": "New Dataset/Profit & Loss/Consolidated Profit & Loss 2022.pdf",
+      "document_type": "profit_and_loss",
+      "sha256": "735d37370b5c45810f44b4ad976729faaf426fdcd6aef1197d0557acf35cb41e",
+      "file_validation": {
+        "file_name": "Consolidated Profit & Loss 2022.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.459
+    },
+    {
+      "source": "New Dataset/Profit & Loss/Consolidated Profit & Loss 2023.pdf",
+      "document_type": "profit_and_loss",
+      "sha256": "7ffdb8e9da12fa2452225dd877e9c057f86398401cdb50ce4f469fd92a6a13e7",
+      "file_validation": {
+        "file_name": "Consolidated Profit & Loss 2023.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.28
+    },
+    {
+      "source": "New Dataset/Profit & Loss/Consolidated Profit & Loss 2024.pdf",
+      "document_type": "profit_and_loss",
+      "sha256": "c33f51563731a6580a66c2f5a9d6aa71dbbd31843ad2579382b43bbe52555b15",
+      "file_validation": {
+        "file_name": "Consolidated Profit & Loss 2024.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.418
+    },
+    {
+      "source": "New Dataset/Profit & Loss/Consolidated Profit & Loss 2025.pdf",
+      "document_type": "profit_and_loss",
+      "sha256": "3236296225dca69d1d012f37c5d5757adb68c0e66710ad87d0dbf1d6b201d505",
+      "file_validation": {
+        "file_name": "Consolidated Profit & Loss 2025.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.415
+    },
+    {
+      "source": "New Dataset/Profit & Loss/Consolidated Profit & Loss 2026.pdf",
+      "document_type": "profit_and_loss",
+      "sha256": "6f41d5c7d92648714976b8163822706a4c1238ead1960df974d2005e7f238040",
+      "file_validation": {
+        "file_name": "Consolidated Profit & Loss 2026.pdf",
+        "file_type": "application/pdf",
+        "is_supported": true,
+        "is_readable": true,
+        "page_count": 1,
+        "status": "PASS"
+      },
+      "elapsed_seconds": 1.419
+    }
+  ]
+}

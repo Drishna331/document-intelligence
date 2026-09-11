@@ -1,0 +1,23 @@
+{
+  "source": "New Dataset/Invoices/X51005757342.jpg",
+  "document_type": "invoice",
+  "sha256": "22d6f3275344e8ab631f31da590c028cd77475b7aecdeee5c93e3aa3d2a6b79d",
+  "file_validation": {
+    "file_name": "X51005757342.jpg",
+    "file_type": "image/jpeg",
+    "is_supported": true,
+    "is_readable": true,
+    "page_count": 1,
+    "status": "PASS"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "31803044\nMR.  D.I.Y.  (M)  SDN  BHD\n(CO.REG  :860671-D)  -\nLOT  1851-A  &  1851-B,  JALAN  KPB  6,\nKAWASAN  PERINDUSTRIAN  BALAKONG,\n43300  SERI  KEMBANGAN,  SELANGOR\n(GST  ID  No  :000306020352)\n(I0I  PUCHONG)\n-TAX  INVOICE-\nMESH  SPONGE  4S  *§\nAN62-72  -  12/96\n9064234  1m  Xen  le GOmen  1  00\nBROWN  COCO  BRUSH  6’  VEN  +5\nWA50  -  20/300\n9555221303658  DY  PN  Cheb\nPLASTIC  BAGS  *S\n99999  bo  O74)  0,720)\nItem(s)  :  3  Qty(s)  :  4\nTotal  Incl.  GST&6%  RM  6.20\nCASH  RM  100.00\nCHANGE  RM  93.80\nGST  @6%  included  in  total  RM  0.35\nPee  eS  See  CSR  ee  Se\n23-03-18  16:43  SHO1  ZJ86  11  ROOO111721\nOPERATOR  JRAINEE  CASHIER\nEXCHANGE  ARE  ALLOWED  WITHIN\n7  DAY  WITH  RECEIPT.\nSTRICTLY  NO  CASH  REFUND.\nXY",
+      "method": "tesseract",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": 78.87
+    }
+  ],
+  "elapsed_seconds": 3.069
+}

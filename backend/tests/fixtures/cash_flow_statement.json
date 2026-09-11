@@ -1,0 +1,1114 @@
+{
+  "provenance": {
+    "mode": "reviewed_reference",
+    "live_model_invocation": false,
+    "source": "New Dataset/Cash Flows/Consolidated Cash Flow Statement 2022.pdf",
+    "sha256": "deb487dbb1e2b7d19a5b428106e19f35ec3923bfafebfdea3c9c3a970eee5ac8",
+    "scope": "Source-backed reference fields and tables for testing grounding and arithmetic; not evidence of live model completeness."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Consolidated  Cash  Flow  Statement\nFor  the  year  ended  March  31,  2022\n`  in  crore\nYear  ended  Year  ended\nMarch  31,  2022  March  31,  2021\nCash  flows  from  operating  activities:\nConsolidated  profit  before  income  tax  50,775.24  42,772.58\nAdjustments  for:\nDepreciation  on  fixed  assets  1,680.73  1,385.01\n(Profit)  /  loss  on  revaluation  of  investments  (1,546.40)  1,485.32\nAmortisation  of  premium  on  held  to  maturity  investments  821.32  765.47\n(Profit)  /  loss  on  sale  of  fixed  assets  3.25  0.29\nProvision  /  charge  for  non  performing  assets  13,286.95  13,927.01\nProvision  for  standard  assets  and  contingencies  5,418.21  5,283.07\nEmployee  Stock  Options  Expense  341.24  -\n70,780.55  65,618.75\nAdjustments  for:\nIncrease  in  investments  (10,849.22)  (50,156.64)\nIncrease  in  advances  (248,946.13)  (155,681.07)\nIncrease  in  deposits  224,282.15  187,513.74\n(Increase)  /  decrease  in  other  assets  (40,044.70)  8,307.68\nIncrease  /  (decrease)  in  other  liabilities  and  provisions  7,655.94  (104.56)\n2,878.59  55,497.90\nDirect  taxes  paid  (net  of  refunds)  (14,838.16)  (13,021.45)\nNet  cash  flow  (used  in)  /  from  operating  activities  (11,959.57)  42,476.45\nCash  flows  from  investing  activities:\nPurchase  of  fixed  assets  (2,236.24)  (1,696.15)\nProceeds  from  sale  of  fixed  assets  19.91  15.28\nNet  cash  flow  used  in  investing  activities  (2,216.33)  (1,680.87)\nCash  flows  from  financing  activities:\nIncrease  in  minority  interest  135.83  56.12\nProceeds  from  issue  of  share  capital,  net  of  issue  expenses  2,609.76  1,760.10\nProceeds  from  issue  of  Additional  Tier  I  and  Tier  II  capital  bonds  8,312.75  356.50\nRedemption  of  Tier  II  capital  bonds  (3,650.00)  (1,105.00)\nNet  proceeds  /  (repayments)  in  other  borrowings  44,308.08  (8,389.07)\nDividend  paid  during  the  year  (3,592.40)  -\nNet  cash  flow  from  /  (used  in)  financing  activities  48,124.02  (7,321.35)\nEffect  of  exchange  fluctuation  on  translation  reserve  165.10  (141.83)\nNet  increase  in  cash  and  cash  equivalents  34,113.22  33,332.40\nCash  and  cash  equivalents  as  at  April  1st  121,272.51  87,940.11\nCash  and  cash  equivalents  as  at  March  31st  155,385.73  121,272.51\nAs  per  our  report  of  even  date  For  and  on  behalf  of  the  Board\nFor  MSKA  &  Associates  For  M  M  Nissim  &  Co  LLP  Atanu  Chakraborty  Umesh  Chandra  Sarangi\nChartered  Accountants  Chartered  Accountants  Part  Time  Chairman  of  the  Board  Independent  Director\nICAI  Firm  Registration  Number:  ICAI  Firm  Registration  Number:\n105047W  107122W/W100672  M.  D.  Ranganath  Malay  Patel\nIndependent  Director  Independent  Director\nSwapnil  Kale  Sanjay  Khemani  Lily  Vadera  Sashidhar  Jagdishan\nPartner  Partner  Independent  Director  Managing  Director  &  CEO\nMembership  Number:  117812  Membership  Number:  044577\nKaizad  Bharucha  Srinivasan  Vaidyanathan\nExecutive  Director  Chief  Financial  Officer\nSantosh  Haldankar\nMumbai,  April  16,  2022  Company  Secretary\n310",
+      "method": "native",
+      "rotation_applied": 0,
+      "ocr_mean_word_confidence": null
+    }
+  ],
+  "wire_output": {
+    "fields": [
+      {
+        "key": "source_note_1",
+        "label": "source_note_1",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Consolidated  Cash  Flow  Statement",
+          "source_text": "Consolidated  Cash  Flow  Statement",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_note_2",
+        "label": "source_note_2",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "For  the  year  ended  March  31,  2022",
+          "source_text": "For  the  year  ended  March  31,  2022",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_note_3",
+        "label": "source_note_3",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "`  in  crore",
+          "source_text": "`  in  crore",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_note_4",
+        "label": "source_note_4",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Year  ended  Year  ended",
+          "source_text": "Year  ended  Year  ended",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_note_5",
+        "label": "source_note_5",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "March  31,  2022  March  31,  2021",
+          "source_text": "March  31,  2022  March  31,  2021",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_note_6",
+        "label": "source_note_6",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Cash  flows  from  operating  activities:",
+          "source_text": "Cash  flows  from  operating  activities:",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_note_8",
+        "label": "source_note_8",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Adjustments  for:",
+          "source_text": "Adjustments  for:",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_note_17",
+        "label": "source_note_17",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Adjustments  for:",
+          "source_text": "Adjustments  for:",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_note_26",
+        "label": "source_note_26",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Cash  flows  from  investing  activities:",
+          "source_text": "Cash  flows  from  investing  activities:",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_note_30",
+        "label": "source_note_30",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Cash  flows  from  financing  activities:",
+          "source_text": "Cash  flows  from  financing  activities:",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_note_42",
+        "label": "source_note_42",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "As  per  our  report  of  even  date  For  and  on  behalf  of  the  Board",
+          "source_text": "As  per  our  report  of  even  date  For  and  on  behalf  of  the  Board",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_note_43",
+        "label": "source_note_43",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "For  MSKA  &  Associates  For  M  M  Nissim  &  Co  LLP  Atanu  Chakraborty  Umesh  Chandra  Sarangi",
+          "source_text": "For  MSKA  &  Associates  For  M  M  Nissim  &  Co  LLP  Atanu  Chakraborty  Umesh  Chandra  Sarangi",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_note_44",
+        "label": "source_note_44",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Chartered  Accountants  Chartered  Accountants  Part  Time  Chairman  of  the  Board  Independent  Director",
+          "source_text": "Chartered  Accountants  Chartered  Accountants  Part  Time  Chairman  of  the  Board  Independent  Director",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_note_45",
+        "label": "source_note_45",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "ICAI  Firm  Registration  Number:  ICAI  Firm  Registration  Number:",
+          "source_text": "ICAI  Firm  Registration  Number:  ICAI  Firm  Registration  Number:",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_note_46",
+        "label": "source_note_46",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "105047W  107122W/W100672  M.  D.  Ranganath  Malay  Patel",
+          "source_text": "105047W  107122W/W100672  M.  D.  Ranganath  Malay  Patel",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_note_47",
+        "label": "source_note_47",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Independent  Director  Independent  Director",
+          "source_text": "Independent  Director  Independent  Director",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_note_48",
+        "label": "source_note_48",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Swapnil  Kale  Sanjay  Khemani  Lily  Vadera  Sashidhar  Jagdishan",
+          "source_text": "Swapnil  Kale  Sanjay  Khemani  Lily  Vadera  Sashidhar  Jagdishan",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_note_49",
+        "label": "source_note_49",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Partner  Partner  Independent  Director  Managing  Director  &  CEO",
+          "source_text": "Partner  Partner  Independent  Director  Managing  Director  &  CEO",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_note_50",
+        "label": "source_note_50",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Membership  Number:  117812  Membership  Number:  044577",
+          "source_text": "Membership  Number:  117812  Membership  Number:  044577",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_note_51",
+        "label": "source_note_51",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Kaizad  Bharucha  Srinivasan  Vaidyanathan",
+          "source_text": "Kaizad  Bharucha  Srinivasan  Vaidyanathan",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_note_52",
+        "label": "source_note_52",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Executive  Director  Chief  Financial  Officer",
+          "source_text": "Executive  Director  Chief  Financial  Officer",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_note_53",
+        "label": "source_note_53",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Santosh  Haldankar",
+          "source_text": "Santosh  Haldankar",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_note_54",
+        "label": "source_note_54",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "Mumbai,  April  16,  2022  Company  Secretary",
+          "source_text": "Mumbai,  April  16,  2022  Company  Secretary",
+          "page_number": 1
+        }
+      },
+      {
+        "key": "source_note_55",
+        "label": "source_note_55",
+        "kind": "text",
+        "period": null,
+        "content": {
+          "raw_value": "310",
+          "source_text": "310",
+          "page_number": 1
+        }
+      }
+    ],
+    "periods": [
+      "2022",
+      "2021"
+    ],
+    "tables": [
+      {
+        "title": "Consolidated cash flow statement",
+        "columns": [
+          "2022",
+          "2021"
+        ],
+        "rows": [
+          {
+            "label": "Consolidated  profit  before  income  tax",
+            "key": "profit_before_tax",
+            "section": "cash_flows",
+            "role": "detail",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "50,775.24",
+                  "page_number": 1,
+                  "source_text": "Consolidated  profit  before  income  tax  50,775.24  42,772.58"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "42,772.58",
+                  "page_number": 1,
+                  "source_text": "Consolidated  profit  before  income  tax  50,775.24  42,772.58"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Depreciation  on  fixed  assets",
+            "key": "depreciation",
+            "section": "cash_flows",
+            "role": "detail",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "1,680.73",
+                  "page_number": 1,
+                  "source_text": "Depreciation  on  fixed  assets  1,680.73  1,385.01"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "1,385.01",
+                  "page_number": 1,
+                  "source_text": "Depreciation  on  fixed  assets  1,680.73  1,385.01"
+                }
+              }
+            ]
+          },
+          {
+            "label": "(Profit)  /  loss  on  revaluation  of  investments",
+            "key": "investment_revaluation",
+            "section": "cash_flows",
+            "role": "detail",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "(1,546.40)",
+                  "page_number": 1,
+                  "source_text": "(Profit)  /  loss  on  revaluation  of  investments  (1,546.40)  1,485.32"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "1,485.32",
+                  "page_number": 1,
+                  "source_text": "(Profit)  /  loss  on  revaluation  of  investments  (1,546.40)  1,485.32"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Amortisation  of  premium  on  held  to  maturity  investments",
+            "key": "amortisation",
+            "section": "cash_flows",
+            "role": "detail",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "821.32",
+                  "page_number": 1,
+                  "source_text": "Amortisation  of  premium  on  held  to  maturity  investments  821.32  765.47"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "765.47",
+                  "page_number": 1,
+                  "source_text": "Amortisation  of  premium  on  held  to  maturity  investments  821.32  765.47"
+                }
+              }
+            ]
+          },
+          {
+            "label": "(Profit)  /  loss  on  sale  of  fixed  assets",
+            "key": "fixed_asset_sale_loss",
+            "section": "cash_flows",
+            "role": "detail",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "3.25",
+                  "page_number": 1,
+                  "source_text": "(Profit)  /  loss  on  sale  of  fixed  assets  3.25  0.29"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "0.29",
+                  "page_number": 1,
+                  "source_text": "(Profit)  /  loss  on  sale  of  fixed  assets  3.25  0.29"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Provision  /  charge  for  non  performing  assets",
+            "key": "npa_provisions",
+            "section": "cash_flows",
+            "role": "detail",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "13,286.95",
+                  "page_number": 1,
+                  "source_text": "Provision  /  charge  for  non  performing  assets  13,286.95  13,927.01"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "13,927.01",
+                  "page_number": 1,
+                  "source_text": "Provision  /  charge  for  non  performing  assets  13,286.95  13,927.01"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Provision  for  standard  assets  and  contingencies",
+            "key": "standard_asset_provisions",
+            "section": "cash_flows",
+            "role": "detail",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "5,418.21",
+                  "page_number": 1,
+                  "source_text": "Provision  for  standard  assets  and  contingencies  5,418.21  5,283.07"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "5,283.07",
+                  "page_number": 1,
+                  "source_text": "Provision  for  standard  assets  and  contingencies  5,418.21  5,283.07"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Employee  Stock  Options  Expense",
+            "key": "stock_options_expense",
+            "section": "cash_flows",
+            "role": "detail",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "341.24",
+                  "page_number": 1,
+                  "source_text": "Employee  Stock  Options  Expense  341.24  -"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "-",
+                  "page_number": 1,
+                  "source_text": "Employee  Stock  Options  Expense  341.24  -"
+                }
+              }
+            ]
+          },
+          {
+            "label": "",
+            "key": "operating_before_working_capital",
+            "section": "cash_flows",
+            "role": "detail",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "70,780.55",
+                  "page_number": 1,
+                  "source_text": "70,780.55  65,618.75"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "65,618.75",
+                  "page_number": 1,
+                  "source_text": "70,780.55  65,618.75"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Increase  in  investments",
+            "key": "investment_increase",
+            "section": "cash_flows",
+            "role": "detail",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "(10,849.22)",
+                  "page_number": 1,
+                  "source_text": "Increase  in  investments  (10,849.22)  (50,156.64)"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "(50,156.64)",
+                  "page_number": 1,
+                  "source_text": "Increase  in  investments  (10,849.22)  (50,156.64)"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Increase  in  advances",
+            "key": "advances_increase",
+            "section": "cash_flows",
+            "role": "detail",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "(248,946.13)",
+                  "page_number": 1,
+                  "source_text": "Increase  in  advances  (248,946.13)  (155,681.07)"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "(155,681.07)",
+                  "page_number": 1,
+                  "source_text": "Increase  in  advances  (248,946.13)  (155,681.07)"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Increase  in  deposits",
+            "key": "deposits_increase",
+            "section": "cash_flows",
+            "role": "detail",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "224,282.15",
+                  "page_number": 1,
+                  "source_text": "Increase  in  deposits  224,282.15  187,513.74"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "187,513.74",
+                  "page_number": 1,
+                  "source_text": "Increase  in  deposits  224,282.15  187,513.74"
+                }
+              }
+            ]
+          },
+          {
+            "label": "(Increase)  /  decrease  in  other  assets",
+            "key": "other_assets_change",
+            "section": "cash_flows",
+            "role": "detail",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "(40,044.70)",
+                  "page_number": 1,
+                  "source_text": "(Increase)  /  decrease  in  other  assets  (40,044.70)  8,307.68"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "8,307.68",
+                  "page_number": 1,
+                  "source_text": "(Increase)  /  decrease  in  other  assets  (40,044.70)  8,307.68"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Increase  /  (decrease)  in  other  liabilities  and  provisions",
+            "key": "other_liabilities_change",
+            "section": "cash_flows",
+            "role": "detail",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "7,655.94",
+                  "page_number": 1,
+                  "source_text": "Increase  /  (decrease)  in  other  liabilities  and  provisions  7,655.94  (104.56)"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "(104.56)",
+                  "page_number": 1,
+                  "source_text": "Increase  /  (decrease)  in  other  liabilities  and  provisions  7,655.94  (104.56)"
+                }
+              }
+            ]
+          },
+          {
+            "label": "",
+            "key": "operating_before_tax",
+            "section": "cash_flows",
+            "role": "detail",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "2,878.59",
+                  "page_number": 1,
+                  "source_text": "2,878.59  55,497.90"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "55,497.90",
+                  "page_number": 1,
+                  "source_text": "2,878.59  55,497.90"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Direct  taxes  paid  (net  of  refunds)",
+            "key": "direct_taxes_paid",
+            "section": "cash_flows",
+            "role": "detail",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "(14,838.16)",
+                  "page_number": 1,
+                  "source_text": "Direct  taxes  paid  (net  of  refunds)  (14,838.16)  (13,021.45)"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "(13,021.45)",
+                  "page_number": 1,
+                  "source_text": "Direct  taxes  paid  (net  of  refunds)  (14,838.16)  (13,021.45)"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Net  cash  flow  (used  in)  /  from  operating  activities",
+            "key": "operating_cash_flow",
+            "section": "cash_flows",
+            "role": "total",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "(11,959.57)",
+                  "page_number": 1,
+                  "source_text": "Net  cash  flow  (used  in)  /  from  operating  activities  (11,959.57)  42,476.45"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "42,476.45",
+                  "page_number": 1,
+                  "source_text": "Net  cash  flow  (used  in)  /  from  operating  activities  (11,959.57)  42,476.45"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Purchase  of  fixed  assets",
+            "key": "fixed_assets_purchase",
+            "section": "cash_flows",
+            "role": "detail",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "(2,236.24)",
+                  "page_number": 1,
+                  "source_text": "Purchase  of  fixed  assets  (2,236.24)  (1,696.15)"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "(1,696.15)",
+                  "page_number": 1,
+                  "source_text": "Purchase  of  fixed  assets  (2,236.24)  (1,696.15)"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Proceeds  from  sale  of  fixed  assets",
+            "key": "fixed_assets_sale",
+            "section": "cash_flows",
+            "role": "detail",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "19.91",
+                  "page_number": 1,
+                  "source_text": "Proceeds  from  sale  of  fixed  assets  19.91  15.28"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "15.28",
+                  "page_number": 1,
+                  "source_text": "Proceeds  from  sale  of  fixed  assets  19.91  15.28"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Net  cash  flow  used  in  investing  activities",
+            "key": "investing_cash_flow",
+            "section": "cash_flows",
+            "role": "total",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "(2,216.33)",
+                  "page_number": 1,
+                  "source_text": "Net  cash  flow  used  in  investing  activities  (2,216.33)  (1,680.87)"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "(1,680.87)",
+                  "page_number": 1,
+                  "source_text": "Net  cash  flow  used  in  investing  activities  (2,216.33)  (1,680.87)"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Increase  in  minority  interest",
+            "key": "minority_interest_increase",
+            "section": "cash_flows",
+            "role": "detail",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "135.83",
+                  "page_number": 1,
+                  "source_text": "Increase  in  minority  interest  135.83  56.12"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "56.12",
+                  "page_number": 1,
+                  "source_text": "Increase  in  minority  interest  135.83  56.12"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Proceeds  from  issue  of  share  capital,  net  of  issue  expenses",
+            "key": "share_capital_proceeds",
+            "section": "cash_flows",
+            "role": "detail",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "2,609.76",
+                  "page_number": 1,
+                  "source_text": "Proceeds  from  issue  of  share  capital,  net  of  issue  expenses  2,609.76  1,760.10"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "1,760.10",
+                  "page_number": 1,
+                  "source_text": "Proceeds  from  issue  of  share  capital,  net  of  issue  expenses  2,609.76  1,760.10"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Proceeds  from  issue  of  Additional  Tier  I  and  Tier  II  capital  bonds",
+            "key": "capital_bond_proceeds",
+            "section": "cash_flows",
+            "role": "detail",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "8,312.75",
+                  "page_number": 1,
+                  "source_text": "Proceeds  from  issue  of  Additional  Tier  I  and  Tier  II  capital  bonds  8,312.75  356.50"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "356.50",
+                  "page_number": 1,
+                  "source_text": "Proceeds  from  issue  of  Additional  Tier  I  and  Tier  II  capital  bonds  8,312.75  356.50"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Redemption  of  Tier  II  capital  bonds",
+            "key": "bond_redemption",
+            "section": "cash_flows",
+            "role": "detail",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "(3,650.00)",
+                  "page_number": 1,
+                  "source_text": "Redemption  of  Tier  II  capital  bonds  (3,650.00)  (1,105.00)"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "(1,105.00)",
+                  "page_number": 1,
+                  "source_text": "Redemption  of  Tier  II  capital  bonds  (3,650.00)  (1,105.00)"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Net  proceeds  /  (repayments)  in  other  borrowings",
+            "key": "borrowings_change",
+            "section": "cash_flows",
+            "role": "detail",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "44,308.08",
+                  "page_number": 1,
+                  "source_text": "Net  proceeds  /  (repayments)  in  other  borrowings  44,308.08  (8,389.07)"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "(8,389.07)",
+                  "page_number": 1,
+                  "source_text": "Net  proceeds  /  (repayments)  in  other  borrowings  44,308.08  (8,389.07)"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Dividend  paid  during  the  year",
+            "key": "dividend_paid",
+            "section": "cash_flows",
+            "role": "detail",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "(3,592.40)",
+                  "page_number": 1,
+                  "source_text": "Dividend  paid  during  the  year  (3,592.40)  -"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "-",
+                  "page_number": 1,
+                  "source_text": "Dividend  paid  during  the  year  (3,592.40)  -"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Net  cash  flow  from  /  (used  in)  financing  activities",
+            "key": "financing_cash_flow",
+            "section": "cash_flows",
+            "role": "total",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "48,124.02",
+                  "page_number": 1,
+                  "source_text": "Net  cash  flow  from  /  (used  in)  financing  activities  48,124.02  (7,321.35)"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "(7,321.35)",
+                  "page_number": 1,
+                  "source_text": "Net  cash  flow  from  /  (used  in)  financing  activities  48,124.02  (7,321.35)"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Effect  of  exchange  fluctuation  on  translation  reserve",
+            "key": "fx_adjustment",
+            "section": "cash_flows",
+            "role": "detail",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "165.10",
+                  "page_number": 1,
+                  "source_text": "Effect  of  exchange  fluctuation  on  translation  reserve  165.10  (141.83)"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "(141.83)",
+                  "page_number": 1,
+                  "source_text": "Effect  of  exchange  fluctuation  on  translation  reserve  165.10  (141.83)"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Net  increase  in  cash  and  cash  equivalents",
+            "key": "net_change_in_cash",
+            "section": "cash_flows",
+            "role": "total",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "34,113.22",
+                  "page_number": 1,
+                  "source_text": "Net  increase  in  cash  and  cash  equivalents  34,113.22  33,332.40"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "33,332.40",
+                  "page_number": 1,
+                  "source_text": "Net  increase  in  cash  and  cash  equivalents  34,113.22  33,332.40"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Cash  and  cash  equivalents  as  at  April  1st",
+            "key": "opening_cash",
+            "section": "cash_flows",
+            "role": "detail",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "121,272.51",
+                  "page_number": 1,
+                  "source_text": "Cash  and  cash  equivalents  as  at  April  1st  121,272.51  87,940.11"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "87,940.11",
+                  "page_number": 1,
+                  "source_text": "Cash  and  cash  equivalents  as  at  April  1st  121,272.51  87,940.11"
+                }
+              }
+            ]
+          },
+          {
+            "label": "Cash  and  cash  equivalents  as  at  March  31st",
+            "key": "closing_cash",
+            "section": "cash_flows",
+            "role": "total",
+            "cells": [
+              {
+                "column": "2022",
+                "kind": "number",
+                "content": {
+                  "raw_value": "155,385.73",
+                  "page_number": 1,
+                  "source_text": "Cash  and  cash  equivalents  as  at  March  31st  155,385.73  121,272.51"
+                }
+              },
+              {
+                "column": "2021",
+                "kind": "number",
+                "content": {
+                  "raw_value": "121,272.51",
+                  "page_number": 1,
+                  "source_text": "Cash  and  cash  equivalents  as  at  March  31st  155,385.73  121,272.51"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "line_items": [],
+    "reconciliations": [],
+    "tax_basis": "unknown",
+    "line_items_complete": false,
+    "warnings": [
+      "Offline reference annotated from actual OCR text for regression testing. Not a live Gemini extraction."
+    ]
+  }
+}
