@@ -45,13 +45,13 @@ class OCRService:
             raise AppError('OCR_UNAVAILABLE', 'Tesseract is required for scanned documents.', 503)
         im = ImageOps.exif_transpose(im).convert('RGB')
         im.thumbnail((3500, 5000))
-        if im.width < 1400:
-            scale = min(2.5, 1400 / im.width)
-            im = im.resize((int(im.width * scale), int(im.height * scale)), Image.Resampling.LANCZOS)
+        # Keep the source raster at its native size. Enlarging low-resolution
+        # thermal receipts can distort similar glyphs (notably 0, 6 and 8),
+        # causing grounded but incorrect monetary amounts.
         rotation = 0
         with TemporaryDirectory(prefix='docintel-') as directory:
             path = Path(directory) / 'page.png'
-            ImageOps.autocontrast(ImageOps.grayscale(im)).save(path)
+            im.save(path)
             def recognize(psm=6):
                 result = self._run(['tesseract', str(path), 'stdout', '-l', self.settings.ocr_language,
                                     '--psm', str(psm), '-c', 'preserve_interword_spaces=1', 'tsv'],
@@ -92,12 +92,12 @@ class OCRService:
                     match = re.search(r'Rotate:\s*(\d+)', orientation.stdout.decode(errors='replace'))
                     angle = int(match.group(1)) if match else 0
                     if angle:
-                        ImageOps.autocontrast(ImageOps.grayscale(im.rotate(-angle, expand=True))).save(path)
+                        im.rotate(-angle, expand=True).save(path)
                         candidate, candidate_confidence = recognize()
                         if candidate_confidence > confidence + 5 and len(candidate) >= min(100, len(text) * .5):
                             text, confidence, rotation = candidate, candidate_confidence, angle
                         else:
-                            ImageOps.autocontrast(ImageOps.grayscale(im)).save(path)
+                            im.save(path)
             if confidence < 70:
                 candidate, candidate_confidence = recognize(psm=3)
                 if candidate_confidence > confidence + 5 and len(candidate) >= len(text) * .8:

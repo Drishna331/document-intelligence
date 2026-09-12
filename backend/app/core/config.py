@@ -26,7 +26,7 @@ class Settings:
     gemini_api_key: str = field(default='', repr=False)
     openai_api_key: str = field(default='', repr=False)
     llm_provider: str = 'gemini'
-    llm_model: str = 'gemini-2.5-flash'
+    llm_model: str = 'gemini-3.8-flash'
     llm_timeout_seconds: float = 120
     ocr_timeout_seconds: float = 40
     ocr_language: str = 'eng'

@@ -66,6 +66,22 @@ class ExtractionTests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(result.fields['invoice_number'].value, '12345')
         self.assertIsNone(result.fields['invoice_number'].numeric_value)
 
+    def test_receipt_quantity_with_attached_multiplication_marker_is_grounded(self):
+        wire = invoice_wire()
+        quantity = wire['line_items'][0]['fields'][1]
+        quantity['kind'] = 'text'
+        quantity['content']['raw_value'] = '1'
+        quantity['content']['source_text'] = '1x 50.00'
+        pages = [SourcePage(
+            page_number=1,
+            text=TEXT + '\n1x 50.00',
+            method='native',
+        )]
+
+        result = self.service.ground('invoice', WireDocument(**wire), pages)
+
+        self.assertEqual(result.line_items[0].fields['quantity'].numeric_value, '1')
+
     def test_wrong_page_is_rejected(self):
         wire = invoice_wire(); wire['fields'][-1]['content']['page_number'] = 2
         result = self.service.ground('invoice', WireDocument(**wire), self.pages)

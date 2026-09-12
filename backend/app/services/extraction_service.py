@@ -173,6 +173,15 @@ class ExtractionService:
                     r'(?<![\w.])-?\d[\d,]*(?:\.\d+)?(?![\w.])',
                     normalized_text(quote),
                 )
+                if key == 'quantity':
+                    # Receipts commonly print quantities as "1x" without a
+                    # separating space. Treat only that multiplication form as
+                    # a numeric token; identifiers and arbitrary text remain
+                    # subject to the normal token boundary rule above.
+                    quote_numbers.extend(re.findall(
+                        r'(?<![\w.])-?\d[\d,]*(?:\.\d+)?(?=\s*[xX](?!\w))',
+                        normalized_text(quote),
+                    ))
 
                 numeric_match = False
 

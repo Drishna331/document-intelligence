@@ -34,6 +34,10 @@ class ModelClientTests(unittest.IsolatedAsyncioTestCase):
         config = transport.body['json']['generationConfig']
         self.assertEqual(config['responseMimeType'], 'application/json')
         self.assertIn('properties', config['responseJsonSchema'])
+        self.assertNotIn('temperature', config)
+
+    def test_default_model_is_gemini_3_8_flash(self):
+        self.assertEqual(Settings().llm_model, 'gemini-3.8-flash')
 
     async def test_provider_error_statuses(self):
         for status in [401, 403, 429, 500, 503]:

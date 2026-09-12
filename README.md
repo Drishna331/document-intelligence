@@ -33,12 +33,12 @@ documents: anyone who can reach it can view saved results.
 | Pydantic 2 | Validates provider output and the stable response contract; generates OpenAPI response schemas. |
 | PyMuPDF | Checks PDFs, extracts embedded words with positions and renders scanned pages. |
 | Pillow and Tesseract | Local image preparation and OCR without an OCR API account. |
-| Gemini REST API | Requests complete structured semantic extraction. The configured model is `gemini-2.5-flash`; no live invocation was possible during this build. |
+| Gemini REST API | Requests complete structured semantic extraction. The configured model is `gemini-3.8-flash`; no live invocation was possible during this build. |
 | Decimal | Performs reproducible financial arithmetic without binary floating-point equality. |
 | SQLite or Turso | SQLite provides local persistence. Turso exposes compatible SQL over HTTPS for hosts with ephemeral disks. |
 | Plain HTML, CSS and JavaScript | Upload form, persisted document list, evidence, tables, calculations and raw JSON with no frontend build step. |
 
-Provider contracts were checked against the official [Gemini model documentation](https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash),
+Provider contracts were checked against the official [Gemini model documentation](https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash),
 [structured-output guidance](https://ai.google.dev/gemini-api/docs/structured-output),
 [aiohttp documentation](https://docs.aiohttp.org/en/stable/web_quickstart.html) and
 [Turso HTTP protocol](https://docs.turso.tech/sdk/http/quickstart). Provider request
@@ -111,7 +111,7 @@ not be built in this workspace because Docker and package-registry access were u
 | Variable | Default | Purpose |
 | --- | --- | --- |
 | `GEMINI_API_KEY` | Empty | Required for actual structured AI extraction. |
-| `LLM_MODEL` | `gemini-2.5-flash` | Gemini model supporting JSON Schema output. |
+| `LLM_MODEL` | `gemini-3.8-flash` | Gemini model supporting JSON Schema output. |
 | `HOST` / `PORT` | `0.0.0.0` / `8000` | HTTP bind address; hosting platform `PORT` is honored. |
 | `DATABASE_BACKEND` | `sqlite` | Choose `sqlite` or `turso`. |
 | `DATABASE_PATH` | `data/documents.sqlite3` under project root | Local SQLite file. |

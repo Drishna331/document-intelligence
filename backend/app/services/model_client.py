@@ -21,7 +21,7 @@ class GeminiClient:
         body = {
             'systemInstruction': {'parts': [{'text': SYSTEM_PROMPT}]},
             'contents': [{'role': 'user', 'parts': [{'text': prompt}]}],
-            'generationConfig': {'temperature': 0, 'maxOutputTokens': 32768,
+            'generationConfig': {'maxOutputTokens': 32768,
                                  'responseMimeType': 'application/json',
                                  'responseJsonSchema': WireDocument.model_json_schema()},
         }
