@@ -17,6 +17,25 @@ from ..utils.numbers import parse_number, infer_decimal_separator
 from .prompts import build_prompt
 
 
+INVOICE_NUMERIC_FIELDS = frozenset({
+    'subtotal',
+    'taxable_amount',
+    'tax_amount',
+    'discount',
+    'total_amount',
+    'gross_amount',
+    'cash_paid',
+    'change',
+    'shipping_amount',
+    'other_charges',
+    'rounding_adjustment',
+    'quantity',
+    'unit_price',
+    'net_amount',
+    'line_total',
+})
+
+
 def normalized_text(text):
     return ' '.join(text.split())
 
@@ -88,7 +107,7 @@ class ExtractionService:
 
         output.periods = list(periods.values())
 
-        def value(content, kind):
+        def value(content, kind, key=None):
             if content.raw_value is None:
                 return Value(
                     reason='Not present or unreadable in the source.'
@@ -98,6 +117,14 @@ class ExtractionService:
             page_text = page_map.get(content.page_number)
             quote = content.source_text
             reason = None
+            numeric_field = (
+                kind in ('number', 'percentage')
+                or (
+                    document_type == 'invoice'
+                    and key in INVOICE_NUMERIC_FIELDS
+                )
+            )
+            percentage = kind == 'percentage'
 
             # ---------------------------------------------------------
             # 1. Verify that the evidence exists on the claimed page.
@@ -115,7 +142,7 @@ class ExtractionService:
             # ---------------------------------------------------------
             # 2. Verify that the extracted value occurs in the evidence.
             #
-            # Numeric / percentage values:
+            # Numeric, percentage, and known invoice financial values:
             #   ALWAYS compared as numeric tokens, never as a raw
             #   substring check. Substring containment is unsound for
             #   numbers ("11" is a substring of "110.00"), so numeric
@@ -135,11 +162,11 @@ class ExtractionService:
             # Text values:
             #   Require a case-insensitive direct substring match.
             # ---------------------------------------------------------
-            elif kind in ('number', 'percentage'):
+            elif numeric_field:
                 raw_numeric = parse_number(
                     raw_value,
                     infer_decimal_separator(page_text),
-                    percentage=kind == 'percentage',
+                    percentage=percentage,
                 )
 
                 quote_numbers = re.findall(
@@ -154,7 +181,7 @@ class ExtractionService:
                         candidate_numeric = parse_number(
                             candidate,
                             infer_decimal_separator(page_text),
-                            percentage=kind == 'percentage',
+                            percentage=percentage,
                         )
 
                         if (
@@ -203,11 +230,11 @@ class ExtractionService:
             # ---------------------------------------------------------
             # 5. Parse numeric values for financial validation.
             # ---------------------------------------------------------
-            if kind in ('number', 'percentage'):
+            if numeric_field:
                 numeric = parse_number(
                     raw_value,
                     infer_decimal_separator(page_text),
-                    percentage=kind == 'percentage',
+                    percentage=percentage,
                 )
 
                 if numeric is None:
@@ -288,6 +315,7 @@ class ExtractionService:
                 value(
                     f.content,
                     f.kind,
+                    f.key,
                 ),
             )
 
@@ -321,6 +349,7 @@ class ExtractionService:
                     v = value(
                         cell.content,
                         cell.kind,
+                        row.key,
                     )
 
                     cells[cell.column] = v
@@ -375,6 +404,7 @@ class ExtractionService:
                     value(
                         f.content,
                         f.kind,
+                        f.key,
                     ),
                 )
 

@@ -3,6 +3,7 @@ import unittest
 from backend.app.core.errors import AppError
 from backend.app.schemas.extraction import SourcePage, WireDocument
 from backend.app.services.extraction_service import ExtractionService
+from backend.app.services.financial_validation_service import FinancialValidationService
 from .helpers import TEXT, invoice_wire, StubModel, wire_field
 
 
@@ -24,9 +25,46 @@ class ExtractionTests(unittest.IsolatedAsyncioTestCase):
         self.assertTrue(result.warnings)
 
     def test_value_must_be_a_complete_source_token(self):
-        wire = invoice_wire(); wire['fields'][-1]['content']['raw_value'] = '11'
+        wire = invoice_wire()
+        wire['fields'][-1]['kind'] = 'text'
+        wire['fields'][-1]['content']['raw_value'] = '11'
         result = self.service.ground('invoice', WireDocument(**wire), self.pages)
         self.assertIsNone(result.fields['total_amount'].value)
+
+    def test_invoice_amounts_are_numeric_despite_incorrect_kind(self):
+        wire = invoice_wire()
+        wire['fields'][2]['kind'] = 'currency'
+        wire['fields'][3]['kind'] = 'text'
+        wire['fields'][4]['kind'] = 'text'
+        wire['line_items'][0]['fields'][1]['kind'] = 'text'
+        wire['line_items'][0]['fields'][2]['kind'] = 'currency'
+        wire['line_items'][0]['fields'][3]['kind'] = 'text'
+
+        result = self.service.ground('invoice', WireDocument(**wire), self.pages)
+
+        self.assertEqual(result.fields['subtotal'].numeric_value, '100.00')
+        self.assertEqual(result.fields['tax_amount'].numeric_value, '10.00')
+        self.assertEqual(result.fields['total_amount'].numeric_value, '110.00')
+        self.assertEqual(result.line_items[0].fields['quantity'].numeric_value, '2')
+        self.assertEqual(result.line_items[0].fields['unit_price'].numeric_value, '50.00')
+        self.assertEqual(result.line_items[0].fields['line_total'].numeric_value, '100.00')
+        checks = FinancialValidationService().validate('invoice', result).checks
+        self.assertEqual([check.status for check in checks[:3]], ['PASS'] * 3)
+
+    def test_text_identifier_does_not_become_numeric(self):
+        wire = invoice_wire()
+        wire['fields'][0]['content']['raw_value'] = '12345'
+        wire['fields'][0]['content']['source_text'] = 'Invoice number 12345'
+        pages = [SourcePage(
+            page_number=1,
+            text=TEXT.replace('INV-TEST', '12345'),
+            method='native',
+        )]
+
+        result = self.service.ground('invoice', WireDocument(**wire), pages)
+
+        self.assertEqual(result.fields['invoice_number'].value, '12345')
+        self.assertIsNone(result.fields['invoice_number'].numeric_value)
 
     def test_wrong_page_is_rejected(self):
         wire = invoice_wire(); wire['fields'][-1]['content']['page_number'] = 2
